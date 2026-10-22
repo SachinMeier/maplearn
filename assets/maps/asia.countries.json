@@ -1,0 +1,262 @@
+[
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "microstate": false
+  },
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "microstate": false
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "microstate": false
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "microstate": false
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "microstate": false
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "microstate": false
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "microstate": false
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "microstate": false
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "microstate": false
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "microstate": false
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "microstate": false
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "microstate": false
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "microstate": false
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "microstate": false
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "microstate": true
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "microstate": false
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "microstate": false
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "microstate": false
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "microstate": false
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "microstate": false
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "microstate": false
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "microstate": false
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "microstate": false
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "microstate": false
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "microstate": false
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "microstate": false
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "microstate": false
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "microstate": false
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "microstate": false
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "microstate": false
+  },
+  {
+    "code": "MO",
+    "name": "Macau",
+    "microstate": true
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "microstate": false
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "microstate": false
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "microstate": false
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "microstate": false
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "microstate": false
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "microstate": false
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "microstate": false
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "microstate": false
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "microstate": false
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "microstate": false
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "microstate": false
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "microstate": false
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "microstate": false
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "microstate": false
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "microstate": false
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "microstate": false
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "microstate": false
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "microstate": false
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "microstate": false
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "microstate": false
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "microstate": false
+  }
+]

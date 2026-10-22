@@ -1,0 +1,267 @@
+[
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "microstate": false
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "microstate": false
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "microstate": false
+  },
+  {
+    "code": "AX",
+    "name": "Åland Islands",
+    "microstate": true
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "microstate": false
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "microstate": false
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "microstate": false
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "microstate": false
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "microstate": false
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "microstate": false
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "microstate": false
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "microstate": false
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "microstate": false
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "microstate": false
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "microstate": false
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "microstate": false
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "microstate": true
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "microstate": false
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "microstate": false
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "microstate": false
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "microstate": true
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "microstate": false
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "microstate": false
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "microstate": false
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "microstate": false
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "microstate": false
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "microstate": false
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "microstate": false
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "microstate": false
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "microstate": false
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "microstate": false
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "microstate": false
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "microstate": false
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "microstate": false
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "microstate": false
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "microstate": false
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "microstate": false
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "microstate": false
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "microstate": false
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "microstate": false
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "microstate": false
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "microstate": false
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "microstate": false
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "microstate": false
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "microstate": false
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "microstate": false
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "microstate": false
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "microstate": true
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "microstate": false
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "microstate": false
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "microstate": false
+  },
+  {
+    "code": "VA",
+    "name": "Vatican City",
+    "microstate": false
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "microstate": false
+  }
+]

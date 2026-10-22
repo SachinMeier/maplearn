@@ -1,0 +1,265 @@
+{
+  "id": "south-america",
+  "name": "South America",
+  "source": {
+    "file": "assets/maps/world.svg",
+    "sha256": "aabf1b4d24c76023ffab29551682a67464ed20cad812acdd48bb45912ffb4c2a"
+  },
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    670,
+    1178.857792,
+    880,
+    826.635337
+  ],
+  "extent": [
+    -113,
+    -60,
+    -25,
+    14
+  ],
+  "wrapWidth": null,
+  "cropBoundary": null,
+  "countries": {
+    "BR": {
+      "code": "BR",
+      "name": "Brazil",
+      "microstate": false,
+      "anchor": [
+        1309.203315,
+        1446.356307
+      ],
+      "focusBox": [
+        1059.815,
+        1267.038,
+        392.249,
+        403.366
+      ],
+      "polygons": 43
+    },
+    "AR": {
+      "code": "AR",
+      "name": "Argentina",
+      "microstate": false,
+      "anchor": [
+        1158.474445,
+        1647.660714
+      ],
+      "focusBox": [
+        1064.273,
+        1541.068,
+        199.111,
+        356.744
+      ],
+      "polygons": 8
+    },
+    "PE": {
+      "code": "PE",
+      "name": "Peru",
+      "microstate": false,
+      "anchor": [
+        1069.42911,
+        1450.284677
+      ],
+      "focusBox": [
+        986.624,
+        1320.049,
+        126.533,
+        185.124
+      ],
+      "polygons": 5
+    },
+    "BO": {
+      "code": "BO",
+      "name": "Bolivia",
+      "microstate": false,
+      "anchor": [
+        1153.542569,
+        1488.214933
+      ],
+      "focusBox": [
+        1103.335,
+        1416.852,
+        122.008,
+        135.882
+      ],
+      "polygons": 1
+    },
+    "CO": {
+      "code": "CO",
+      "name": "Colombia",
+      "microstate": false,
+      "anchor": [
+        1067.460291,
+        1285.463401
+      ],
+      "focusBox": [
+        1009.785,
+        1194.44,
+        121.464,
+        167.708
+      ],
+      "polygons": 11
+    },
+    "CL": {
+      "code": "CL",
+      "name": "Chile",
+      "microstate": false,
+      "anchor": [
+        1109.32086,
+        1558.011027
+      ],
+      "focusBox": [
+        1042.886,
+        1496.594,
+        86.974,
+        421.503
+      ],
+      "polygons": 163
+    },
+    "VE": {
+      "code": "VE",
+      "name": "Venezuela",
+      "microstate": false,
+      "anchor": [
+        1157.363558,
+        1247.661467
+      ],
+      "focusBox": [
+        1066.089,
+        1197.175,
+        135.755,
+        116.09
+      ],
+      "polygons": 28
+    },
+    "PY": {
+      "code": "PY",
+      "name": "Paraguay",
+      "microstate": false,
+      "anchor": [
+        1198.368483,
+        1539.949434
+      ],
+      "focusBox": [
+        1173.496,
+        1515,
+        84.051,
+        87.713
+      ],
+      "polygons": 1
+    },
+    "EC": {
+      "code": "EC",
+      "name": "Ecuador",
+      "microstate": false,
+      "anchor": [
+        1018.255561,
+        1331.874996
+      ],
+      "focusBox": [
+        989.87,
+        1305.414,
+        57.857,
+        64.499
+      ],
+      "polygons": 16
+    },
+    "UY": {
+      "code": "UY",
+      "name": "Uruguay",
+      "microstate": false,
+      "anchor": [
+        1240.319562,
+        1661.828262
+      ],
+      "focusBox": [
+        1215.606,
+        1629.997,
+        53.286,
+        54.285
+      ],
+      "polygons": 1
+    },
+    "GY": {
+      "code": "GY",
+      "name": "Guyana",
+      "microstate": false,
+      "anchor": [
+        1213.4697,
+        1292.317814
+      ],
+      "focusBox": [
+        1186.033,
+        1233.974,
+        49.149,
+        73.925
+      ],
+      "polygons": 2
+    },
+    "SR": {
+      "code": "SR",
+      "name": "Suriname",
+      "microstate": false,
+      "anchor": [
+        1240.424497,
+        1278.346877
+      ],
+      "focusBox": [
+        1219.323,
+        1259.572,
+        40.813,
+        41.849
+      ],
+      "polygons": 1
+    },
+    "GF": {
+      "code": "GF",
+      "name": "French Guiana",
+      "microstate": true,
+      "anchor": [
+        1269.791044,
+        1280.179147
+      ],
+      "focusBox": [
+        1253.847,
+        1262.249,
+        29.663,
+        36.399
+      ],
+      "polygons": 1
+    },
+    "FK": {
+      "code": "FK",
+      "name": "Falkland Islands",
+      "microstate": true,
+      "anchor": [
+        1213.029326,
+        1888.118397
+      ],
+      "focusBox": [
+        1182.818,
+        1875.65,
+        43.839,
+        26.374
+      ],
+      "polygons": 15
+    },
+    "GS": {
+      "code": "GS",
+      "name": "South Georgia",
+      "microstate": true,
+      "anchor": [
+        1437.317162,
+        1927.017513
+      ],
+      "focusBox": [
+        1415.13,
+        1915.282,
+        31.027,
+        20.624
+      ],
+      "polygons": 12
+    }
+  }
+}

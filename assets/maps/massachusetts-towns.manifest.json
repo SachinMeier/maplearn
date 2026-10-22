@@ -1,0 +1,1261 @@
+{
+  "id": "massachusetts-towns",
+  "title": "Massachusetts Towns",
+  "sources": {
+    "states": {
+      "file": "assets/maps/sources/us-states-census-2024.geojson.gz",
+      "sha256": "3c426c67e70afe5b79aa9896bfae96f94027565dd5728c6c54f30f55f5dc19db",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS2024/State_County/MapServer/7/query?where=1%3D1&outFields=STATE%2CSTUSAB%2CNAME&outSR=4326&returnGeometry=true&f=geojson",
+      "attribution": "U.S. Census Bureau, 2024 generalized state boundaries, 1:500,000",
+      "license": "U.S. federal government public-domain geographic data"
+    },
+    "towns": {
+      "file": "assets/maps/sources/massachusetts-town-halls-massgis.geojson.gz",
+      "sha256": "5722beddb828ed296047f51ad41d582fa64ac3649c159184c8f3a9af7e09cc22",
+      "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Town_and_City_Halls/FeatureServer/0/query?where=1%3D1&outFields=NAME%2CCITY&outSR=4326&returnGeometry=true&orderByFields=CITY&f=geojson",
+      "documentation": "https://www.mass.gov/info-details/massgis-data-town-and-city-halls",
+      "attribution": "MassGIS; Massachusetts Emergency Management Agency GIS Program with Regional Planning Agencies",
+      "retrieved": "2026-10-21",
+      "note": "Town and city hall points stand in for town centers. Circles are enlarged quiz targets, not municipal boundaries."
+    }
+  },
+  "projection": "Local equirectangular, standard parallel 42.2° N",
+  "geographicBounds": [
+    -73.65,
+    41.17,
+    -69.85,
+    43.04
+  ],
+  "viewBox": [
+    0,
+    0,
+    1323.077,
+    878.9
+  ],
+  "wrapping": false,
+  "note": "64 cities and towns, including the seven requested additions. Town hall locations represent each municipality; dashed circles are clickable microregions, not town boundaries. Barnstable is represented by its town hall in Hyannis. Salisbury represents the municipality containing Salisbury Beach. Concord is in Massachusetts. All islands remain in geographic position.",
+  "stats": {
+    "playable": 64,
+    "contextStates": 7,
+    "arcs": 72,
+    "svgBytes": 182157
+  },
+  "regions": {
+    "MA-ADAMS": {
+      "name": "Adams",
+      "playable": true,
+      "coordinates": [
+        -73.1210384029268,
+        42.6214459056391
+      ],
+      "anchor": [
+        184.173,
+        196.72
+      ],
+      "radius": 12,
+      "focusBox": [
+        172.173,
+        184.72,
+        24,
+        24
+      ]
+    },
+    "MA-AGAWAM": {
+      "name": "Agawam",
+      "playable": true,
+      "coordinates": [
+        -72.6260864377812,
+        42.0885474604039
+      ],
+      "anchor": [
+        356.504,
+        447.183
+      ],
+      "radius": 12,
+      "focusBox": [
+        344.504,
+        435.183,
+        24,
+        24
+      ]
+    },
+    "MA-AMHERST": {
+      "name": "Amherst",
+      "playable": true,
+      "coordinates": [
+        -72.518756031268,
+        42.3754757926566
+      ],
+      "anchor": [
+        393.874,
+        312.326
+      ],
+      "radius": 12,
+      "focusBox": [
+        381.874,
+        300.326,
+        24,
+        24
+      ]
+    },
+    "MA-ANDOVER": {
+      "name": "Andover",
+      "playable": true,
+      "coordinates": [
+        -71.1365051790654,
+        42.6546445421746
+      ],
+      "anchor": [
+        875.144,
+        181.117
+      ],
+      "radius": 12,
+      "focusBox": [
+        863.144,
+        169.117,
+        24,
+        24
+      ]
+    },
+    "MA-ATHOL": {
+      "name": "Athol",
+      "playable": true,
+      "coordinates": [
+        -72.2281236773557,
+        42.5941802216588
+      ],
+      "anchor": [
+        495.066,
+        209.535
+      ],
+      "radius": 12,
+      "focusBox": [
+        483.066,
+        197.535,
+        24,
+        24
+      ]
+    },
+    "MA-ATTLEBORO": {
+      "name": "Attleboro",
+      "playable": true,
+      "coordinates": [
+        -71.2806651686194,
+        41.9438148489565
+      ],
+      "anchor": [
+        824.951,
+        515.207
+      ],
+      "radius": 12,
+      "focusBox": [
+        812.951,
+        503.207,
+        24,
+        24
+      ]
+    },
+    "MA-BARNSTABLE": {
+      "name": "Barnstable",
+      "playable": true,
+      "coordinates": [
+        -70.2825924367045,
+        41.6515174492064
+      ],
+      "anchor": [
+        1172.458,
+        652.587
+      ],
+      "radius": 12,
+      "focusBox": [
+        1160.458,
+        640.587,
+        24,
+        24
+      ]
+    },
+    "MA-BOSTON": {
+      "name": "Boston",
+      "playable": true,
+      "coordinates": [
+        -71.0578490324894,
+        42.360430191036
+      ],
+      "anchor": [
+        902.53,
+        319.398
+      ],
+      "radius": 12,
+      "focusBox": [
+        890.53,
+        307.398,
+        24,
+        24
+      ]
+    },
+    "MA-BRAINTREE": {
+      "name": "Braintree",
+      "playable": true,
+      "coordinates": [
+        -71.0053263360997,
+        42.2060649214434
+      ],
+      "anchor": [
+        920.818,
+        391.949
+      ],
+      "radius": 12,
+      "focusBox": [
+        908.818,
+        379.949,
+        24,
+        24
+      ]
+    },
+    "MA-BRIDGEWATER": {
+      "name": "Bridgewater",
+      "playable": true,
+      "coordinates": [
+        -70.9757264932415,
+        41.9888054695583
+      ],
+      "anchor": [
+        931.124,
+        494.061
+      ],
+      "radius": 12,
+      "focusBox": [
+        919.124,
+        482.061,
+        24,
+        24
+      ]
+    },
+    "MA-BROCKTON": {
+      "name": "Brockton",
+      "playable": true,
+      "coordinates": [
+        -71.0184571337373,
+        42.0825654266076
+      ],
+      "anchor": [
+        916.246,
+        449.994
+      ],
+      "radius": 12,
+      "focusBox": [
+        904.246,
+        437.994,
+        24,
+        24
+      ]
+    },
+    "MA-CAMBRIDGE": {
+      "name": "Cambridge",
+      "playable": true,
+      "coordinates": [
+        -71.1056668394581,
+        42.367088641395
+      ],
+      "anchor": [
+        885.881,
+        316.268
+      ],
+      "radius": 12,
+      "focusBox": [
+        873.881,
+        304.268,
+        24,
+        24
+      ]
+    },
+    "MA-CHATHAM": {
+      "name": "Chatham",
+      "playable": true,
+      "coordinates": [
+        -69.9588164130721,
+        41.6806879708789
+      ],
+      "anchor": [
+        1285.19,
+        638.877
+      ],
+      "radius": 12,
+      "focusBox": [
+        1273.19,
+        626.877,
+        24,
+        24
+      ]
+    },
+    "MA-CHICOPEE": {
+      "name": "Chicopee",
+      "playable": true,
+      "coordinates": [
+        -72.606314229935,
+        42.1484148971631
+      ],
+      "anchor": [
+        363.389,
+        419.045
+      ],
+      "radius": 12,
+      "focusBox": [
+        351.389,
+        407.045,
+        24,
+        24
+      ]
+    },
+    "MA-CONCORD": {
+      "name": "Concord",
+      "playable": true,
+      "coordinates": [
+        -71.3486261375566,
+        42.4611519027506
+      ],
+      "anchor": [
+        801.288,
+        272.059
+      ],
+      "radius": 12,
+      "focusBox": [
+        789.288,
+        260.059,
+        24,
+        24
+      ]
+    },
+    "MA-EDGARTOWN": {
+      "name": "Edgartown",
+      "playable": true,
+      "coordinates": [
+        -70.5147528240003,
+        41.3898319246798
+      ],
+      "anchor": [
+        1091.625,
+        775.579
+      ],
+      "radius": 12,
+      "focusBox": [
+        1079.625,
+        763.579,
+        24,
+        24
+      ]
+    },
+    "MA-FALL-RIVER": {
+      "name": "Fall River",
+      "playable": true,
+      "coordinates": [
+        -71.1545803323228,
+        41.7008401754666
+      ],
+      "anchor": [
+        868.851,
+        629.405
+      ],
+      "radius": 12,
+      "focusBox": [
+        856.851,
+        617.405,
+        24,
+        24
+      ]
+    },
+    "MA-FALMOUTH": {
+      "name": "Falmouth",
+      "playable": true,
+      "coordinates": [
+        -70.6183248749032,
+        41.5513222125786
+      ],
+      "anchor": [
+        1055.563,
+        699.679
+      ],
+      "radius": 12,
+      "focusBox": [
+        1043.563,
+        687.679,
+        24,
+        24
+      ]
+    },
+    "MA-FITCHBURG": {
+      "name": "Fitchburg",
+      "playable": true,
+      "coordinates": [
+        -71.8015631558935,
+        42.58193695529
+      ],
+      "anchor": [
+        643.585,
+        215.29
+      ],
+      "radius": 12,
+      "focusBox": [
+        631.585,
+        203.29,
+        24,
+        24
+      ]
+    },
+    "MA-FRAMINGHAM": {
+      "name": "Framingham",
+      "playable": true,
+      "coordinates": [
+        -71.4168785739374,
+        42.2798020892501
+      ],
+      "anchor": [
+        777.524,
+        357.293
+      ],
+      "radius": 12,
+      "focusBox": [
+        765.524,
+        345.293,
+        24,
+        24
+      ]
+    },
+    "MA-FRANKLIN": {
+      "name": "Franklin",
+      "playable": true,
+      "coordinates": [
+        -71.3805903117282,
+        42.0806728609565
+      ],
+      "anchor": [
+        790.159,
+        450.884
+      ],
+      "radius": 12,
+      "focusBox": [
+        778.159,
+        438.884,
+        24,
+        24
+      ]
+    },
+    "MA-GARDNER": {
+      "name": "Gardner",
+      "playable": true,
+      "coordinates": [
+        -71.9963397082668,
+        42.5740581183143
+      ],
+      "anchor": [
+        575.768,
+        218.993
+      ],
+      "radius": 12,
+      "focusBox": [
+        563.768,
+        206.993,
+        24,
+        24
+      ]
+    },
+    "MA-GLOUCESTER": {
+      "name": "Gloucester",
+      "playable": true,
+      "coordinates": [
+        -70.6627190503773,
+        42.6141091947582
+      ],
+      "anchor": [
+        1040.106,
+        200.169
+      ],
+      "radius": 12,
+      "focusBox": [
+        1028.106,
+        188.169,
+        24,
+        24
+      ]
+    },
+    "MA-GREAT-BARRINGTON": {
+      "name": "Great Barrington",
+      "playable": true,
+      "coordinates": [
+        -73.3637104982966,
+        42.1938240015226
+      ],
+      "anchor": [
+        99.68,
+        397.703
+      ],
+      "radius": 12,
+      "focusBox": [
+        87.68,
+        385.703,
+        24,
+        24
+      ]
+    },
+    "MA-GREENFIELD": {
+      "name": "Greenfield",
+      "playable": true,
+      "coordinates": [
+        -72.6012553505732,
+        42.5875303768731
+      ],
+      "anchor": [
+        365.15,
+        212.661
+      ],
+      "radius": 12,
+      "focusBox": [
+        353.15,
+        200.661,
+        24,
+        24
+      ]
+    },
+    "MA-HAVERHILL": {
+      "name": "Haverhill",
+      "playable": true,
+      "coordinates": [
+        -71.0768086339069,
+        42.7781167145
+      ],
+      "anchor": [
+        895.929,
+        123.085
+      ],
+      "radius": 12,
+      "focusBox": [
+        883.929,
+        111.085,
+        24,
+        24
+      ]
+    },
+    "MA-HOLYOKE": {
+      "name": "Holyoke",
+      "playable": true,
+      "coordinates": [
+        -72.6074240176108,
+        42.2065777575765
+      ],
+      "anchor": [
+        363.002,
+        391.708
+      ],
+      "radius": 12,
+      "focusBox": [
+        351.002,
+        379.708,
+        24,
+        24
+      ]
+    },
+    "MA-HULL": {
+      "name": "Hull",
+      "playable": true,
+      "coordinates": [
+        -70.8460696049446,
+        42.265329824229
+      ],
+      "anchor": [
+        976.267,
+        364.095
+      ],
+      "radius": 12,
+      "focusBox": [
+        964.267,
+        352.095,
+        24,
+        24
+      ]
+    },
+    "MA-IPSWICH": {
+      "name": "Ipswich",
+      "playable": true,
+      "coordinates": [
+        -70.8325761816604,
+        42.6796189895343
+      ],
+      "anchor": [
+        980.965,
+        169.379
+      ],
+      "radius": 12,
+      "focusBox": [
+        968.965,
+        157.379,
+        24,
+        24
+      ]
+    },
+    "MA-LENOX": {
+      "name": "Lenox",
+      "playable": true,
+      "coordinates": [
+        -73.2847111139189,
+        42.3564331643107
+      ],
+      "anchor": [
+        127.186,
+        321.276
+      ],
+      "radius": 12,
+      "focusBox": [
+        115.186,
+        309.276,
+        24,
+        24
+      ]
+    },
+    "MA-LEOMINSTER": {
+      "name": "Leominster",
+      "playable": true,
+      "coordinates": [
+        -71.7613595616492,
+        42.5271735246118
+      ],
+      "anchor": [
+        657.583,
+        241.028
+      ],
+      "radius": 12,
+      "focusBox": [
+        645.583,
+        229.028,
+        24,
+        24
+      ]
+    },
+    "MA-LEXINGTON": {
+      "name": "Lexington",
+      "playable": true,
+      "coordinates": [
+        -71.22458828997,
+        42.4469919772676
+      ],
+      "anchor": [
+        844.475,
+        278.714
+      ],
+      "radius": 12,
+      "focusBox": [
+        832.475,
+        266.714,
+        24,
+        24
+      ]
+    },
+    "MA-LOWELL": {
+      "name": "Lowell",
+      "playable": true,
+      "coordinates": [
+        -71.3141855506262,
+        42.64629139652
+      ],
+      "anchor": [
+        813.28,
+        185.043
+      ],
+      "radius": 12,
+      "focusBox": [
+        801.28,
+        173.043,
+        24,
+        24
+      ]
+    },
+    "MA-LYNN": {
+      "name": "Lynn",
+      "playable": true,
+      "coordinates": [
+        -70.9512732097458,
+        42.4648158390791
+      ],
+      "anchor": [
+        939.638,
+        270.337
+      ],
+      "radius": 12,
+      "focusBox": [
+        927.638,
+        258.337,
+        24,
+        24
+      ]
+    },
+    "MA-MARBLEHEAD": {
+      "name": "Marblehead",
+      "playable": true,
+      "coordinates": [
+        -70.8523931339483,
+        42.5025880052583
+      ],
+      "anchor": [
+        974.066,
+        252.584
+      ],
+      "radius": 12,
+      "focusBox": [
+        962.066,
+        240.584,
+        24,
+        24
+      ]
+    },
+    "MA-MARLBOROUGH": {
+      "name": "Marlborough",
+      "playable": true,
+      "coordinates": [
+        -71.5478059469389,
+        42.3466455616869
+      ],
+      "anchor": [
+        731.938,
+        325.877
+      ],
+      "radius": 12,
+      "focusBox": [
+        719.938,
+        313.877,
+        24,
+        24
+      ]
+    },
+    "MA-MILTON": {
+      "name": "Milton",
+      "playable": true,
+      "coordinates": [
+        -71.079782951858,
+        42.2541304192618
+      ],
+      "anchor": [
+        894.893,
+        369.359
+      ],
+      "radius": 12,
+      "focusBox": [
+        882.893,
+        357.359,
+        24,
+        24
+      ]
+    },
+    "MA-NANTUCKET": {
+      "name": "Nantucket",
+      "playable": true,
+      "coordinates": [
+        -70.0988973092755,
+        41.2850989951098
+      ],
+      "anchor": [
+        1236.416,
+        824.803
+      ],
+      "radius": 12,
+      "focusBox": [
+        1224.416,
+        812.803,
+        24,
+        24
+      ]
+    },
+    "MA-NATICK": {
+      "name": "Natick",
+      "playable": true,
+      "coordinates": [
+        -71.3458555467288,
+        42.2837266617032
+      ],
+      "anchor": [
+        802.253,
+        355.448
+      ],
+      "radius": 12,
+      "focusBox": [
+        790.253,
+        343.448,
+        24,
+        24
+      ]
+    },
+    "MA-NEW-BEDFORD": {
+      "name": "New Bedford",
+      "playable": true,
+      "coordinates": [
+        -70.9275154931286,
+        41.6355169602172
+      ],
+      "anchor": [
+        947.91,
+        660.107
+      ],
+      "radius": 12,
+      "focusBox": [
+        935.91,
+        648.107,
+        24,
+        24
+      ]
+    },
+    "MA-NEWBURYPORT": {
+      "name": "Newburyport",
+      "playable": true,
+      "coordinates": [
+        -70.8726949681843,
+        42.8112569598963
+      ],
+      "anchor": [
+        966.997,
+        107.509
+      ],
+      "radius": 12,
+      "focusBox": [
+        954.997,
+        95.509,
+        24,
+        24
+      ]
+    },
+    "MA-NORFOLK": {
+      "name": "Norfolk",
+      "playable": true,
+      "coordinates": [
+        -71.3265045479142,
+        42.1180111463103
+      ],
+      "anchor": [
+        808.99,
+        433.335
+      ],
+      "radius": 12,
+      "focusBox": [
+        796.99,
+        421.335,
+        24,
+        24
+      ]
+    },
+    "MA-NORTH-ADAMS": {
+      "name": "North Adams",
+      "playable": true,
+      "coordinates": [
+        -73.1144273678541,
+        42.6989694671071
+      ],
+      "anchor": [
+        186.475,
+        160.284
+      ],
+      "radius": 12,
+      "focusBox": [
+        174.475,
+        148.284,
+        24,
+        24
+      ]
+    },
+    "MA-NORTHAMPTON": {
+      "name": "Northampton",
+      "playable": true,
+      "coordinates": [
+        -72.6319832022119,
+        42.3176273432585
+      ],
+      "anchor": [
+        354.451,
+        339.515
+      ],
+      "radius": 12,
+      "focusBox": [
+        342.451,
+        327.515,
+        24,
+        24
+      ]
+    },
+    "MA-NORTHFIELD": {
+      "name": "Northfield",
+      "playable": true,
+      "coordinates": [
+        -72.4560733360429,
+        42.6937258311514
+      ],
+      "anchor": [
+        415.699,
+        162.749
+      ],
+      "radius": 12,
+      "focusBox": [
+        403.699,
+        150.749,
+        24,
+        24
+      ]
+    },
+    "MA-PITTSFIELD": {
+      "name": "Pittsfield",
+      "playable": true,
+      "coordinates": [
+        -73.2519413118567,
+        42.4497198938224
+      ],
+      "anchor": [
+        138.595,
+        277.432
+      ],
+      "radius": 12,
+      "focusBox": [
+        126.595,
+        265.432,
+        24,
+        24
+      ]
+    },
+    "MA-PLYMOUTH": {
+      "name": "Plymouth",
+      "playable": true,
+      "coordinates": [
+        -70.6584707301371,
+        41.9538886525446
+      ],
+      "anchor": [
+        1041.585,
+        510.472
+      ],
+      "radius": 12,
+      "focusBox": [
+        1029.585,
+        498.472,
+        24,
+        24
+      ]
+    },
+    "MA-PROVINCETOWN": {
+      "name": "Provincetown",
+      "playable": true,
+      "coordinates": [
+        -70.1876014345861,
+        42.0512835878967
+      ],
+      "anchor": [
+        1205.532,
+        464.697
+      ],
+      "radius": 12,
+      "focusBox": [
+        1193.532,
+        452.697,
+        24,
+        24
+      ]
+    },
+    "MA-QUINCY": {
+      "name": "Quincy",
+      "playable": true,
+      "coordinates": [
+        -71.0042994625395,
+        42.2508805900172
+      ],
+      "anchor": [
+        921.175,
+        370.886
+      ],
+      "radius": 12,
+      "focusBox": [
+        909.175,
+        358.886,
+        24,
+        24
+      ]
+    },
+    "MA-READING": {
+      "name": "Reading",
+      "playable": true,
+      "coordinates": [
+        -71.1035520297093,
+        42.5254206233179
+      ],
+      "anchor": [
+        886.618,
+        241.852
+      ],
+      "radius": 12,
+      "focusBox": [
+        874.618,
+        229.852,
+        24,
+        24
+      ]
+    },
+    "MA-SALEM": {
+      "name": "Salem",
+      "playable": true,
+      "coordinates": [
+        -70.89533123399,
+        42.5218693391864
+      ],
+      "anchor": [
+        959.116,
+        243.521
+      ],
+      "radius": 12,
+      "focusBox": [
+        947.116,
+        231.521,
+        24,
+        24
+      ]
+    },
+    "MA-SALISBURY": {
+      "name": "Salisbury",
+      "playable": true,
+      "coordinates": [
+        -70.8592723578119,
+        42.8418529952438
+      ],
+      "anchor": [
+        971.67,
+        93.129
+      ],
+      "radius": 12,
+      "focusBox": [
+        959.67,
+        81.129,
+        24,
+        24
+      ]
+    },
+    "MA-SANDWICH": {
+      "name": "Sandwich",
+      "playable": true,
+      "coordinates": [
+        -70.5006499167828,
+        41.7580684551394
+      ],
+      "anchor": [
+        1096.535,
+        602.508
+      ],
+      "radius": 12,
+      "focusBox": [
+        1084.535,
+        590.508,
+        24,
+        24
+      ]
+    },
+    "MA-SPRINGFIELD": {
+      "name": "Springfield",
+      "playable": true,
+      "coordinates": [
+        -72.590603726007,
+        42.1009851634572
+      ],
+      "anchor": [
+        368.859,
+        441.337
+      ],
+      "radius": 12,
+      "focusBox": [
+        356.859,
+        429.337,
+        24,
+        24
+      ]
+    },
+    "MA-STOUGHTON": {
+      "name": "Stoughton",
+      "playable": true,
+      "coordinates": [
+        -71.1030720985141,
+        42.1254931111458
+      ],
+      "anchor": [
+        886.785,
+        429.818
+      ],
+      "radius": 12,
+      "focusBox": [
+        874.785,
+        417.818,
+        24,
+        24
+      ]
+    },
+    "MA-TAUNTON": {
+      "name": "Taunton",
+      "playable": true,
+      "coordinates": [
+        -71.111009469279,
+        41.8946642680408
+      ],
+      "anchor": [
+        884.021,
+        538.308
+      ],
+      "radius": 12,
+      "focusBox": [
+        872.021,
+        526.308,
+        24,
+        24
+      ]
+    },
+    "MA-TEWKSBURY": {
+      "name": "Tewksbury",
+      "playable": true,
+      "coordinates": [
+        -71.234267768476,
+        42.6119225222245
+      ],
+      "anchor": [
+        841.105,
+        201.196
+      ],
+      "radius": 12,
+      "focusBox": [
+        829.105,
+        189.196,
+        24,
+        24
+      ]
+    },
+    "MA-TISBURY": {
+      "name": "Tisbury",
+      "playable": true,
+      "coordinates": [
+        -70.6050876268355,
+        41.4542565492277
+      ],
+      "anchor": [
+        1060.172,
+        745.299
+      ],
+      "radius": 12,
+      "focusBox": [
+        1048.172,
+        733.299,
+        24,
+        24
+      ]
+    },
+    "MA-WAREHAM": {
+      "name": "Wareham",
+      "playable": true,
+      "coordinates": [
+        -70.7241474384126,
+        41.7593038289701
+      ],
+      "anchor": [
+        1018.718,
+        601.927
+      ],
+      "radius": 12,
+      "focusBox": [
+        1006.718,
+        589.927,
+        24,
+        24
+      ]
+    },
+    "MA-WELLESLEY": {
+      "name": "Wellesley",
+      "playable": true,
+      "coordinates": [
+        -71.2916318938574,
+        42.2979603030542
+      ],
+      "anchor": [
+        821.132,
+        348.759
+      ],
+      "radius": 12,
+      "focusBox": [
+        809.132,
+        336.759,
+        24,
+        24
+      ]
+    },
+    "MA-WESTFIELD": {
+      "name": "Westfield",
+      "playable": true,
+      "coordinates": [
+        -72.7546601059728,
+        42.1205602451333
+      ],
+      "anchor": [
+        311.738,
+        432.137
+      ],
+      "radius": 12,
+      "focusBox": [
+        299.738,
+        420.137,
+        24,
+        24
+      ]
+    },
+    "MA-WEYMOUTH": {
+      "name": "Weymouth",
+      "playable": true,
+      "coordinates": [
+        -70.9391455464234,
+        42.2219721881433
+      ],
+      "anchor": [
+        943.86,
+        384.473
+      ],
+      "radius": 12,
+      "focusBox": [
+        931.86,
+        372.473,
+        24,
+        24
+      ]
+    },
+    "MA-WILLIAMSTOWN": {
+      "name": "Williamstown",
+      "playable": true,
+      "coordinates": [
+        -73.2095978262559,
+        42.7146050296927
+      ],
+      "anchor": [
+        153.338,
+        152.936
+      ],
+      "radius": 12,
+      "focusBox": [
+        141.338,
+        140.936,
+        24,
+        24
+      ]
+    },
+    "MA-WORCESTER": {
+      "name": "Worcester",
+      "playable": true,
+      "coordinates": [
+        -71.8019592461832,
+        42.2625607044474
+      ],
+      "anchor": [
+        643.447,
+        365.396
+      ],
+      "radius": 12,
+      "focusBox": [
+        631.447,
+        353.396,
+        24,
+        24
+      ]
+    }
+  }
+}

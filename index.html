@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101720">
+  <meta name="description" content="Learn the world, one place at a time.">
+  <title>Maps</title>
+  <link rel="icon" href="assets/globe.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="home" class="home">
+    <header class="home-header"><svg class="brand-icon" aria-hidden="true"><use href="assets/icons.svg#globe"/></svg><h1>Maps</h1></header>
+    <p id="offline-help" class="offline-help"></p>
+    <div id="world-options" class="region-options"></div>
+    <section aria-labelledby="continents-title">
+      <h2 id="continents-title" class="section-label">Continents</h2>
+      <div id="continents-options" class="region-options"></div>
+    </section>
+    <section aria-labelledby="us-title">
+      <h2 id="us-title" class="section-label">US</h2>
+      <div id="us-options" class="region-options"></div>
+    </section>
+    <section aria-labelledby="other-title">
+      <h2 id="other-title" class="section-label">Other</h2>
+      <div id="other-options" class="region-options">
+        <a class="map-download-card geolearn-card" href="https://gquiz.pirategames.org" target="_blank" rel="noopener noreferrer">
+          <span class="map-card">
+            <span class="thumbnail"><svg aria-hidden="true"><use href="assets/icons.svg#compass"/></svg></span>
+            <span class="card-name">GeoLearn</span>
+            <svg class="arrow" aria-hidden="true"><use href="assets/icons.svg#external"/></svg>
+          </span>
+          <span class="map-download"><span class="download-status">More geography trivia</span></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <section id="game" class="game" aria-label="World map game" hidden>
+    <div id="map-surface" class="map-surface" aria-label="Interactive map"></div>
+    <div class="game-topbar">
+      <button id="country-pill" class="country-pill" title="Reveal country" aria-describedby="reveal-hint" disabled>
+        <span id="country-name">Loading…</span><span id="progress" class="progress">0 / 0</span>
+      </button>
+      <span id="reveal-hint" class="sr-only">Reveal and check off the current country.</span>
+      <button id="menu-button" class="icon-button menu-button" aria-label="Open menu" aria-haspopup="dialog" aria-controls="menu-dialog"><svg aria-hidden="true"><use href="assets/icons.svg#menu"/></svg></button>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+    <p id="map-note" class="map-note">Placeholder map</p>
+    <div id="load-error" class="load-error" hidden><p>Couldn’t load the map.</p><button id="reload-button" class="button">Try again</button><a href="#/" class="button subtle">Home</a></div>
+    <span id="game-announcement" class="sr-only" aria-live="polite" aria-atomic="true"></span>
+  </section>
+
+  <dialog id="setup-dialog" class="modal" aria-labelledby="setup-title">
+    <button class="close-button icon-button" data-close="setup-dialog" aria-label="Close"><svg aria-hidden="true"><use href="assets/icons.svg#close"/></svg></button>
+    <h2 id="setup-title">Include microstates?</h2>
+    <div class="dialog-actions"><button id="without-microstates" class="button danger">No</button><button id="with-microstates" class="button success" autofocus>Yes</button></div>
+  </dialog>
+
+  <dialog id="menu-dialog" class="modal menu-dialog" aria-labelledby="menu-title">
+    <div class="dialog-heading"><h2 id="menu-title">World</h2><button class="icon-button" data-close="menu-dialog" aria-label="Close menu"><svg aria-hidden="true"><use href="assets/icons.svg#close"/></svg></button></div>
+    <div class="menu-scores"><span>✅ <span id="menu-correct">0</span></span><span>❌ <span id="menu-incorrect">0</span></span><span>🏳️ <span id="menu-reveals">0</span></span></div>
+    <nav class="menu-actions" aria-label="Game"><button id="menu-reveal">Reveal</button><button id="menu-reveal-all">Reveal all</button><a href="#/">Home</a></nav>
+  </dialog>
+
+  <dialog id="complete-dialog" class="modal complete-dialog" aria-labelledby="complete-title">
+    <button id="complete-close" class="close-button icon-button" aria-label="Close completion"><svg aria-hidden="true"><use href="assets/icons.svg#close"/></svg></button>
+    <div class="completion-icon" aria-hidden="true">✓</div><h2 id="complete-title">Congratulations</h2>
+    <dl class="final-scores"><div><dt>✅ Correct</dt><dd id="final-correct">0</dd></div><div><dt>❌ Incorrect</dt><dd id="final-incorrect">0</dd></div><div><dt>🏳️ Reveals</dt><dd id="final-reveals">0</dd></div></dl>
+    <div class="dialog-actions"><a href="#/" class="button subtle">Home</a><button id="retry-button" class="button success" autofocus>Retry</button></div>
+  </dialog>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

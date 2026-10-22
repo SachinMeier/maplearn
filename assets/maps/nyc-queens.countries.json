@@ -1,0 +1,487 @@
+[
+  {
+    "code": "arverne-queens",
+    "name": "Arverne",
+    "microstate": false
+  },
+  {
+    "code": "astoria-heights-queens",
+    "name": "Astoria Heights",
+    "microstate": false
+  },
+  {
+    "code": "astoria-queens",
+    "name": "Astoria",
+    "microstate": false
+  },
+  {
+    "code": "auburndale-queens",
+    "name": "Auburndale",
+    "microstate": false
+  },
+  {
+    "code": "bay-terrace-queens",
+    "name": "Bay Terrace",
+    "microstate": false
+  },
+  {
+    "code": "bayside-queens",
+    "name": "Bayside",
+    "microstate": false
+  },
+  {
+    "code": "bayswater-queens",
+    "name": "Bayswater",
+    "microstate": false
+  },
+  {
+    "code": "beechhurst-queens",
+    "name": "Beechhurst",
+    "microstate": false
+  },
+  {
+    "code": "belle-harbor-queens",
+    "name": "Belle Harbor",
+    "microstate": false
+  },
+  {
+    "code": "bellerose-queens",
+    "name": "Bellerose",
+    "microstate": false
+  },
+  {
+    "code": "blissville-queens",
+    "name": "Blissville",
+    "microstate": false
+  },
+  {
+    "code": "breezy-point-queens",
+    "name": "Breezy Point",
+    "microstate": false
+  },
+  {
+    "code": "briarwood-queens",
+    "name": "Briarwood",
+    "microstate": false
+  },
+  {
+    "code": "broad-channel-queens",
+    "name": "Broad Channel",
+    "microstate": false
+  },
+  {
+    "code": "broadway-flushing-queens",
+    "name": "Broadway-Flushing",
+    "microstate": false
+  },
+  {
+    "code": "cambria-heights-queens",
+    "name": "Cambria Heights",
+    "microstate": false
+  },
+  {
+    "code": "chinatown-queens",
+    "name": "Chinatown",
+    "microstate": false
+  },
+  {
+    "code": "college-point-queens",
+    "name": "College Point",
+    "microstate": false
+  },
+  {
+    "code": "corona-queens",
+    "name": "Corona",
+    "microstate": false
+  },
+  {
+    "code": "ditmars-steinway-queens",
+    "name": "Ditmars Steinway",
+    "microstate": false
+  },
+  {
+    "code": "douglaston-little-neck-queens",
+    "name": "Douglaston-Little Neck",
+    "microstate": false
+  },
+  {
+    "code": "dutch-kills-queens",
+    "name": "Dutch Kills",
+    "microstate": false
+  },
+  {
+    "code": "east-elmhurst-queens",
+    "name": "East Elmhurst",
+    "microstate": false
+  },
+  {
+    "code": "edgemere-queens",
+    "name": "Edgemere",
+    "microstate": false
+  },
+  {
+    "code": "elmhurst-queens",
+    "name": "Elmhurst",
+    "microstate": false
+  },
+  {
+    "code": "far-rockaway-queens",
+    "name": "Far Rockaway",
+    "microstate": false
+  },
+  {
+    "code": "floral-park-queens",
+    "name": "Floral Park",
+    "microstate": false
+  },
+  {
+    "code": "flushing-queens",
+    "name": "Flushing",
+    "microstate": false
+  },
+  {
+    "code": "forest-hills-gardens-queens",
+    "name": "Forest Hills Gardens",
+    "microstate": false
+  },
+  {
+    "code": "forest-hills-queens",
+    "name": "Forest Hills",
+    "microstate": false
+  },
+  {
+    "code": "fresh-meadows-queens",
+    "name": "Fresh Meadows",
+    "microstate": false
+  },
+  {
+    "code": "glen-oaks-queens",
+    "name": "Glen Oaks",
+    "microstate": false
+  },
+  {
+    "code": "glendale-queens",
+    "name": "Glendale",
+    "microstate": false
+  },
+  {
+    "code": "hamilton-beach-queens",
+    "name": "Hamilton Beach",
+    "microstate": false
+  },
+  {
+    "code": "hillcrest-queens",
+    "name": "Hillcrest",
+    "microstate": false
+  },
+  {
+    "code": "hollis-hills-queens",
+    "name": "Hollis Hills",
+    "microstate": false
+  },
+  {
+    "code": "hollis-park-gardens-queens",
+    "name": "Hollis Park Gardens",
+    "microstate": false
+  },
+  {
+    "code": "hollis-queens",
+    "name": "Hollis",
+    "microstate": false
+  },
+  {
+    "code": "holliswood-queens",
+    "name": "Holliswood",
+    "microstate": false
+  },
+  {
+    "code": "howard-beach-queens",
+    "name": "Howard Beach",
+    "microstate": false
+  },
+  {
+    "code": "howard-park-queens",
+    "name": "Howard Park",
+    "microstate": false
+  },
+  {
+    "code": "hunters-point-queens",
+    "name": "Hunters Point",
+    "microstate": false
+  },
+  {
+    "code": "jackson-heights-queens",
+    "name": "Jackson Heights",
+    "microstate": false
+  },
+  {
+    "code": "jamaica-estates-queens",
+    "name": "Jamaica Estates",
+    "microstate": false
+  },
+  {
+    "code": "jamaica-hills-queens",
+    "name": "Jamaica Hills",
+    "microstate": false
+  },
+  {
+    "code": "jamaica-queens",
+    "name": "Jamaica",
+    "microstate": false
+  },
+  {
+    "code": "kew-gardens-hills-queens",
+    "name": "Kew Gardens Hills",
+    "microstate": false
+  },
+  {
+    "code": "kew-gardens-queens",
+    "name": "Kew Gardens",
+    "microstate": false
+  },
+  {
+    "code": "koreatown-queens",
+    "name": "Koreatown",
+    "microstate": false
+  },
+  {
+    "code": "laurelton-queens",
+    "name": "Laurelton",
+    "microstate": false
+  },
+  {
+    "code": "lefrak-city-queens",
+    "name": "LeFrak City",
+    "microstate": false
+  },
+  {
+    "code": "linden-hill-queens",
+    "name": "Linden Hill",
+    "microstate": false
+  },
+  {
+    "code": "lindenwood-queens",
+    "name": "Lindenwood",
+    "microstate": false
+  },
+  {
+    "code": "little-egypt-queens",
+    "name": "Little Egypt",
+    "microstate": false
+  },
+  {
+    "code": "little-manila-queens",
+    "name": "Little Manila",
+    "microstate": false
+  },
+  {
+    "code": "long-island-city-queens",
+    "name": "Long Island City",
+    "microstate": false
+  },
+  {
+    "code": "malba-queens",
+    "name": "Malba",
+    "microstate": false
+  },
+  {
+    "code": "maspeth-queens",
+    "name": "Maspeth",
+    "microstate": false
+  },
+  {
+    "code": "meadowmere-queens",
+    "name": "Meadowmere",
+    "microstate": false
+  },
+  {
+    "code": "middle-village-queens",
+    "name": "Middle Village",
+    "microstate": false
+  },
+  {
+    "code": "murray-hill-queens",
+    "name": "Murray Hill",
+    "microstate": false
+  },
+  {
+    "code": "neponsit-queens",
+    "name": "Neponsit",
+    "microstate": false
+  },
+  {
+    "code": "north-corona-queens",
+    "name": "North Corona",
+    "microstate": false
+  },
+  {
+    "code": "north-shore-towers-queens",
+    "name": "North Shore Towers",
+    "microstate": false
+  },
+  {
+    "code": "oakland-gardens-queens",
+    "name": "Oakland Gardens",
+    "microstate": false
+  },
+  {
+    "code": "old-howard-beach-queens",
+    "name": "Old Howard Beach",
+    "microstate": false
+  },
+  {
+    "code": "ozone-park-queens",
+    "name": "Ozone Park",
+    "microstate": false
+  },
+  {
+    "code": "parkway-village-queens",
+    "name": "Parkway Village",
+    "microstate": false
+  },
+  {
+    "code": "pomonok-queens",
+    "name": "Pomonok",
+    "microstate": false
+  },
+  {
+    "code": "queens-village-queens",
+    "name": "Queens Village",
+    "microstate": false
+  },
+  {
+    "code": "queensboro-hill-queens",
+    "name": "Queensboro Hill",
+    "microstate": false
+  },
+  {
+    "code": "queensbridge-queens",
+    "name": "Queensbridge",
+    "microstate": false
+  },
+  {
+    "code": "ramblersville-queens",
+    "name": "Ramblersville",
+    "microstate": false
+  },
+  {
+    "code": "ravenswood-queens",
+    "name": "Ravenswood",
+    "microstate": false
+  },
+  {
+    "code": "rego-park-queens",
+    "name": "Rego Park",
+    "microstate": false
+  },
+  {
+    "code": "richmond-hill-queens",
+    "name": "Richmond Hill",
+    "microstate": false
+  },
+  {
+    "code": "ridgewood-queens",
+    "name": "Ridgewood",
+    "microstate": false
+  },
+  {
+    "code": "rochdale-queens",
+    "name": "Rochdale",
+    "microstate": false
+  },
+  {
+    "code": "rockaway-beach-queens",
+    "name": "Rockaway Beach",
+    "microstate": false
+  },
+  {
+    "code": "rockaway-park-queens",
+    "name": "Rockaway Park",
+    "microstate": false
+  },
+  {
+    "code": "rockwood-park-queens",
+    "name": "Rockwood Park",
+    "microstate": false
+  },
+  {
+    "code": "rosedale-queens",
+    "name": "Rosedale",
+    "microstate": false
+  },
+  {
+    "code": "roxbury-queens",
+    "name": "Roxbury",
+    "microstate": false
+  },
+  {
+    "code": "south-jamaica-queens",
+    "name": "South Jamaica",
+    "microstate": false
+  },
+  {
+    "code": "south-ozone-park-queens",
+    "name": "South Ozone Park",
+    "microstate": false
+  },
+  {
+    "code": "springfield-gardens-queens",
+    "name": "Springfield Gardens",
+    "microstate": false
+  },
+  {
+    "code": "st-albans-queens",
+    "name": "St. Albans",
+    "microstate": false
+  },
+  {
+    "code": "sunnyside-gardens-queens",
+    "name": "Sunnyside Gardens",
+    "microstate": false
+  },
+  {
+    "code": "sunnyside-queens",
+    "name": "Sunnyside",
+    "microstate": false
+  },
+  {
+    "code": "the-hole-queens",
+    "name": "The Hole",
+    "microstate": false
+  },
+  {
+    "code": "tudor-village-queens",
+    "name": "Tudor Village",
+    "microstate": false
+  },
+  {
+    "code": "utopia-queens",
+    "name": "Utopia",
+    "microstate": false
+  },
+  {
+    "code": "warnerville-queens",
+    "name": "Warnerville",
+    "microstate": false
+  },
+  {
+    "code": "whitestone-queens",
+    "name": "Whitestone",
+    "microstate": false
+  },
+  {
+    "code": "willets-point-queens",
+    "name": "Willets Point",
+    "microstate": false
+  },
+  {
+    "code": "woodhaven-queens",
+    "name": "Woodhaven",
+    "microstate": false
+  },
+  {
+    "code": "woodside-queens",
+    "name": "Woodside",
+    "microstate": false
+  }
+]

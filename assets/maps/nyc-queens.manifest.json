@@ -1,0 +1,1681 @@
+{
+  "id": "nyc-queens",
+  "title": "Queens Neighborhoods",
+  "source": {
+    "file": "assets/maps/sources/nyc-colloquial-neighborhoods.geojson.gz",
+    "sha256": "c79fc3f434c229b0b57de1554f4220ec27bc1e4db04e4de2518ae7a2ce2877b0",
+    "url": "https://raw.githubusercontent.com/chriswhong/nyc-neighborhood-boundaries/a14c924b16ce659d034ab15a8f45229b05a1f1f5/dist/nyc-neighborhood-boundaries.geojson",
+    "attribution": "Chris Whong / NYC Neighborhood Boundaries contributors, derived from Zillow (2017); commit a14c924b16ce659d034ab15a8f45229b05a1f1f5",
+    "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+    "modifications": "Borough extraction, duplicate merging, nonresidential context classification, overlap partition (smaller sub-neighborhoods first), shared-edge noding, projection, rounding, SVG and thumbnail conversion. Derived NYC map assets are CC BY-SA 4.0."
+  },
+  "projection": "Local equirectangular, standard parallel 40.73° N",
+  "viewBox": [
+    0,
+    0,
+    927.375,
+    1200
+  ],
+  "wrapping": false,
+  "coordinateDecimals": 3,
+  "simplification": false,
+  "note": "Approximate colloquial boundaries, not official districts. Sub-neighborhoods take precedence over overlapping parent neighborhoods; the parent label applies to its remaining area. Parks start green; other nonresidential areas are muted context. Every playable area is distinct. Derived map licensed CC BY-SA 4.0.",
+  "stats": {
+    "playable": 97,
+    "context": 6,
+    "arcs": 394,
+    "sharedArcs": 272,
+    "vertices": 14331,
+    "svgBytes": 536778
+  },
+  "regions": {
+    "arverne-queens": {
+      "name": "Arverne",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        581.256,
+        954.748
+      ],
+      "focusBox": [
+        538.567,
+        896.465,
+        82.508,
+        93.37
+      ],
+      "polygons": 1
+    },
+    "astoria-heights-queens": {
+      "name": "Astoria Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        258.292,
+        163.386
+      ],
+      "focusBox": [
+        231.769,
+        121.795,
+        43.432,
+        55.432
+      ],
+      "polygons": 1
+    },
+    "astoria-queens": {
+      "name": "Astoria",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        157.467,
+        195.714
+      ],
+      "focusBox": [
+        102.873,
+        119.855,
+        125.221,
+        118.84
+      ],
+      "polygons": 5
+    },
+    "auburndale-queens": {
+      "name": "Auburndale",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        601.387,
+        253.225
+      ],
+      "focusBox": [
+        555.68,
+        189.499,
+        96.699,
+        112.372
+      ],
+      "polygons": 1
+    },
+    "bay-terrace-queens": {
+      "name": "Bay Terrace",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        642.084,
+        103.151
+      ],
+      "focusBox": [
+        596.968,
+        40.768,
+        84.791,
+        92.258
+      ],
+      "polygons": 1
+    },
+    "bayside-queens": {
+      "name": "Bayside",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        664.434,
+        181.303
+      ],
+      "focusBox": [
+        585.221,
+        118.17,
+        174.947,
+        160.214
+      ],
+      "polygons": 1
+    },
+    "bayswater-queens": {
+      "name": "Bayswater",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        688.875,
+        876.494
+      ],
+      "focusBox": [
+        655.484,
+        821.088,
+        53.227,
+        83.023
+      ],
+      "polygons": 1
+    },
+    "beechhurst-queens": {
+      "name": "Beechhurst",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        566.442,
+        64.225
+      ],
+      "focusBox": [
+        539.858,
+        37.633,
+        54.164,
+        52.216
+      ],
+      "polygons": 1
+    },
+    "belle-harbor-queens": {
+      "name": "Belle Harbor",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        391.803,
+        1029.486
+      ],
+      "focusBox": [
+        362.871,
+        992.784,
+        56.881,
+        65.992
+      ],
+      "polygons": 1
+    },
+    "bellerose-queens": {
+      "name": "Bellerose",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        803.852,
+        328.272
+      ],
+      "focusBox": [
+        750.811,
+        276.072,
+        121.899,
+        113.471
+      ],
+      "polygons": 1
+    },
+    "blissville-queens": {
+      "name": "Blissville",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        104.136,
+        312.195
+      ],
+      "focusBox": [
+        77.211,
+        296.058,
+        51.879,
+        49.809
+      ],
+      "polygons": 1
+    },
+    "breezy-point-queens": {
+      "name": "Breezy Point",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        159.327,
+        1111.243
+      ],
+      "focusBox": [
+        94.2,
+        1068.442,
+        108.945,
+        111.558
+      ],
+      "polygons": 1
+    },
+    "briarwood-queens": {
+      "name": "Briarwood",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        526.924,
+        424.538
+      ],
+      "focusBox": [
+        479.353,
+        383.107,
+        82.458,
+        70.969
+      ],
+      "polygons": 2
+    },
+    "broad-channel-queens": {
+      "name": "Broad Channel",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        507.381,
+        856.462
+      ],
+      "focusBox": [
+        474.415,
+        829.628,
+        52.31,
+        114.903
+      ],
+      "polygons": 1
+    },
+    "broadway-flushing-queens": {
+      "name": "Broadway-Flushing",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        573.459,
+        169.408
+      ],
+      "focusBox": [
+        538.211,
+        153.51,
+        49.683,
+        39.183
+      ],
+      "polygons": 1
+    },
+    "cambria-heights-queens": {
+      "name": "Cambria Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        789.483,
+        499.442
+      ],
+      "focusBox": [
+        756.99,
+        466.362,
+        65.793,
+        79.136
+      ],
+      "polygons": 1
+    },
+    "chinatown-queens": {
+      "name": "Chinatown",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        468.553,
+        207.549
+      ],
+      "focusBox": [
+        451.339,
+        188.067,
+        34.87,
+        40.731
+      ],
+      "polygons": 1
+    },
+    "college-point-queens": {
+      "name": "College Point",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        436.74,
+        128.393
+      ],
+      "focusBox": [
+        368.503,
+        36.245,
+        119.988,
+        148.628
+      ],
+      "polygons": 1
+    },
+    "context-east-jamaica-bay-islands-queens": {
+      "name": "East Jamaica Bay Islands",
+      "playable": false,
+      "park": false,
+      "anchor": [
+        477.636,
+        821.245
+      ],
+      "focusBox": [
+        455.539,
+        732.718,
+        80.607,
+        126.677
+      ],
+      "polygons": 11
+    },
+    "context-flushing-meadows-corona-park-queens": {
+      "name": "Flushing Meadows Corona Park",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        425.054,
+        255.342
+      ],
+      "focusBox": [
+        387.683,
+        218.736,
+        95.492,
+        178.871
+      ],
+      "polygons": 1
+    },
+    "context-fort-tilden-queens": {
+      "name": "Fort Tilden",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        243.317,
+        1091.871
+      ],
+      "focusBox": [
+        197.648,
+        1066.053,
+        80.691,
+        54.787
+      ],
+      "polygons": 1
+    },
+    "context-jacob-riis-park-queens": {
+      "name": "Jacob Riis Park",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        299.919,
+        1071.204
+      ],
+      "focusBox": [
+        265.413,
+        1028.689,
+        95.58,
+        71.868
+      ],
+      "polygons": 1
+    },
+    "context-john-f-kennedy-international-airport-queens": {
+      "name": "John F. Kennedy International Airport",
+      "playable": false,
+      "park": false,
+      "anchor": [
+        618.941,
+        704.008
+      ],
+      "focusBox": [
+        461.549,
+        626.515,
+        289.036,
+        263.06
+      ],
+      "polygons": 1
+    },
+    "context-la-guardia-airport-queens": {
+      "name": "La Guardia Airport",
+      "playable": false,
+      "park": false,
+      "anchor": [
+        314.201,
+        128.125
+      ],
+      "focusBox": [
+        268.578,
+        86.175,
+        132.422,
+        100.749
+      ],
+      "polygons": 1
+    },
+    "corona-queens": {
+      "name": "Corona",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        369.151,
+        275.812
+      ],
+      "focusBox": [
+        337.728,
+        238.161,
+        74.352,
+        75.498
+      ],
+      "polygons": 3
+    },
+    "ditmars-steinway-queens": {
+      "name": "Ditmars Steinway",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        209.845,
+        121.035
+      ],
+      "focusBox": [
+        145.317,
+        63.756,
+        121.791,
+        108.066
+      ],
+      "polygons": 1
+    },
+    "douglaston-little-neck-queens": {
+      "name": "Douglaston-Little Neck",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        793.343,
+        205.037
+      ],
+      "focusBox": [
+        710.052,
+        100.186,
+        152.105,
+        177.577
+      ],
+      "polygons": 1
+    },
+    "dutch-kills-queens": {
+      "name": "Dutch Kills",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        121.207,
+        228.049
+      ],
+      "focusBox": [
+        95.167,
+        205.646,
+        60.421,
+        36.923
+      ],
+      "polygons": 1
+    },
+    "east-elmhurst-queens": {
+      "name": "East Elmhurst",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        322.594,
+        185.76
+      ],
+      "focusBox": [
+        222.244,
+        150.992,
+        175.719,
+        79.999
+      ],
+      "polygons": 1
+    },
+    "edgemere-queens": {
+      "name": "Edgemere",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        637.682,
+        937.55
+      ],
+      "focusBox": [
+        604.414,
+        868.562,
+        89.061,
+        109.632
+      ],
+      "polygons": 1
+    },
+    "elmhurst-queens": {
+      "name": "Elmhurst",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        306.667,
+        294.814
+      ],
+      "focusBox": [
+        250.646,
+        253,
+        103.063,
+        93.886
+      ],
+      "polygons": 1
+    },
+    "far-rockaway-queens": {
+      "name": "Far Rockaway",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        736.271,
+        911.514
+      ],
+      "focusBox": [
+        665.205,
+        862.019,
+        117.746,
+        136.61
+      ],
+      "polygons": 1
+    },
+    "floral-park-queens": {
+      "name": "Floral Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        880.337,
+        286.803
+      ],
+      "focusBox": [
+        848.596,
+        238.513,
+        58.779,
+        112.376
+      ],
+      "polygons": 1
+    },
+    "flushing-queens": {
+      "name": "Flushing",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        536.471,
+        258.554
+      ],
+      "focusBox": [
+        441.055,
+        186.933,
+        121.012,
+        99.744
+      ],
+      "polygons": 1
+    },
+    "forest-hills-gardens-queens": {
+      "name": "Forest Hills Gardens",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        428.085,
+        403.389
+      ],
+      "focusBox": [
+        405.076,
+        385.402,
+        50.47,
+        41.327
+      ],
+      "polygons": 1
+    },
+    "forest-hills-queens": {
+      "name": "Forest Hills",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        410.663,
+        446.069
+      ],
+      "focusBox": [
+        371.341,
+        293.611,
+        111.204,
+        189.511
+      ],
+      "polygons": 1
+    },
+    "fresh-meadows-queens": {
+      "name": "Fresh Meadows",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        650.362,
+        307.616
+      ],
+      "focusBox": [
+        553.371,
+        271.904,
+        164.138,
+        100.921
+      ],
+      "polygons": 1
+    },
+    "glen-oaks-queens": {
+      "name": "Glen Oaks",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        843.859,
+        250.819
+      ],
+      "focusBox": [
+        797.961,
+        220.32,
+        104.489,
+        69.808
+      ],
+      "polygons": 1
+    },
+    "glendale-queens": {
+      "name": "Glendale",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        288.363,
+        478.866
+      ],
+      "focusBox": [
+        228.065,
+        412.793,
+        165.334,
+        137.251
+      ],
+      "polygons": 1
+    },
+    "hamilton-beach-queens": {
+      "name": "Hamilton Beach",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        470.101,
+        675.972
+      ],
+      "focusBox": [
+        462.611,
+        661.428,
+        20.043,
+        42.203
+      ],
+      "polygons": 1
+    },
+    "hillcrest-queens": {
+      "name": "Hillcrest",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        564.581,
+        372.678
+      ],
+      "focusBox": [
+        534.532,
+        338.301,
+        69.147,
+        62.958
+      ],
+      "polygons": 1
+    },
+    "hollis-hills-queens": {
+      "name": "Hollis Hills",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        717.896,
+        329.902
+      ],
+      "focusBox": [
+        690.209,
+        304.558,
+        63.511,
+        44.076
+      ],
+      "polygons": 1
+    },
+    "hollis-park-gardens-queens": {
+      "name": "Hollis Park Gardens",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        680.192,
+        408.396
+      ],
+      "focusBox": [
+        670.504,
+        395.673,
+        17.608,
+        19.923
+      ],
+      "polygons": 1
+    },
+    "hollis-queens": {
+      "name": "Hollis",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        695.208,
+        446.014
+      ],
+      "focusBox": [
+        647.525,
+        377.878,
+        96.713,
+        110.172
+      ],
+      "polygons": 1
+    },
+    "holliswood-queens": {
+      "name": "Holliswood",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        670.607,
+        379.472
+      ],
+      "focusBox": [
+        647.969,
+        354.763,
+        59.988,
+        49.726
+      ],
+      "polygons": 1
+    },
+    "howard-beach-queens": {
+      "name": "Howard Beach",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        375.986,
+        662.231
+      ],
+      "focusBox": [
+        358.286,
+        612.406,
+        94.758,
+        111.411
+      ],
+      "polygons": 2
+    },
+    "howard-park-queens": {
+      "name": "Howard Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        446.756,
+        636.658
+      ],
+      "focusBox": [
+        435.958,
+        621.991,
+        24.158,
+        38.134
+      ],
+      "polygons": 1
+    },
+    "hunters-point-queens": {
+      "name": "Hunters Point",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        43.173,
+        281.996
+      ],
+      "focusBox": [
+        20,
+        264.08,
+        43.037,
+        42.417
+      ],
+      "polygons": 1
+    },
+    "jackson-heights-queens": {
+      "name": "Jackson Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        268.538,
+        244.736
+      ],
+      "focusBox": [
+        239.023,
+        219.399,
+        98.024,
+        45.647
+      ],
+      "polygons": 1
+    },
+    "jamaica-estates-queens": {
+      "name": "Jamaica Estates",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        627.696,
+        388.543
+      ],
+      "focusBox": [
+        592.68,
+        342.029,
+        67.526,
+        82.298
+      ],
+      "polygons": 1
+    },
+    "jamaica-hills-queens": {
+      "name": "Jamaica Hills",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        567.051,
+        416.701
+      ],
+      "focusBox": [
+        544.782,
+        386.825,
+        57.501,
+        50.597
+      ],
+      "polygons": 1
+    },
+    "jamaica-queens": {
+      "name": "Jamaica",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        548.458,
+        471.99
+      ],
+      "focusBox": [
+        513.009,
+        404.449,
+        156.43,
+        117.878
+      ],
+      "polygons": 4
+    },
+    "kew-gardens-hills-queens": {
+      "name": "Kew Gardens Hills",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        495.887,
+        330.888
+      ],
+      "focusBox": [
+        446.02,
+        279.008,
+        94.559,
+        116.02
+      ],
+      "polygons": 1
+    },
+    "kew-gardens-queens": {
+      "name": "Kew Gardens",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        477.344,
+        436.639
+      ],
+      "focusBox": [
+        430.73,
+        402.772,
+        82.279,
+        68.665
+      ],
+      "polygons": 1
+    },
+    "koreatown-queens": {
+      "name": "Koreatown",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        527.198,
+        188.789
+      ],
+      "focusBox": [
+        512.288,
+        175.683,
+        57.323,
+        30.59
+      ],
+      "polygons": 1
+    },
+    "laurelton-queens": {
+      "name": "Laurelton",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        766.925,
+        564.375
+      ],
+      "focusBox": [
+        712.911,
+        502.08,
+        108.372,
+        122.211
+      ],
+      "polygons": 1
+    },
+    "lefrak-city-queens": {
+      "name": "LeFrak City",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        365.068,
+        309.915
+      ],
+      "focusBox": [
+        349.398,
+        301.555,
+        23.811,
+        18.865
+      ],
+      "polygons": 1
+    },
+    "linden-hill-queens": {
+      "name": "Linden Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        494.597,
+        157.81
+      ],
+      "focusBox": [
+        437.984,
+        130.264,
+        101.051,
+        63.198
+      ],
+      "polygons": 1
+    },
+    "lindenwood-queens": {
+      "name": "Lindenwood",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        399.097,
+        619.882
+      ],
+      "focusBox": [
+        374.506,
+        600.73,
+        56.187,
+        49.075
+      ],
+      "polygons": 1
+    },
+    "little-egypt-queens": {
+      "name": "Little Egypt",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        196.131,
+        167.25
+      ],
+      "focusBox": [
+        186.386,
+        165.195,
+        12.664,
+        16.324
+      ],
+      "polygons": 1
+    },
+    "little-manila-queens": {
+      "name": "Little Manila",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        227.324,
+        268.375
+      ],
+      "focusBox": [
+        224.077,
+        263.649,
+        27.145,
+        6.583
+      ],
+      "polygons": 1
+    },
+    "long-island-city-queens": {
+      "name": "Long Island City",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        84.024,
+        264.359
+      ],
+      "focusBox": [
+        32.832,
+        223.451,
+        85.462,
+        81.787
+      ],
+      "polygons": 1
+    },
+    "malba-queens": {
+      "name": "Malba",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        479.811,
+        69.091
+      ],
+      "focusBox": [
+        460.079,
+        36.209,
+        32.015,
+        50.375
+      ],
+      "polygons": 1
+    },
+    "maspeth-queens": {
+      "name": "Maspeth",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        208.942,
+        362.079
+      ],
+      "focusBox": [
+        135.764,
+        267.652,
+        149.192,
+        150.048
+      ],
+      "polygons": 1
+    },
+    "meadowmere-queens": {
+      "name": "Meadowmere",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        770.505,
+        756.717
+      ],
+      "focusBox": [
+        764.901,
+        749.652,
+        9.081,
+        12.152
+      ],
+      "polygons": 1
+    },
+    "middle-village-queens": {
+      "name": "Middle Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        313.987,
+        386.256
+      ],
+      "focusBox": [
+        252.617,
+        330.882,
+        118.364,
+        116.927
+      ],
+      "polygons": 1
+    },
+    "murray-hill-queens": {
+      "name": "Murray Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        535.573,
+        216.452
+      ],
+      "focusBox": [
+        480.256,
+        181.649,
+        78.965,
+        54.546
+      ],
+      "polygons": 2
+    },
+    "neponsit-queens": {
+      "name": "Neponsit",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        358.305,
+        1032.966
+      ],
+      "focusBox": [
+        344.672,
+        1016.128,
+        36.856,
+        52.194
+      ],
+      "polygons": 1
+    },
+    "north-corona-queens": {
+      "name": "North Corona",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        347.845,
+        233.805
+      ],
+      "focusBox": [
+        322.806,
+        212.345,
+        70.865,
+        40.744
+      ],
+      "polygons": 1
+    },
+    "north-shore-towers-queens": {
+      "name": "North Shore Towers",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        859.422,
+        215.694
+      ],
+      "focusBox": [
+        835.417,
+        205.37,
+        46.169,
+        35.923
+      ],
+      "polygons": 1
+    },
+    "oakland-gardens-queens": {
+      "name": "Oakland Gardens",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        751.533,
+        273.761
+      ],
+      "focusBox": [
+        667.197,
+        234.616,
+        130.646,
+        120.419
+      ],
+      "polygons": 1
+    },
+    "old-howard-beach-queens": {
+      "name": "Old Howard Beach",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        458.692,
+        696.854
+      ],
+      "focusBox": [
+        432.419,
+        612.708,
+        50.682,
+        94.865
+      ],
+      "polygons": 2
+    },
+    "ozone-park-queens": {
+      "name": "Ozone Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        423.761,
+        555.611
+      ],
+      "focusBox": [
+        347.723,
+        510.086,
+        140.239,
+        121.887
+      ],
+      "polygons": 1
+    },
+    "parkway-village-queens": {
+      "name": "Parkway Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        535.096,
+        393.572
+      ],
+      "focusBox": [
+        513.107,
+        383.254,
+        31.675,
+        18.125
+      ],
+      "polygons": 1
+    },
+    "pomonok-queens": {
+      "name": "Pomonok",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        545.387,
+        309.891
+      ],
+      "focusBox": [
+        533.581,
+        299.954,
+        22.062,
+        51.131
+      ],
+      "polygons": 1
+    },
+    "queens-village-queens": {
+      "name": "Queens Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        773.767,
+        426.454
+      ],
+      "focusBox": [
+        691.931,
+        327.897,
+        130.384,
+        174.218
+      ],
+      "polygons": 1
+    },
+    "queensboro-hill-queens": {
+      "name": "Queensboro Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        474.723,
+        267.33
+      ],
+      "focusBox": [
+        445.386,
+        249.495,
+        111.059,
+        51.576
+      ],
+      "polygons": 1
+    },
+    "queensbridge-queens": {
+      "name": "Queensbridge",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        81.447,
+        226.728
+      ],
+      "focusBox": [
+        68.721,
+        214.804,
+        26.386,
+        24.162
+      ],
+      "polygons": 1
+    },
+    "ramblersville-queens": {
+      "name": "Ramblersville",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        465.086,
+        662.729
+      ],
+      "focusBox": [
+        459.338,
+        655.833,
+        14.716,
+        18.41
+      ],
+      "polygons": 1
+    },
+    "ravenswood-queens": {
+      "name": "Ravenswood",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        103.705,
+        185.642
+      ],
+      "focusBox": [
+        70.409,
+        164.092,
+        57.036,
+        62.206
+      ],
+      "polygons": 1
+    },
+    "rego-park-queens": {
+      "name": "Rego Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        361.167,
+        347.516
+      ],
+      "focusBox": [
+        329.864,
+        308.379,
+        67.112,
+        130.516
+      ],
+      "polygons": 1
+    },
+    "richmond-hill-queens": {
+      "name": "Richmond Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        484.54,
+        492.586
+      ],
+      "focusBox": [
+        406.397,
+        454.076,
+        127.269,
+        83.184
+      ],
+      "polygons": 1
+    },
+    "ridgewood-queens": {
+      "name": "Ridgewood",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        226.161,
+        448.703
+      ],
+      "focusBox": [
+        159.622,
+        412.184,
+        148.616,
+        96.799
+      ],
+      "polygons": 1
+    },
+    "rochdale-queens": {
+      "name": "Rochdale",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        675.74,
+        585.375
+      ],
+      "focusBox": [
+        607.525,
+        544.354,
+        120.831,
+        78.918
+      ],
+      "polygons": 1
+    },
+    "rockaway-beach-queens": {
+      "name": "Rockaway Beach",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        532.464,
+        973.077
+      ],
+      "focusBox": [
+        498.505,
+        941.293,
+        55.628,
+        59.289
+      ],
+      "polygons": 1
+    },
+    "rockaway-park-queens": {
+      "name": "Rockaway Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        429.82,
+        1013.666
+      ],
+      "focusBox": [
+        399.521,
+        968.328,
+        113.128,
+        71.197
+      ],
+      "polygons": 1
+    },
+    "rockwood-park-queens": {
+      "name": "Rockwood Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        418.383,
+        657.238
+      ],
+      "focusBox": [
+        387.005,
+        629.558,
+        61.212,
+        75.786
+      ],
+      "polygons": 1
+    },
+    "rosedale-queens": {
+      "name": "Rosedale",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        785.934,
+        662.928
+      ],
+      "focusBox": [
+        724.142,
+        549.296,
+        99.696,
+        220.069
+      ],
+      "polygons": 1
+    },
+    "roxbury-queens": {
+      "name": "Roxbury",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        259.703,
+        1062.889
+      ],
+      "focusBox": [
+        245.667,
+        1053.198,
+        36.731,
+        22.152
+      ],
+      "polygons": 1
+    },
+    "south-jamaica-queens": {
+      "name": "South Jamaica",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        595.421,
+        556.908
+      ],
+      "focusBox": [
+        539.379,
+        461.371,
+        119.684,
+        159.984
+      ],
+      "polygons": 1
+    },
+    "south-ozone-park-queens": {
+      "name": "South Ozone Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        524.67,
+        594.252
+      ],
+      "focusBox": [
+        455.663,
+        508.329,
+        151.862,
+        130.369
+      ],
+      "polygons": 2
+    },
+    "springfield-gardens-queens": {
+      "name": "Springfield Gardens",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        713.022,
+        658.067
+      ],
+      "focusBox": [
+        606.419,
+        616.952,
+        166.555,
+        95.923
+      ],
+      "polygons": 1
+    },
+    "st-albans-queens": {
+      "name": "St. Albans",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        704.204,
+        518.816
+      ],
+      "focusBox": [
+        625.794,
+        452.466,
+        130.923,
+        113.297
+      ],
+      "polygons": 1
+    },
+    "sunnyside-gardens-queens": {
+      "name": "Sunnyside Gardens",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        181.829,
+        257.479
+      ],
+      "focusBox": [
+        163.93,
+        248.241,
+        30.745,
+        31.932
+      ],
+      "polygons": 1
+    },
+    "sunnyside-queens": {
+      "name": "Sunnyside",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        142.522,
+        282.168
+      ],
+      "focusBox": [
+        93.263,
+        232.214,
+        108.895,
+        116.189
+      ],
+      "polygons": 2
+    },
+    "the-hole-queens": {
+      "name": "The Hole",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        371.31,
+        597.688
+      ],
+      "focusBox": [
+        361.93,
+        586.362,
+        22.429,
+        19.759
+      ],
+      "polygons": 1
+    },
+    "tudor-village-queens": {
+      "name": "Tudor Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        398.832,
+        590.128
+      ],
+      "focusBox": [
+        383.806,
+        581.109,
+        26.255,
+        21.004
+      ],
+      "polygons": 1
+    },
+    "utopia-queens": {
+      "name": "Utopia",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        604.932,
+        344.342
+      ],
+      "focusBox": [
+        592.859,
+        324.557,
+        41.763,
+        32.426
+      ],
+      "polygons": 1
+    },
+    "warnerville-queens": {
+      "name": "Warnerville",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        758.339,
+        742.06
+      ],
+      "focusBox": [
+        748.802,
+        732.237,
+        20.929,
+        24.576
+      ],
+      "polygons": 1
+    },
+    "whitestone-queens": {
+      "name": "Whitestone",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        516.963,
+        103.728
+      ],
+      "focusBox": [
+        448.656,
+        20,
+        172.311,
+        127.892
+      ],
+      "polygons": 2
+    },
+    "willets-point-queens": {
+      "name": "Willets Point",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        426.068,
+        206.456
+      ],
+      "focusBox": [
+        384.406,
+        179.331,
+        63.174,
+        59.017
+      ],
+      "polygons": 1
+    },
+    "woodhaven-queens": {
+      "name": "Woodhaven",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        366.646,
+        513.507
+      ],
+      "focusBox": [
+        339.309,
+        479.056,
+        82.681,
+        67.411
+      ],
+      "polygons": 1
+    },
+    "woodside-queens": {
+      "name": "Woodside",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        209.452,
+        283.668
+      ],
+      "focusBox": [
+        175.05,
+        179.349,
+        77.23,
+        134.986
+      ],
+      "polygons": 1
+    }
+  }
+}

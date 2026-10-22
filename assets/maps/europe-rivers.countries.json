@@ -1,0 +1,157 @@
+[
+  {
+    "code": "shannon",
+    "name": "Shannon",
+    "microstate": false
+  },
+  {
+    "code": "thames",
+    "name": "Thames",
+    "microstate": false
+  },
+  {
+    "code": "severn",
+    "name": "Severn",
+    "microstate": false
+  },
+  {
+    "code": "loire",
+    "name": "Loire",
+    "microstate": false
+  },
+  {
+    "code": "seine",
+    "name": "Seine",
+    "microstate": false
+  },
+  {
+    "code": "somme",
+    "name": "Somme",
+    "microstate": false
+  },
+  {
+    "code": "garonne",
+    "name": "Garonne",
+    "microstate": false
+  },
+  {
+    "code": "rhone",
+    "name": "Rhône",
+    "microstate": false
+  },
+  {
+    "code": "rhine",
+    "name": "Rhine",
+    "microstate": false
+  },
+  {
+    "code": "meuse",
+    "name": "Meuse",
+    "microstate": false
+  },
+  {
+    "code": "elbe",
+    "name": "Elbe",
+    "microstate": false
+  },
+  {
+    "code": "oder",
+    "name": "Oder",
+    "microstate": false
+  },
+  {
+    "code": "vistula",
+    "name": "Vistula",
+    "microstate": false
+  },
+  {
+    "code": "danube",
+    "name": "Danube",
+    "microstate": false
+  },
+  {
+    "code": "po",
+    "name": "Po",
+    "microstate": false
+  },
+  {
+    "code": "tiber",
+    "name": "Tiber",
+    "microstate": false
+  },
+  {
+    "code": "douro",
+    "name": "Douro",
+    "microstate": false
+  },
+  {
+    "code": "tagus",
+    "name": "Tagus",
+    "microstate": false
+  },
+  {
+    "code": "guadiana",
+    "name": "Guadiana",
+    "microstate": false
+  },
+  {
+    "code": "guadalquivir",
+    "name": "Guadalquivir",
+    "microstate": false
+  },
+  {
+    "code": "ebro",
+    "name": "Ebro",
+    "microstate": false
+  },
+  {
+    "code": "dnieper",
+    "name": "Dnieper (Dnipro)",
+    "microstate": false
+  },
+  {
+    "code": "dniester",
+    "name": "Dniester",
+    "microstate": false
+  },
+  {
+    "code": "don",
+    "name": "Don",
+    "microstate": false
+  },
+  {
+    "code": "volga",
+    "name": "Volga (upper course)",
+    "microstate": false
+  },
+  {
+    "code": "daugava",
+    "name": "Daugava",
+    "microstate": false
+  },
+  {
+    "code": "neva",
+    "name": "Neva",
+    "microstate": false
+  },
+  {
+    "code": "glomma",
+    "name": "Glomma",
+    "microstate": false
+  },
+  {
+    "code": "sava",
+    "name": "Sava",
+    "microstate": false
+  },
+  {
+    "code": "kemijoki",
+    "name": "Kemijoki",
+    "microstate": false
+  },
+  {
+    "code": "dalalven",
+    "name": "Dalälven",
+    "microstate": false
+  }
+]

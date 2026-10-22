@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101720">
+  <title>Title Demo · Maps</title>
+  <link rel="icon" href="../assets/globe.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../title-demo.css">
+</head>
+<body class="title-demo">
+  <header class="demo-toolbar">
+    <a href="../" class="button subtle">← Maps</a>
+    <div class="demo-heading"><h1>Title demo</h1><p>French departments</p></div>
+    <label class="demo-toggle"><input id="show-titles" type="checkbox" checked> Show titles</label>
+    <label class="demo-density" for="small-titles">Small titles <select id="small-titles"><option value="adaptive">Zoom or hover</option><option value="always">All fitting titles</option></select></label>
+    <label class="demo-size" for="title-size">Text size <input id="title-size" type="range" min="10" max="18" value="12" step="1"><output id="size-value" for="title-size">12</output></label>
+    <button id="reset-view" class="button subtle" disabled>Fit map</button>
+  </header>
+  <main class="demo-main">
+    <div id="demo-map" class="map-surface" aria-label="French department title placement experiment" aria-busy="true">
+      <div id="hover-title" class="hover-title" hidden>
+        <svg aria-hidden="true"><path id="hover-title-link"/><circle id="hover-title-anchor" r="2.5"/></svg>
+        <div id="hover-title-name" role="status"></div>
+      </div>
+    </div>
+    <div class="demo-footer">
+      <label class="sr-only" for="department-picker">Focus a department</label>
+      <select id="department-picker" disabled><option value="">Find a department…</option></select>
+      <p id="demo-status" role="status">Loading map…</p>
+      <p class="demo-hint">Zoom for smaller names · Hover or tap a hidden title for a linked pill</p>
+    </div>
+    <div id="demo-error" class="load-error" hidden><p>Couldn’t load the map.</p><button class="button" id="demo-reload">Try again</button></div>
+  </main>
+  <script type="module" src="../title-demo.js"></script>
+</body>
+</html>

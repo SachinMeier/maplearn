@@ -1,0 +1,1153 @@
+{
+  "id": "nyc-manhattan",
+  "title": "Manhattan Neighborhoods",
+  "source": {
+    "file": "assets/maps/sources/nyc-colloquial-neighborhoods.geojson.gz",
+    "sha256": "c79fc3f434c229b0b57de1554f4220ec27bc1e4db04e4de2518ae7a2ce2877b0",
+    "url": "https://raw.githubusercontent.com/chriswhong/nyc-neighborhood-boundaries/a14c924b16ce659d034ab15a8f45229b05a1f1f5/dist/nyc-neighborhood-boundaries.geojson",
+    "attribution": "Chris Whong / NYC Neighborhood Boundaries contributors, derived from Zillow (2017); commit a14c924b16ce659d034ab15a8f45229b05a1f1f5",
+    "license": "CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/",
+    "modifications": "Borough extraction, duplicate merging, nonresidential context classification, overlap partition (smaller sub-neighborhoods first), shared-edge noding, projection, rounding, SVG and thumbnail conversion. Derived NYC map assets are CC BY-SA 4.0."
+  },
+  "projection": "Local equirectangular, standard parallel 40.73° N",
+  "viewBox": [
+    0,
+    0,
+    668.27,
+    1200
+  ],
+  "wrapping": false,
+  "coordinateDecimals": 3,
+  "simplification": false,
+  "note": "Approximate colloquial boundaries, not official districts. Sub-neighborhoods take precedence over overlapping parent neighborhoods; the parent label applies to its remaining area. Parks start green; other nonresidential areas are muted context. Every playable area is distinct. Derived map licensed CC BY-SA 4.0.",
+  "stats": {
+    "playable": 64,
+    "context": 6,
+    "arcs": 286,
+    "sharedArcs": 164,
+    "vertices": 4306,
+    "svgBytes": 173711
+  },
+  "regions": {
+    "alphabet-city-manhattan": {
+      "name": "Alphabet City",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        325.359,
+        927.973
+      ],
+      "focusBox": [
+        293.585,
+        899.813,
+        55.47,
+        61.6
+      ],
+      "polygons": 1
+    },
+    "battery-park-city-manhattan": {
+      "name": "Battery Park City",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        160.13,
+        994.734
+      ],
+      "focusBox": [
+        141.173,
+        963.933,
+        35.075,
+        93.701
+      ],
+      "polygons": 1
+    },
+    "bowery-manhattan": {
+      "name": "Bowery",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        276.152,
+        934.748
+      ],
+      "focusBox": [
+        249.805,
+        919.552,
+        40.1,
+        70.106
+      ],
+      "polygons": 1
+    },
+    "carnegie-hill-manhattan": {
+      "name": "Carnegie Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        431.566,
+        590.309
+      ],
+      "focusBox": [
+        407.976,
+        558.748,
+        51.414,
+        55.064
+      ],
+      "polygons": 1
+    },
+    "chelsea-manhattan": {
+      "name": "Chelsea",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        225.54,
+        806.67
+      ],
+      "focusBox": [
+        173.496,
+        753.627,
+        108.276,
+        105.046
+      ],
+      "polygons": 1
+    },
+    "chinatown-manhattan": {
+      "name": "Chinatown",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        250.355,
+        996.049
+      ],
+      "focusBox": [
+        218.051,
+        966.861,
+        45.734,
+        42.746
+      ],
+      "polygons": 1
+    },
+    "civic-center-manhattan": {
+      "name": "Civic Center",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        223.534,
+        1001.578
+      ],
+      "focusBox": [
+        208.759,
+        987.28,
+        31.335,
+        25.517
+      ],
+      "polygons": 1
+    },
+    "columbus-circle-manhattan": {
+      "name": "Columbus Circle",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        306.512,
+        678.183
+      ],
+      "focusBox": [
+        293.804,
+        655.271,
+        31.852,
+        41.068
+      ],
+      "polygons": 1
+    },
+    "context-central-park-manhattan": {
+      "name": "Central Park",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        427.691,
+        515.389
+      ],
+      "focusBox": [
+        315.186,
+        483.905,
+        144.114,
+        215.557
+      ],
+      "polygons": 1
+    },
+    "context-ellis-island-manhattan": {
+      "name": "Ellis Island",
+      "playable": false,
+      "park": false,
+      "anchor": [
+        54.603,
+        1080.561
+      ],
+      "focusBox": [
+        51.036,
+        1075.793,
+        9.951,
+        10.577
+      ],
+      "polygons": 1
+    },
+    "context-governors-island-manhattan": {
+      "name": "Governors Island",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        156.411,
+        1137.572
+      ],
+      "focusBox": [
+        108.362,
+        1113.904,
+        74.709,
+        66.096
+      ],
+      "polygons": 1
+    },
+    "context-liberty-island-manhattan": {
+      "name": "Liberty Island",
+      "playable": false,
+      "park": false,
+      "anchor": [
+        29.109,
+        1139.491
+      ],
+      "focusBox": [
+        20,
+        1131.798,
+        16.908,
+        15.633
+      ],
+      "polygons": 1
+    },
+    "context-mill-rock-park-manhattan": {
+      "name": "Mill Rock Park",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        508.757,
+        603.377
+      ],
+      "focusBox": [
+        498.642,
+        592.855,
+        17.083,
+        21.85
+      ],
+      "polygons": 1
+    },
+    "context-randals-wards-island-manhattan": {
+      "name": "Randalls and Wards Islands",
+      "playable": false,
+      "park": true,
+      "anchor": [
+        584.827,
+        524.899
+      ],
+      "focusBox": [
+        514.479,
+        474.558,
+        108.035,
+        131.505
+      ],
+      "polygons": 1
+    },
+    "curry-hill-manhattan": {
+      "name": "Little India",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        304.689,
+        838.13
+      ],
+      "focusBox": [
+        302.715,
+        818.338,
+        13.452,
+        21.78
+      ],
+      "polygons": 1
+    },
+    "diamond-district-manhattan": {
+      "name": "Diamond District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        315.615,
+        737.461
+      ],
+      "focusBox": [
+        312.617,
+        734.474,
+        16.76,
+        11.789
+      ],
+      "polygons": 1
+    },
+    "east-harlem-manhattan": {
+      "name": "East Harlem",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        480.871,
+        544.693
+      ],
+      "focusBox": [
+        429.595,
+        379.858,
+        125.042,
+        212.133
+      ],
+      "polygons": 1
+    },
+    "east-village-manhattan": {
+      "name": "East Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        293.419,
+        912.23
+      ],
+      "focusBox": [
+        269.852,
+        882.738,
+        93.219,
+        87.37
+      ],
+      "polygons": 1
+    },
+    "financial-district-manhattan": {
+      "name": "Financial District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        182.574,
+        1051.848
+      ],
+      "focusBox": [
+        148.668,
+        998.922,
+        91.957,
+        87.578
+      ],
+      "polygons": 1
+    },
+    "flatiron-district-manhattan": {
+      "name": "Flatiron District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        273.574,
+        835.898
+      ],
+      "focusBox": [
+        246.111,
+        818.173,
+        57.835,
+        48.577
+      ],
+      "polygons": 1
+    },
+    "flower-district-manhattan": {
+      "name": "Flower District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        263.824,
+        801.523
+      ],
+      "focusBox": [
+        260.482,
+        798.197,
+        15.083,
+        11.34
+      ],
+      "polygons": 1
+    },
+    "fort-george-manhattan": {
+      "name": "Fort George",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        556.584,
+        159.193
+      ],
+      "focusBox": [
+        518.522,
+        100.487,
+        63.39,
+        111.121
+      ],
+      "polygons": 1
+    },
+    "garment-district-manhattan": {
+      "name": "Garment District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        283.28,
+        761.053
+      ],
+      "focusBox": [
+        261.186,
+        741.211,
+        56.474,
+        51.858
+      ],
+      "polygons": 1
+    },
+    "gramercy-manhattan": {
+      "name": "Gramercy",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        314.205,
+        865.468
+      ],
+      "focusBox": [
+        282.312,
+        845.962,
+        45.835,
+        48.309
+      ],
+      "polygons": 1
+    },
+    "greenwich-village-manhattan": {
+      "name": "Greenwich Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        243.366,
+        883.623
+      ],
+      "focusBox": [
+        208.275,
+        851.629,
+        81.105,
+        75.062
+      ],
+      "polygons": 2
+    },
+    "hamilton-heights-manhattan": {
+      "name": "Hamilton Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        441.49,
+        343.196
+      ],
+      "focusBox": [
+        409.451,
+        281.034,
+        84.897,
+        105.478
+      ],
+      "polygons": 1
+    },
+    "harlem-manhattan": {
+      "name": "Harlem",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        501.068,
+        371.084
+      ],
+      "focusBox": [
+        412.772,
+        308.137,
+        119.219,
+        198.404
+      ],
+      "polygons": 1
+    },
+    "hells-kitchen-manhattan": {
+      "name": "Hell's Kitchen",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        271.076,
+        696.743
+      ],
+      "focusBox": [
+        224.708,
+        649.676,
+        81.796,
+        95.429
+      ],
+      "polygons": 1
+    },
+    "herald-square-manhattan": {
+      "name": "Herald Square",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        288.979,
+        786.364
+      ],
+      "focusBox": [
+        276.78,
+        775.602,
+        21.05,
+        19.819
+      ],
+      "polygons": 1
+    },
+    "hudson-heights-manhattan": {
+      "name": "Hudson Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        511.695,
+        157.951
+      ],
+      "focusBox": [
+        482.519,
+        89.453,
+        75.089,
+        101.05
+      ],
+      "polygons": 1
+    },
+    "hudson-square-manhattan": {
+      "name": "Hudson Square",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        196.029,
+        919.988
+      ],
+      "focusBox": [
+        159.847,
+        905.154,
+        48.392,
+        37.609
+      ],
+      "polygons": 1
+    },
+    "hudson-yards-manhattan": {
+      "name": "Hudson Yards",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        220.689,
+        748.536
+      ],
+      "focusBox": [
+        192.345,
+        720.1,
+        51.512,
+        51.414
+      ],
+      "polygons": 1
+    },
+    "inwood-manhattan": {
+      "name": "Inwood",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        591.177,
+        81.94
+      ],
+      "focusBox": [
+        529.851,
+        24.508,
+        107.235,
+        137.36
+      ],
+      "polygons": 1
+    },
+    "kips-bay-manhattan": {
+      "name": "Kips Bay",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        333.09,
+        837.533
+      ],
+      "focusBox": [
+        300.346,
+        805.101,
+        62.73,
+        70.33
+      ],
+      "polygons": 1
+    },
+    "koreatown-manhattan": {
+      "name": "Koreatown",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        282.502,
+        792.739
+      ],
+      "focusBox": [
+        279.595,
+        789.839,
+        21.112,
+        14.25
+      ],
+      "polygons": 1
+    },
+    "le-petit-senegal-manhattan": {
+      "name": "Le Petit Sénégal",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        453.994,
+        474.253
+      ],
+      "focusBox": [
+        428.465,
+        456.364,
+        33.547,
+        26.014
+      ],
+      "polygons": 1
+    },
+    "lenox-hill-manhattan": {
+      "name": "Lenox Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        418.242,
+        686.324
+      ],
+      "focusBox": [
+        367.652,
+        639.921,
+        99.201,
+        97.073
+      ],
+      "polygons": 1
+    },
+    "lincoln-square-manhattan": {
+      "name": "Lincoln Square",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        292.837,
+        633.281
+      ],
+      "focusBox": [
+        245.067,
+        595.924,
+        94.206,
+        74.599
+      ],
+      "polygons": 1
+    },
+    "little-italy-manhattan": {
+      "name": "Little Italy",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        238.757,
+        968.455
+      ],
+      "focusBox": [
+        228.482,
+        954.498,
+        27.67,
+        25.589
+      ],
+      "polygons": 1
+    },
+    "lower-east-side-manhattan": {
+      "name": "Lower East Side",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        303.648,
+        991.199
+      ],
+      "focusBox": [
+        260.953,
+        943.61,
+        93.664,
+        87.294
+      ],
+      "polygons": 3
+    },
+    "manhattan-valley-manhattan": {
+      "name": "Manhattan Valley",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        393.159,
+        491.35
+      ],
+      "focusBox": [
+        358.575,
+        463.266,
+        60.047,
+        73.637
+      ],
+      "polygons": 1
+    },
+    "manhattanville-manhattan": {
+      "name": "Manhattanville",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        441.404,
+        394.536
+      ],
+      "focusBox": [
+        402.629,
+        349.495,
+        61.718,
+        74.708
+      ],
+      "polygons": 1
+    },
+    "marble-hill-manhattan": {
+      "name": "Marble Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        631.537,
+        37.954
+      ],
+      "focusBox": [
+        611.205,
+        20,
+        37.065,
+        45.138
+      ],
+      "polygons": 1
+    },
+    "meatpacking-district-manhattan": {
+      "name": "Meatpacking District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        198.316,
+        839.84
+      ],
+      "focusBox": [
+        187.988,
+        829.128,
+        21.058,
+        17.946
+      ],
+      "polygons": 1
+    },
+    "midtown-east-manhattan": {
+      "name": "Midtown East",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        358.657,
+        719.658
+      ],
+      "focusBox": [
+        317.66,
+        699.462,
+        84.563,
+        84.455
+      ],
+      "polygons": 1
+    },
+    "midtown-west-manhattan": {
+      "name": "Midtown West",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        255.629,
+        750.935
+      ],
+      "focusBox": [
+        207.338,
+        641.412,
+        68.129,
+        129.552
+      ],
+      "polygons": 4
+    },
+    "morningside-heights-manhattan": {
+      "name": "Morningside Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        405.129,
+        429.962
+      ],
+      "focusBox": [
+        358.203,
+        373.049,
+        86.215,
+        107.62
+      ],
+      "polygons": 1
+    },
+    "mount-morris-park-manhattan": {
+      "name": "Mount Morris Park",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        476.259,
+        460.601
+      ],
+      "focusBox": [
+        446.1,
+        432.419,
+        54.985,
+        58.915
+      ],
+      "polygons": 1
+    },
+    "murray-hill-manhattan": {
+      "name": "Murray Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        356.016,
+        804.055
+      ],
+      "focusBox": [
+        301.223,
+        763.31,
+        78.76,
+        64.256
+      ],
+      "polygons": 1
+    },
+    "noho-manhattan": {
+      "name": "NoHo",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        258.264,
+        921.831
+      ],
+      "focusBox": [
+        242.978,
+        896.761,
+        34.22,
+        39.708
+      ],
+      "polygons": 1
+    },
+    "nolita-manhattan": {
+      "name": "Nolita",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        251.143,
+        951.327
+      ],
+      "focusBox": [
+        238.581,
+        930.471,
+        26.544,
+        33.361
+      ],
+      "polygons": 1
+    },
+    "nomad-manhattan": {
+      "name": "NoMad",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        297.698,
+        818.235
+      ],
+      "focusBox": [
+        268.528,
+        789.53,
+        54.268,
+        48.095
+      ],
+      "polygons": 1
+    },
+    "roosevelt-island-manhattan": {
+      "name": "Roosevelt Island",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        489.98,
+        666.029
+      ],
+      "focusBox": [
+        399.908,
+        642.914,
+        105.104,
+        149.794
+      ],
+      "polygons": 1
+    },
+    "soho-manhattan": {
+      "name": "SoHo",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        226.688,
+        938.505
+      ],
+      "focusBox": [
+        204.03,
+        910.543,
+        47.64,
+        57.004
+      ],
+      "polygons": 1
+    },
+    "south-street-seaport-manhattan": {
+      "name": "South Street Seaport",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        217.728,
+        1042.897
+      ],
+      "focusBox": [
+        204.815,
+        1023.178,
+        27.773,
+        33.64
+      ],
+      "polygons": 1
+    },
+    "stuvesant-square-manhattan": {
+      "name": "Stuyvesant Square",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        300.662,
+        878.961
+      ],
+      "focusBox": [
+        289.609,
+        867.818,
+        28.526,
+        25.737
+      ],
+      "polygons": 1
+    },
+    "stuyvesant-town-peter-cooper-village-manhattan": {
+      "name": "Stuyvesant Town - Peter Cooper Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        335.223,
+        886.972
+      ],
+      "focusBox": [
+        310.125,
+        861.458,
+        53.941,
+        61.909
+      ],
+      "polygons": 1
+    },
+    "sugar-hill-manhattan": {
+      "name": "Sugar Hill",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        490.88,
+        314.619
+      ],
+      "focusBox": [
+        466.544,
+        300.997,
+        35.599,
+        46.759
+      ],
+      "polygons": 1
+    },
+    "sutton-place-manhattan": {
+      "name": "Sutton Place",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        406.374,
+        740.794
+      ],
+      "focusBox": [
+        389.849,
+        726.844,
+        30.974,
+        32.402
+      ],
+      "polygons": 1
+    },
+    "theater-district-manhattan": {
+      "name": "Theater District",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        307.23,
+        712.98
+      ],
+      "focusBox": [
+        277.618,
+        696.191,
+        50.248,
+        58.98
+      ],
+      "polygons": 1
+    },
+    "times-square-manhattan": {
+      "name": "Times Square",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        300.141,
+        727.904
+      ],
+      "focusBox": [
+        287.61,
+        721.686,
+        18.391,
+        29.753
+      ],
+      "polygons": 1
+    },
+    "tribeca-manhattan": {
+      "name": "Tribeca",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        199.241,
+        971.036
+      ],
+      "focusBox": [
+        154.249,
+        923.278,
+        75.591,
+        88.969
+      ],
+      "polygons": 1
+    },
+    "turtle-bay-manhattan": {
+      "name": "Turtle Bay",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        371,
+        765.967
+      ],
+      "focusBox": [
+        338.907,
+        734.101,
+        67.5,
+        63.671
+      ],
+      "polygons": 1
+    },
+    "two-bridges-manhattan": {
+      "name": "Two Bridges",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        242.754,
+        1020.769
+      ],
+      "focusBox": [
+        216.447,
+        1006.285,
+        53.887,
+        29.179
+      ],
+      "polygons": 1
+    },
+    "union-square-manhattan": {
+      "name": "Union Square",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        278.069,
+        864.736
+      ],
+      "focusBox": [
+        260.554,
+        848.505,
+        31.834,
+        30.593
+      ],
+      "polygons": 1
+    },
+    "upper-east-side-manhattan": {
+      "name": "Upper East Side",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        414.894,
+        620.346
+      ],
+      "focusBox": [
+        352.914,
+        596.919,
+        118.367,
+        110.771
+      ],
+      "polygons": 2
+    },
+    "upper-west-side-manhattan": {
+      "name": "Upper West Side",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        343.45,
+        550.252
+      ],
+      "focusBox": [
+        281.204,
+        450.939,
+        108.33,
+        177.5
+      ],
+      "polygons": 1
+    },
+    "washington-heights-manhattan": {
+      "name": "Washington Heights",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        507.464,
+        228.21
+      ],
+      "focusBox": [
+        452.133,
+        174.893,
+        103.198,
+        150.22
+      ],
+      "polygons": 4
+    },
+    "west-village-manhattan": {
+      "name": "West Village",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        196.167,
+        875.075
+      ],
+      "focusBox": [
+        163.783,
+        823.402,
+        69.582,
+        87.147
+      ],
+      "polygons": 1
+    },
+    "yorkville-manhattan": {
+      "name": "Yorkville",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        464.874,
+        626.929
+      ],
+      "focusBox": [
+        423.467,
+        575.648,
+        72.777,
+        91.051
+      ],
+      "polygons": 1
+    }
+  }
+}

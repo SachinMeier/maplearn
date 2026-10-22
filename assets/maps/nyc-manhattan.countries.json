@@ -1,0 +1,322 @@
+[
+  {
+    "code": "alphabet-city-manhattan",
+    "name": "Alphabet City",
+    "microstate": false
+  },
+  {
+    "code": "battery-park-city-manhattan",
+    "name": "Battery Park City",
+    "microstate": false
+  },
+  {
+    "code": "bowery-manhattan",
+    "name": "Bowery",
+    "microstate": false
+  },
+  {
+    "code": "carnegie-hill-manhattan",
+    "name": "Carnegie Hill",
+    "microstate": false
+  },
+  {
+    "code": "chelsea-manhattan",
+    "name": "Chelsea",
+    "microstate": false
+  },
+  {
+    "code": "chinatown-manhattan",
+    "name": "Chinatown",
+    "microstate": false
+  },
+  {
+    "code": "civic-center-manhattan",
+    "name": "Civic Center",
+    "microstate": false
+  },
+  {
+    "code": "columbus-circle-manhattan",
+    "name": "Columbus Circle",
+    "microstate": false
+  },
+  {
+    "code": "curry-hill-manhattan",
+    "name": "Little India",
+    "microstate": false
+  },
+  {
+    "code": "diamond-district-manhattan",
+    "name": "Diamond District",
+    "microstate": false
+  },
+  {
+    "code": "east-harlem-manhattan",
+    "name": "East Harlem",
+    "microstate": false
+  },
+  {
+    "code": "east-village-manhattan",
+    "name": "East Village",
+    "microstate": false
+  },
+  {
+    "code": "financial-district-manhattan",
+    "name": "Financial District",
+    "microstate": false
+  },
+  {
+    "code": "flatiron-district-manhattan",
+    "name": "Flatiron District",
+    "microstate": false
+  },
+  {
+    "code": "flower-district-manhattan",
+    "name": "Flower District",
+    "microstate": false
+  },
+  {
+    "code": "fort-george-manhattan",
+    "name": "Fort George",
+    "microstate": false
+  },
+  {
+    "code": "garment-district-manhattan",
+    "name": "Garment District",
+    "microstate": false
+  },
+  {
+    "code": "gramercy-manhattan",
+    "name": "Gramercy",
+    "microstate": false
+  },
+  {
+    "code": "greenwich-village-manhattan",
+    "name": "Greenwich Village",
+    "microstate": false
+  },
+  {
+    "code": "hamilton-heights-manhattan",
+    "name": "Hamilton Heights",
+    "microstate": false
+  },
+  {
+    "code": "harlem-manhattan",
+    "name": "Harlem",
+    "microstate": false
+  },
+  {
+    "code": "hells-kitchen-manhattan",
+    "name": "Hell's Kitchen",
+    "microstate": false
+  },
+  {
+    "code": "herald-square-manhattan",
+    "name": "Herald Square",
+    "microstate": false
+  },
+  {
+    "code": "hudson-heights-manhattan",
+    "name": "Hudson Heights",
+    "microstate": false
+  },
+  {
+    "code": "hudson-square-manhattan",
+    "name": "Hudson Square",
+    "microstate": false
+  },
+  {
+    "code": "hudson-yards-manhattan",
+    "name": "Hudson Yards",
+    "microstate": false
+  },
+  {
+    "code": "inwood-manhattan",
+    "name": "Inwood",
+    "microstate": false
+  },
+  {
+    "code": "kips-bay-manhattan",
+    "name": "Kips Bay",
+    "microstate": false
+  },
+  {
+    "code": "koreatown-manhattan",
+    "name": "Koreatown",
+    "microstate": false
+  },
+  {
+    "code": "le-petit-senegal-manhattan",
+    "name": "Le Petit Sénégal",
+    "microstate": false
+  },
+  {
+    "code": "lenox-hill-manhattan",
+    "name": "Lenox Hill",
+    "microstate": false
+  },
+  {
+    "code": "lincoln-square-manhattan",
+    "name": "Lincoln Square",
+    "microstate": false
+  },
+  {
+    "code": "little-italy-manhattan",
+    "name": "Little Italy",
+    "microstate": false
+  },
+  {
+    "code": "lower-east-side-manhattan",
+    "name": "Lower East Side",
+    "microstate": false
+  },
+  {
+    "code": "manhattan-valley-manhattan",
+    "name": "Manhattan Valley",
+    "microstate": false
+  },
+  {
+    "code": "manhattanville-manhattan",
+    "name": "Manhattanville",
+    "microstate": false
+  },
+  {
+    "code": "marble-hill-manhattan",
+    "name": "Marble Hill",
+    "microstate": false
+  },
+  {
+    "code": "meatpacking-district-manhattan",
+    "name": "Meatpacking District",
+    "microstate": false
+  },
+  {
+    "code": "midtown-east-manhattan",
+    "name": "Midtown East",
+    "microstate": false
+  },
+  {
+    "code": "midtown-west-manhattan",
+    "name": "Midtown West",
+    "microstate": false
+  },
+  {
+    "code": "morningside-heights-manhattan",
+    "name": "Morningside Heights",
+    "microstate": false
+  },
+  {
+    "code": "mount-morris-park-manhattan",
+    "name": "Mount Morris Park",
+    "microstate": false
+  },
+  {
+    "code": "murray-hill-manhattan",
+    "name": "Murray Hill",
+    "microstate": false
+  },
+  {
+    "code": "noho-manhattan",
+    "name": "NoHo",
+    "microstate": false
+  },
+  {
+    "code": "nolita-manhattan",
+    "name": "Nolita",
+    "microstate": false
+  },
+  {
+    "code": "nomad-manhattan",
+    "name": "NoMad",
+    "microstate": false
+  },
+  {
+    "code": "roosevelt-island-manhattan",
+    "name": "Roosevelt Island",
+    "microstate": false
+  },
+  {
+    "code": "soho-manhattan",
+    "name": "SoHo",
+    "microstate": false
+  },
+  {
+    "code": "south-street-seaport-manhattan",
+    "name": "South Street Seaport",
+    "microstate": false
+  },
+  {
+    "code": "stuvesant-square-manhattan",
+    "name": "Stuyvesant Square",
+    "microstate": false
+  },
+  {
+    "code": "stuyvesant-town-peter-cooper-village-manhattan",
+    "name": "Stuyvesant Town - Peter Cooper Village",
+    "microstate": false
+  },
+  {
+    "code": "sugar-hill-manhattan",
+    "name": "Sugar Hill",
+    "microstate": false
+  },
+  {
+    "code": "sutton-place-manhattan",
+    "name": "Sutton Place",
+    "microstate": false
+  },
+  {
+    "code": "theater-district-manhattan",
+    "name": "Theater District",
+    "microstate": false
+  },
+  {
+    "code": "times-square-manhattan",
+    "name": "Times Square",
+    "microstate": false
+  },
+  {
+    "code": "tribeca-manhattan",
+    "name": "Tribeca",
+    "microstate": false
+  },
+  {
+    "code": "turtle-bay-manhattan",
+    "name": "Turtle Bay",
+    "microstate": false
+  },
+  {
+    "code": "two-bridges-manhattan",
+    "name": "Two Bridges",
+    "microstate": false
+  },
+  {
+    "code": "union-square-manhattan",
+    "name": "Union Square",
+    "microstate": false
+  },
+  {
+    "code": "upper-east-side-manhattan",
+    "name": "Upper East Side",
+    "microstate": false
+  },
+  {
+    "code": "upper-west-side-manhattan",
+    "name": "Upper West Side",
+    "microstate": false
+  },
+  {
+    "code": "washington-heights-manhattan",
+    "name": "Washington Heights",
+    "microstate": false
+  },
+  {
+    "code": "west-village-manhattan",
+    "name": "West Village",
+    "microstate": false
+  },
+  {
+    "code": "yorkville-manhattan",
+    "name": "Yorkville",
+    "microstate": false
+  }
+]

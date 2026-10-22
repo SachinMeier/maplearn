@@ -1,0 +1,681 @@
+{
+  "id": "north-america",
+  "name": "North America",
+  "source": {
+    "file": "assets/maps/world.svg",
+    "sha256": "aabf1b4d24c76023ffab29551682a67464ed20cad812acdd48bb45912ffb4c2a"
+  },
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    -100,
+    146.67083,
+    1800,
+    1123.046505
+  ],
+  "extent": [
+    -190,
+    5,
+    -10,
+    85
+  ],
+  "wrapWidth": null,
+  "cropBoundary": null,
+  "countries": {
+    "CA": {
+      "code": "CA",
+      "name": "Canada",
+      "microstate": false,
+      "anchor": [
+        637.387437,
+        647.909945
+      ],
+      "focusBox": [
+        389.944,
+        434.456,
+        853.891,
+        442.894
+      ],
+      "polygons": 412
+    },
+    "US": {
+      "code": "US",
+      "name": "United States",
+      "microstate": false,
+      "anchor": [
+        818.320453,
+        902.01616
+      ],
+      "focusBox": [
+        552.654,
+        781.565,
+        577.573,
+        281.663
+      ],
+      "polygons": 344
+    },
+    "GL": {
+      "code": "GL",
+      "name": "Greenland",
+      "microstate": true,
+      "anchor": [
+        1395.712935,
+        359.859971
+      ],
+      "focusBox": [
+        1069.428,
+        182.301,
+        616.804,
+        451.902
+      ],
+      "polygons": 128
+    },
+    "MX": {
+      "code": "MX",
+      "name": "Mexico",
+      "microstate": false,
+      "anchor": [
+        781.431342,
+        1078.875152
+      ],
+      "focusBox": [
+        628.749,
+        980.623,
+        303.835,
+        192.662
+      ],
+      "polygons": 51
+    },
+    "NI": {
+      "code": "NI",
+      "name": "Nicaragua",
+      "microstate": false,
+      "anchor": [
+        948.114952,
+        1193.66356
+      ],
+      "focusBox": [
+        923.142,
+        1168.333,
+        45.554,
+        43.888
+      ],
+      "polygons": 5
+    },
+    "CU": {
+      "code": "CU",
+      "name": "Cuba",
+      "microstate": false,
+      "anchor": [
+        1035.435246,
+        1111.108928
+      ],
+      "focusBox": [
+        950.504,
+        1083.46,
+        108.167,
+        35.437
+      ],
+      "polygons": 41
+    },
+    "HN": {
+      "code": "HN",
+      "name": "Honduras",
+      "microstate": false,
+      "anchor": [
+        928.529047,
+        1171.366613
+      ],
+      "focusBox": [
+        906.362,
+        1158.07,
+        62.334,
+        31.174
+      ],
+      "polygons": 7
+    },
+    "GT": {
+      "code": "GT",
+      "name": "Guatemala",
+      "microstate": false,
+      "anchor": [
+        890.654438,
+        1168.724985
+      ],
+      "focusBox": [
+        877.537,
+        1139.731,
+        40.254,
+        41.864
+      ],
+      "polygons": 1
+    },
+    "PA": {
+      "code": "PA",
+      "name": "Panama",
+      "microstate": false,
+      "anchor": [
+        990.777316,
+        1235.949609
+      ],
+      "focusBox": [
+        969.468,
+        1223.174,
+        58.899,
+        24.405
+      ],
+      "polygons": 15
+    },
+    "DO": {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "microstate": false,
+      "anchor": [
+        1090.906575,
+        1126.326973
+      ],
+      "focusBox": [
+        1079.902,
+        1117.755,
+        36.812,
+        24.155
+      ],
+      "polygons": 3
+    },
+    "CR": {
+      "code": "CR",
+      "name": "Costa Rica",
+      "microstate": false,
+      "anchor": [
+        960.291515,
+        1218.738389
+      ],
+      "focusBox": [
+        940.536,
+        1207.198,
+        33.836,
+        32.043
+      ],
+      "polygons": 4
+    },
+    "HT": {
+      "code": "HT",
+      "name": "Haiti",
+      "microstate": false,
+      "anchor": [
+        1077.593865,
+        1124.985567
+      ],
+      "focusBox": [
+        1055.108,
+        1117.672,
+        28.501,
+        19.893
+      ],
+      "polygons": 5
+    },
+    "BZ": {
+      "code": "BZ",
+      "name": "Belize",
+      "microstate": false,
+      "anchor": [
+        912.897077,
+        1143.351298
+      ],
+      "focusBox": [
+        907.635,
+        1132.761,
+        11.529,
+        26.883
+      ],
+      "polygons": 10
+    },
+    "SV": {
+      "code": "SV",
+      "name": "El Salvador",
+      "microstate": false,
+      "anchor": [
+        907.322209,
+        1179.869386
+      ],
+      "focusBox": [
+        894.852,
+        1170.315,
+        32.216,
+        21.11
+      ],
+      "polygons": 3
+    },
+    "BS": {
+      "code": "BS",
+      "name": "Bahamas",
+      "microstate": false,
+      "anchor": [
+        1020.348417,
+        1068.532517
+      ],
+      "focusBox": [
+        1000.056,
+        1039.895,
+        76.482,
+        71.702
+      ],
+      "polygons": 44
+    },
+    "JM": {
+      "code": "JM",
+      "name": "Jamaica",
+      "microstate": false,
+      "anchor": [
+        1024.718684,
+        1136.099731
+      ],
+      "focusBox": [
+        1012.253,
+        1128.406,
+        29.867,
+        16.489
+      ],
+      "polygons": 1
+    },
+    "PR": {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "microstate": true,
+      "anchor": [
+        1133.422285,
+        1135.40681
+      ],
+      "focusBox": [
+        1116.622,
+        1128.43,
+        33.677332,
+        14.198
+      ],
+      "polygons": 4
+    },
+    "TT": {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "microstate": false,
+      "anchor": [
+        1187.682832,
+        1216.329573
+      ],
+      "focusBox": [
+        1176.713,
+        1201.769,
+        22.066,
+        21.238
+      ],
+      "polygons": 2
+    },
+    "GP": {
+      "code": "GP",
+      "name": "Guadeloupe",
+      "microstate": true,
+      "anchor": [
+        1183.350282,
+        1157.305147
+      ],
+      "focusBox": [
+        1179.904257,
+        1151.026257,
+        12.321487,
+        10.974178
+      ],
+      "polygons": 6
+    },
+    "MQ": {
+      "code": "MQ",
+      "name": "Martinique",
+      "microstate": true,
+      "anchor": [
+        1189.288661,
+        1171.458124
+      ],
+      "focusBox": [
+        1185.22127,
+        1167.436771,
+        9.165459,
+        9.394142
+      ],
+      "polygons": 1
+    },
+    "DM": {
+      "code": "DM",
+      "name": "Dominica",
+      "microstate": false,
+      "anchor": [
+        1186.369251,
+        1163.685653
+      ],
+      "focusBox": [
+        1182.993257,
+        1160.045257,
+        6.631487,
+        8.657487
+      ],
+      "polygons": 1
+    },
+    "LC": {
+      "code": "LC",
+      "name": "Saint Lucia",
+      "microstate": false,
+      "anchor": [
+        1190.154316,
+        1180.13784
+      ],
+      "focusBox": [
+        1187.137383,
+        1175.639383,
+        6.110235,
+        8.203235
+      ],
+      "polygons": 1
+    },
+    "TC": {
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "microstate": true,
+      "anchor": [
+        1081.840993,
+        1098.166626
+      ],
+      "focusBox": [
+        1071.187,
+        1092.642,
+        21.524,
+        15.008
+      ],
+      "polygons": 12
+    },
+    "AG": {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "microstate": false,
+      "anchor": [
+        1181.948582,
+        1147.378259
+      ],
+      "focusBox": [
+        1174.969795,
+        1139.095795,
+        9.90141,
+        11.262352
+      ],
+      "polygons": 3
+    },
+    "CW": {
+      "code": "CW",
+      "name": "Curaçao",
+      "microstate": true,
+      "anchor": [
+        1111.387972,
+        1197.899063
+      ],
+      "focusBox": [
+        1106.438647,
+        1193.375647,
+        8.008706,
+        7.241706
+      ],
+      "polygons": 1
+    },
+    "BB": {
+      "code": "BB",
+      "name": "Barbados",
+      "microstate": false,
+      "anchor": [
+        1204.357544,
+        1187.449069
+      ],
+      "focusBox": [
+        1199.458,
+        1181.534,
+        10.273,
+        10.984
+      ],
+      "polygons": 1
+    },
+    "PM": {
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "microstate": true,
+      "anchor": [
+        1236.734486,
+        811.34628
+      ],
+      "focusBox": [
+        1232.034,
+        806.081,
+        10.518,
+        12.9
+      ],
+      "polygons": 2
+    },
+    "VI": {
+      "code": "VI",
+      "name": "United States Virgin Islands",
+      "microstate": true,
+      "anchor": [
+        1152.193171,
+        1140.456517
+      ],
+      "focusBox": [
+        1147.430996,
+        1131.683996,
+        9.129007,
+        11.576007
+      ],
+      "polygons": 3
+    },
+    "VC": {
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "microstate": false,
+      "anchor": [
+        1187.958444,
+        1186.705574
+      ],
+      "focusBox": [
+        1183.963584,
+        1183.087383,
+        6.875033,
+        9.327766
+      ],
+      "polygons": 5
+    },
+    "GD": {
+      "code": "GD",
+      "name": "Grenada",
+      "microstate": false,
+      "anchor": [
+        1183.145313,
+        1198.242903
+      ],
+      "focusBox": [
+        1178.344792,
+        1190.066792,
+        11.189416,
+        12.847416
+      ],
+      "polygons": 2
+    },
+    "KY": {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "microstate": true,
+      "anchor": [
+        987.592841,
+        1124.164517
+      ],
+      "focusBox": [
+        981.835,
+        1115.627,
+        24.899,
+        13.127
+      ],
+      "polygons": 3
+    },
+    "BQ": {
+      "code": "BQ",
+      "name": "Caribbean Netherlands",
+      "microstate": true,
+      "anchor": [
+        1117.496524,
+        1197.209204
+      ],
+      "focusBox": [
+        1113.981647,
+        1194.200647,
+        5.962706,
+        6.612706
+      ],
+      "polygons": 3
+    },
+    "KN": {
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "microstate": false,
+      "anchor": [
+        1172.295614,
+        1144.629745
+      ],
+      "focusBox": [
+        1169.643336,
+        1142.111336,
+        6.734327,
+        6.738327
+      ],
+      "polygons": 2
+    },
+    "AW": {
+      "code": "AW",
+      "name": "Aruba",
+      "microstate": true,
+      "anchor": [
+        1100.409578,
+        1194.043391
+      ],
+      "focusBox": [
+        1095.885345,
+        1189.285345,
+        8.837309,
+        9.159309
+      ],
+      "polygons": 1
+    },
+    "VG": {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "microstate": true,
+      "anchor": [
+        1153.609073,
+        1133.417778
+      ],
+      "focusBox": [
+        1150.105996,
+        1127.963996,
+        9.341007,
+        8.565007
+      ],
+      "polygons": 6
+    },
+    "MS": {
+      "code": "MS",
+      "name": "Montserrat",
+      "microstate": true,
+      "anchor": [
+        1178.119875,
+        1150.832625
+      ],
+      "focusBox": [
+        1176.151795,
+        1148.449795,
+        3.99041,
+        4.57441
+      ],
+      "polygons": 1
+    },
+    "AI": {
+      "code": "AI",
+      "name": "Anguilla",
+      "microstate": true,
+      "anchor": [
+        1169.733701,
+        1135.319772
+      ],
+      "focusBox": [
+        1165.205798,
+        1131.111798,
+        6.043403,
+        5.480403
+      ],
+      "polygons": 6
+    },
+    "BM": {
+      "code": "BM",
+      "name": "Bermuda",
+      "microstate": true,
+      "anchor": [
+        1153.239319,
+        984.40375
+      ],
+      "focusBox": [
+        1147.14,
+        980.231,
+        10.384,
+        9.562
+      ],
+      "polygons": 2
+    },
+    "MF": {
+      "code": "MF",
+      "name": "Saint Martin",
+      "microstate": true,
+      "anchor": [
+        1169.50676,
+        1136.992336
+      ],
+      "focusBox": [
+        1168.370534,
+        1136.409534,
+        1.683933,
+        1.19264
+      ],
+      "polygons": 1
+    },
+    "BL": {
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "microstate": true,
+      "anchor": [
+        1171.668946,
+        1138.845071
+      ],
+      "focusBox": [
+        1170.472771,
+        1137.709771,
+        2.464458,
+        2.195458
+      ],
+      "polygons": 1
+    },
+    "SX": {
+      "code": "SX",
+      "name": "Sint Maarten",
+      "microstate": true,
+      "anchor": [
+        1169.106277,
+        1137.350996
+      ],
+      "focusBox": [
+        1168.649534,
+        1137.141,
+        1.335933,
+        0.655466
+      ],
+      "polygons": 1
+    }
+  }
+}

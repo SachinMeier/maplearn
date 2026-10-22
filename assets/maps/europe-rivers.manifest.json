@@ -1,0 +1,983 @@
+{
+  "id": "europe-rivers",
+  "title": "European Rivers",
+  "attribution": "Made with Natural Earth",
+  "license": "Public domain",
+  "sources": [
+    {
+      "file": "assets/maps/sources/ne_10m_admin_0_map_units.v5.1.2.geojson.gz",
+      "sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+      "layer": "ne_10m_admin_0_map_units",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+    },
+    {
+      "file": "assets/maps/sources/ne_10m_rivers_lake_centerlines.v5.1.2.geojson.gz",
+      "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+      "layer": "ne_10m_rivers_lake_centerlines",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson"
+    },
+    {
+      "file": "assets/maps/sources/ne_10m_rivers_europe.v5.1.2.geojson.gz",
+      "sha256": "90712202ac46985812e90840df9acd5101599a9c649868d5bc55ee96c2fedd4c",
+      "layer": "ne_10m_rivers_europe",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_europe.geojson"
+    }
+  ],
+  "extent": [
+    -12,
+    35,
+    45,
+    71.5
+  ],
+  "projection": "Albers equal-area (15° E; 43°/62° N)",
+  "viewBox": [
+    0,
+    0,
+    1420,
+    1175.755
+  ],
+  "wrapping": false,
+  "note": "31 selected major European rivers, from Ireland to western Russia. Iceland excluded. National borders are context, not quiz targets. Volga is shown only within the eastern crop. Natural Earth 1:10m, public domain. River strokes and invisible tap targets are enlarged for play, not true river widths.",
+  "selection": "Geographically balanced major rivers, not a length ranking.",
+  "stats": {
+    "playable": 31,
+    "vertices": 11513,
+    "svgBytes": 2979947
+  },
+  "regions": {
+    "shannon": {
+      "name": "Shannon",
+      "focusBox": [
+        262.706,
+        529.541,
+        24.598,
+        36.933
+      ],
+      "anchor": [
+        280.716,
+        553.634
+      ],
+      "vertices": 163,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Shannon",
+          "riverNumber": 668,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Shannon",
+          "riverNumber": 668,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Shannon",
+          "riverNumber": 406652,
+          "type": "River"
+        }
+      ]
+    },
+    "thames": {
+      "name": "Thames",
+      "focusBox": [
+        370.721,
+        622.273,
+        40.594,
+        20.952
+      ],
+      "anchor": [
+        389.22,
+        636.157
+      ],
+      "vertices": 152,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Thames",
+          "riverNumber": 302,
+          "type": "River"
+        }
+      ]
+    },
+    "severn": {
+      "name": "Severn",
+      "focusBox": [
+        347.217,
+        591.731,
+        22.986,
+        30.984
+      ],
+      "anchor": [
+        368.313,
+        596.841
+      ],
+      "vertices": 99,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Severn",
+          "riverNumber": 378,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Severn",
+          "riverNumber": 378,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Severn",
+          "riverNumber": 870,
+          "type": "River"
+        }
+      ]
+    },
+    "loire": {
+      "name": "Loire",
+      "focusBox": [
+        344.873,
+        752.762,
+        110.259,
+        99.352
+      ],
+      "anchor": [
+        412.324,
+        757.315
+      ],
+      "vertices": 351,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Loire",
+          "riverNumber": 178,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Loire",
+          "riverNumber": 178000,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Loire",
+          "riverNumber": 178,
+          "type": "River"
+        }
+      ]
+    },
+    "seine": {
+      "name": "Seine",
+      "focusBox": [
+        401.698,
+        700.846,
+        70.896,
+        72.382
+      ],
+      "anchor": [
+        434.061,
+        729.561
+      ],
+      "vertices": 353,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Seine",
+          "riverNumber": 129,
+          "type": "River"
+        }
+      ]
+    },
+    "somme": {
+      "name": "Somme",
+      "focusBox": [
+        427.123,
+        684.844,
+        31.962,
+        17.529
+      ],
+      "anchor": [
+        447.357,
+        695.046
+      ],
+      "vertices": 56,
+      "sources": [
+        {
+          "source": 2,
+          "name": "Somme",
+          "riverNumber": 408573,
+          "type": "River"
+        }
+      ]
+    },
+    "garonne": {
+      "name": "Garonne",
+      "focusBox": [
+        352.55,
+        831.111,
+        34.093,
+        71.671
+      ],
+      "anchor": [
+        378.899,
+        861.2
+      ],
+      "vertices": 148,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Garonne",
+          "riverNumber": 303,
+          "type": "River"
+        }
+      ]
+    },
+    "rhone": {
+      "name": "Rhône",
+      "focusBox": [
+        448.229,
+        809.128,
+        93.802,
+        82.717
+      ],
+      "anchor": [
+        466.983,
+        832.592
+      ],
+      "vertices": 283,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Rhne",
+          "riverNumber": 255,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Rhône",
+          "riverNumber": 255,
+          "type": "River"
+        }
+      ]
+    },
+    "rhine": {
+      "name": "Rhine",
+      "focusBox": [
+        479.241,
+        638.95,
+        90.272,
+        169.676
+      ],
+      "anchor": [
+        528.052,
+        675.234
+      ],
+      "vertices": 594,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Rhein",
+          "riverNumber": 105,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Rhein",
+          "riverNumber": 105,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Rhin",
+          "riverNumber": 140,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Nederrijn",
+          "riverNumber": 141,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Lek",
+          "riverNumber": 142,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Rhine",
+          "riverNumber": 150,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Waal",
+          "riverNumber": 151,
+          "type": "River"
+        }
+      ]
+    },
+    "meuse": {
+      "name": "Meuse",
+      "focusBox": [
+        480.317,
+        647.036,
+        35.312,
+        114.086
+      ],
+      "anchor": [
+        484.862,
+        709.009
+      ],
+      "vertices": 490,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Maas",
+          "riverNumber": 970,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Maas",
+          "riverNumber": 724,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Maas",
+          "riverNumber": 724,
+          "type": "River"
+        }
+      ]
+    },
+    "elbe": {
+      "name": "Elbe",
+      "focusBox": [
+        585.751,
+        603.525,
+        119.284,
+        108.964
+      ],
+      "anchor": [
+        661.394,
+        699.536
+      ],
+      "vertices": 543,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Elbe",
+          "riverNumber": 160,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Elbe",
+          "riverNumber": 404794,
+          "type": "River"
+        }
+      ]
+    },
+    "oder": {
+      "name": "Oder",
+      "focusBox": [
+        660.084,
+        605.222,
+        78.486,
+        118.017
+      ],
+      "anchor": [
+        702.246,
+        667.112
+      ],
+      "vertices": 424,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Oder",
+          "riverNumber": 130,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Oder",
+          "riverNumber": 403038,
+          "type": "River"
+        }
+      ]
+    },
+    "vistula": {
+      "name": "Vistula",
+      "focusBox": [
+        730.562,
+        580.614,
+        72.05,
+        141.237
+      ],
+      "anchor": [
+        800.906,
+        662.989
+      ],
+      "vertices": 463,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Vistula",
+          "riverNumber": 166,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Vistula",
+          "riverNumber": 166,
+          "type": "River"
+        }
+      ]
+    },
+    "danube": {
+      "name": "Danube",
+      "focusBox": [
+        542.227,
+        741.089,
+        436.315,
+        146.774
+      ],
+      "anchor": [
+        757.958,
+        848.849
+      ],
+      "vertices": 1065,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Danube",
+          "riverNumber": 25,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Donau",
+          "riverNumber": 38,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Bratul Chillia",
+          "riverNumber": 48,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Bratul Sfintu Gheorghe",
+          "riverNumber": 49,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Bratul Sulina",
+          "riverNumber": 50,
+          "type": "River"
+        }
+      ]
+    },
+    "po": {
+      "name": "Po",
+      "focusBox": [
+        510.412,
+        848.636,
+        113.727,
+        16.41
+      ],
+      "anchor": [
+        567.721,
+        856.043
+      ],
+      "vertices": 282,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Po",
+          "riverNumber": 219,
+          "type": "River"
+        }
+      ]
+    },
+    "tiber": {
+      "name": "Tiber",
+      "focusBox": [
+        612.192,
+        897.766,
+        11.424,
+        59.923
+      ],
+      "anchor": [
+        616.144,
+        935.074
+      ],
+      "vertices": 212,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Tevere",
+          "riverNumber": 443,
+          "type": "River"
+        }
+      ]
+    },
+    "douro": {
+      "name": "Douro",
+      "focusBox": [
+        155.264,
+        891.588,
+        138.936,
+        28.057
+      ],
+      "anchor": [
+        246.852,
+        904.796
+      ],
+      "vertices": 303,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Duero",
+          "riverNumber": 304,
+          "type": "River"
+        }
+      ]
+    },
+    "tagus": {
+      "name": "Tagus",
+      "focusBox": [
+        133.566,
+        940.022,
+        169.632,
+        17.694
+      ],
+      "anchor": [
+        249.033,
+        956.742
+      ],
+      "vertices": 283,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Tajo",
+          "riverNumber": 165,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Tajo",
+          "riverNumber": 165,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Tejo",
+          "riverNumber": 198,
+          "type": "River"
+        }
+      ]
+    },
+    "guadiana": {
+      "name": "Guadiana",
+      "focusBox": [
+        144.97,
+        965.27,
+        114.838,
+        45.323
+      ],
+      "anchor": [
+        159.9,
+        974.623
+      ],
+      "vertices": 248,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Guadiana",
+          "riverNumber": 395,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Guadiana",
+          "riverNumber": 395,
+          "type": "River"
+        }
+      ]
+    },
+    "guadalquivir": {
+      "name": "Guadalquivir",
+      "focusBox": [
+        172.397,
+        1007.175,
+        88.004,
+        19.261
+      ],
+      "anchor": [
+        212.041,
+        1009.112
+      ],
+      "vertices": 226,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Guadalquivir",
+          "riverNumber": 723,
+          "type": "River"
+        }
+      ]
+    },
+    "ebro": {
+      "name": "Ebro",
+      "focusBox": [
+        262.607,
+        866.433,
+        96.251,
+        92.006
+      ],
+      "anchor": [
+        314.335,
+        908.569
+      ],
+      "vertices": 337,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Ebro",
+          "riverNumber": 155,
+          "type": "River"
+        }
+      ]
+    },
+    "dnieper": {
+      "name": "Dnieper (Dnipro)",
+      "focusBox": [
+        933.88,
+        497.925,
+        135.406,
+        272.687
+      ],
+      "anchor": [
+        937.193,
+        594.868
+      ],
+      "vertices": 886,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Dnipro",
+          "riverNumber": 116,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Dnipro",
+          "riverNumber": 116,
+          "type": "River"
+        },
+        {
+          "source": 1,
+          "name": "Dnepre",
+          "riverNumber": 121,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Dnepr",
+          "riverNumber": 409004,
+          "type": "River"
+        }
+      ]
+    },
+    "dniester": {
+      "name": "Dniester",
+      "focusBox": [
+        825.06,
+        716.231,
+        164.145,
+        80.568
+      ],
+      "anchor": [
+        908.396,
+        736.914
+      ],
+      "vertices": 670,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Dniester",
+          "riverNumber": 231,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Dniester",
+          "riverNumber": 231,
+          "type": "River"
+        }
+      ]
+    },
+    "don": {
+      "name": "Don",
+      "focusBox": [
+        1068.037,
+        528.276,
+        148.672,
+        191.022
+      ],
+      "anchor": [
+        1135.679,
+        631.248
+      ],
+      "vertices": 752,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Don",
+          "riverNumber": 277,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Don",
+          "riverNumber": 277,
+          "type": "River"
+        }
+      ]
+    },
+    "volga": {
+      "name": "Volga (upper course)",
+      "focusBox": [
+        951.342,
+        407.595,
+        199.553,
+        77.49
+      ],
+      "anchor": [
+        983.75,
+        483.212
+      ],
+      "vertices": 542,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Volga",
+          "riverNumber": 68,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Volga",
+          "riverNumber": 68,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Volga",
+          "riverNumber": 401528,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Volga",
+          "riverNumber": 401528,
+          "type": "Lake Centerline"
+        }
+      ]
+    },
+    "daugava": {
+      "name": "Daugava",
+      "focusBox": [
+        819.042,
+        473.991,
+        131.916,
+        63.88
+      ],
+      "anchor": [
+        907.571,
+        531.064
+      ],
+      "vertices": 472,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Daugava",
+          "riverNumber": 182,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Daugava",
+          "riverNumber": 406056,
+          "type": "River"
+        }
+      ]
+    },
+    "neva": {
+      "name": "Neva",
+      "focusBox": [
+        898.216,
+        379.884,
+        15.083,
+        14.947
+      ],
+      "anchor": [
+        906.906,
+        394.648
+      ],
+      "vertices": 27,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Neva",
+          "riverNumber": 168,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Neva",
+          "riverNumber": 168,
+          "type": "River"
+        }
+      ]
+    },
+    "glomma": {
+      "name": "Glomma",
+      "focusBox": [
+        614.855,
+        328.636,
+        21.545,
+        68.508
+      ],
+      "anchor": [
+        617.932,
+        362.219
+      ],
+      "vertices": 163,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Glomma",
+          "riverNumber": 337,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Glomma",
+          "riverNumber": 408695,
+          "type": "River"
+        }
+      ]
+    },
+    "sava": {
+      "name": "Sava",
+      "focusBox": [
+        650.064,
+        817.726,
+        139.353,
+        52.096
+      ],
+      "anchor": [
+        729.39,
+        857.565
+      ],
+      "vertices": 444,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Sava",
+          "riverNumber": 494,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Sava",
+          "riverNumber": 40306700,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Sava",
+          "riverNumber": 40306700,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Sava",
+          "riverNumber": 40306700,
+          "type": "River"
+        }
+      ]
+    },
+    "kemijoki": {
+      "name": "Kemijoki",
+      "focusBox": [
+        794.78,
+        161.673,
+        55.941,
+        69.946
+      ],
+      "anchor": [
+        830.06,
+        186.134
+      ],
+      "vertices": 249,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Kemijoki",
+          "riverNumber": 268,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Kemijoki",
+          "riverNumber": 268,
+          "type": "River"
+        },
+        {
+          "source": 2,
+          "name": "Kemijoki",
+          "riverNumber": 407264,
+          "type": "River"
+        }
+      ]
+    },
+    "dalalven": {
+      "name": "Dalälven",
+      "focusBox": [
+        633.197,
+        356.531,
+        77.93,
+        53.313
+      ],
+      "anchor": [
+        687.12,
+        401.52
+      ],
+      "vertices": 233,
+      "sources": [
+        {
+          "source": 1,
+          "name": "Dalälven",
+          "riverNumber": 228,
+          "type": "Lake Centerline"
+        },
+        {
+          "source": 1,
+          "name": "Dalälven",
+          "riverNumber": 228,
+          "type": "River"
+        }
+      ]
+    }
+  }
+}

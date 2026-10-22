@@ -1,0 +1,322 @@
+[
+  {
+    "code": "MA-ADAMS",
+    "name": "Adams",
+    "microstate": false
+  },
+  {
+    "code": "MA-AGAWAM",
+    "name": "Agawam",
+    "microstate": false
+  },
+  {
+    "code": "MA-AMHERST",
+    "name": "Amherst",
+    "microstate": false
+  },
+  {
+    "code": "MA-ANDOVER",
+    "name": "Andover",
+    "microstate": false
+  },
+  {
+    "code": "MA-ATHOL",
+    "name": "Athol",
+    "microstate": false
+  },
+  {
+    "code": "MA-ATTLEBORO",
+    "name": "Attleboro",
+    "microstate": false
+  },
+  {
+    "code": "MA-BARNSTABLE",
+    "name": "Barnstable",
+    "microstate": false
+  },
+  {
+    "code": "MA-BOSTON",
+    "name": "Boston",
+    "microstate": false
+  },
+  {
+    "code": "MA-BRAINTREE",
+    "name": "Braintree",
+    "microstate": false
+  },
+  {
+    "code": "MA-BRIDGEWATER",
+    "name": "Bridgewater",
+    "microstate": false
+  },
+  {
+    "code": "MA-BROCKTON",
+    "name": "Brockton",
+    "microstate": false
+  },
+  {
+    "code": "MA-CAMBRIDGE",
+    "name": "Cambridge",
+    "microstate": false
+  },
+  {
+    "code": "MA-CHATHAM",
+    "name": "Chatham",
+    "microstate": false
+  },
+  {
+    "code": "MA-CHICOPEE",
+    "name": "Chicopee",
+    "microstate": false
+  },
+  {
+    "code": "MA-CONCORD",
+    "name": "Concord",
+    "microstate": false
+  },
+  {
+    "code": "MA-EDGARTOWN",
+    "name": "Edgartown",
+    "microstate": false
+  },
+  {
+    "code": "MA-FALL-RIVER",
+    "name": "Fall River",
+    "microstate": false
+  },
+  {
+    "code": "MA-FALMOUTH",
+    "name": "Falmouth",
+    "microstate": false
+  },
+  {
+    "code": "MA-FITCHBURG",
+    "name": "Fitchburg",
+    "microstate": false
+  },
+  {
+    "code": "MA-FRAMINGHAM",
+    "name": "Framingham",
+    "microstate": false
+  },
+  {
+    "code": "MA-FRANKLIN",
+    "name": "Franklin",
+    "microstate": false
+  },
+  {
+    "code": "MA-GARDNER",
+    "name": "Gardner",
+    "microstate": false
+  },
+  {
+    "code": "MA-GLOUCESTER",
+    "name": "Gloucester",
+    "microstate": false
+  },
+  {
+    "code": "MA-GREAT-BARRINGTON",
+    "name": "Great Barrington",
+    "microstate": false
+  },
+  {
+    "code": "MA-GREENFIELD",
+    "name": "Greenfield",
+    "microstate": false
+  },
+  {
+    "code": "MA-HAVERHILL",
+    "name": "Haverhill",
+    "microstate": false
+  },
+  {
+    "code": "MA-HOLYOKE",
+    "name": "Holyoke",
+    "microstate": false
+  },
+  {
+    "code": "MA-HULL",
+    "name": "Hull",
+    "microstate": false
+  },
+  {
+    "code": "MA-IPSWICH",
+    "name": "Ipswich",
+    "microstate": false
+  },
+  {
+    "code": "MA-LENOX",
+    "name": "Lenox",
+    "microstate": false
+  },
+  {
+    "code": "MA-LEOMINSTER",
+    "name": "Leominster",
+    "microstate": false
+  },
+  {
+    "code": "MA-LEXINGTON",
+    "name": "Lexington",
+    "microstate": false
+  },
+  {
+    "code": "MA-LOWELL",
+    "name": "Lowell",
+    "microstate": false
+  },
+  {
+    "code": "MA-LYNN",
+    "name": "Lynn",
+    "microstate": false
+  },
+  {
+    "code": "MA-MARBLEHEAD",
+    "name": "Marblehead",
+    "microstate": false
+  },
+  {
+    "code": "MA-MARLBOROUGH",
+    "name": "Marlborough",
+    "microstate": false
+  },
+  {
+    "code": "MA-MILTON",
+    "name": "Milton",
+    "microstate": false
+  },
+  {
+    "code": "MA-NANTUCKET",
+    "name": "Nantucket",
+    "microstate": false
+  },
+  {
+    "code": "MA-NATICK",
+    "name": "Natick",
+    "microstate": false
+  },
+  {
+    "code": "MA-NEW-BEDFORD",
+    "name": "New Bedford",
+    "microstate": false
+  },
+  {
+    "code": "MA-NEWBURYPORT",
+    "name": "Newburyport",
+    "microstate": false
+  },
+  {
+    "code": "MA-NORFOLK",
+    "name": "Norfolk",
+    "microstate": false
+  },
+  {
+    "code": "MA-NORTH-ADAMS",
+    "name": "North Adams",
+    "microstate": false
+  },
+  {
+    "code": "MA-NORTHAMPTON",
+    "name": "Northampton",
+    "microstate": false
+  },
+  {
+    "code": "MA-NORTHFIELD",
+    "name": "Northfield",
+    "microstate": false
+  },
+  {
+    "code": "MA-PITTSFIELD",
+    "name": "Pittsfield",
+    "microstate": false
+  },
+  {
+    "code": "MA-PLYMOUTH",
+    "name": "Plymouth",
+    "microstate": false
+  },
+  {
+    "code": "MA-PROVINCETOWN",
+    "name": "Provincetown",
+    "microstate": false
+  },
+  {
+    "code": "MA-QUINCY",
+    "name": "Quincy",
+    "microstate": false
+  },
+  {
+    "code": "MA-READING",
+    "name": "Reading",
+    "microstate": false
+  },
+  {
+    "code": "MA-SALEM",
+    "name": "Salem",
+    "microstate": false
+  },
+  {
+    "code": "MA-SALISBURY",
+    "name": "Salisbury",
+    "microstate": false
+  },
+  {
+    "code": "MA-SANDWICH",
+    "name": "Sandwich",
+    "microstate": false
+  },
+  {
+    "code": "MA-SPRINGFIELD",
+    "name": "Springfield",
+    "microstate": false
+  },
+  {
+    "code": "MA-STOUGHTON",
+    "name": "Stoughton",
+    "microstate": false
+  },
+  {
+    "code": "MA-TAUNTON",
+    "name": "Taunton",
+    "microstate": false
+  },
+  {
+    "code": "MA-TEWKSBURY",
+    "name": "Tewksbury",
+    "microstate": false
+  },
+  {
+    "code": "MA-TISBURY",
+    "name": "Tisbury",
+    "microstate": false
+  },
+  {
+    "code": "MA-WAREHAM",
+    "name": "Wareham",
+    "microstate": false
+  },
+  {
+    "code": "MA-WELLESLEY",
+    "name": "Wellesley",
+    "microstate": false
+  },
+  {
+    "code": "MA-WESTFIELD",
+    "name": "Westfield",
+    "microstate": false
+  },
+  {
+    "code": "MA-WEYMOUTH",
+    "name": "Weymouth",
+    "microstate": false
+  },
+  {
+    "code": "MA-WILLIAMSTOWN",
+    "name": "Williamstown",
+    "microstate": false
+  },
+  {
+    "code": "MA-WORCESTER",
+    "name": "Worcester",
+    "microstate": false
+  }
+]

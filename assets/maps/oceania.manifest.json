@@ -1,0 +1,473 @@
+{
+  "id": "oceania",
+  "name": "Oceania",
+  "source": {
+    "file": "assets/maps/world.svg",
+    "sha256": "aabf1b4d24c76023ffab29551682a67464ed20cad812acdd48bb45912ffb4c2a"
+  },
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    2740,
+    999.598539,
+    1450,
+    947.86741
+  ],
+  "extent": [
+    94,
+    -56,
+    239,
+    31
+  ],
+  "wrapWidth": null,
+  "cropBoundary": null,
+  "countries": {
+    "AU": {
+      "code": "AU",
+      "name": "Australia",
+      "microstate": false,
+      "anchor": [
+        3123.426441,
+        1557.426186
+      ],
+      "focusBox": [
+        2931.57,
+        1427.034,
+        404.736,
+        305.259
+      ],
+      "polygons": 96
+    },
+    "ID": {
+      "code": "ID",
+      "name": "Indonesia",
+      "microstate": false,
+      "anchor": [
+        2941.450347,
+        1329.271807
+      ],
+      "focusBox": [
+        2888.555,
+        1275.762,
+        101.562,
+        85.862
+      ],
+      "polygons": 264
+    },
+    "PG": {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "microstate": false,
+      "anchor": [
+        3229.93192,
+        1375.20028
+      ],
+      "focusBox": [
+        3208.492,
+        1345.661,
+        100.248,
+        81.511
+      ],
+      "polygons": 58
+    },
+    "NZ": {
+      "code": "NZ",
+      "name": "New Zealand",
+      "microstate": false,
+      "anchor": [
+        3493.135563,
+        1804.194738
+      ],
+      "focusBox": [
+        3464.665,
+        1748.272,
+        78.599,
+        75.371
+      ],
+      "polygons": 24
+    },
+    "SB": {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "microstate": false,
+      "anchor": [
+        3402.969554,
+        1416.216396
+      ],
+      "focusBox": [
+        3351.08,
+        1381.85,
+        141.179,
+        65.422
+      ],
+      "polygons": 48
+    },
+    "NC": {
+      "code": "NC",
+      "name": "New Caledonia",
+      "microstate": true,
+      "anchor": [
+        3450.907133,
+        1533.520429
+      ],
+      "focusBox": [
+        3432.157,
+        1514.498,
+        85.281,
+        39.85
+      ],
+      "polygons": 11
+    },
+    "FJ": {
+      "code": "FJ",
+      "name": "Fiji",
+      "microstate": false,
+      "anchor": [
+        3579.858997,
+        1499.905675
+      ],
+      "focusBox": [
+        3541.889,
+        1441.146,
+        58.111,
+        103.127
+      ],
+      "polygons": 44
+    },
+    "TL": {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "microstate": false,
+      "anchor": [
+        3054.483372,
+        1408.969929
+      ],
+      "focusBox": [
+        3049.079,
+        1403.035,
+        24.053,
+        11.859
+      ],
+      "polygons": 3
+    },
+    "VU": {
+      "code": "VU",
+      "name": "Vanuatu",
+      "microstate": false,
+      "anchor": [
+        3468.717649,
+        1474.688669
+      ],
+      "focusBox": [
+        3461.205,
+        1447.137,
+        41.784,
+        81.907
+      ],
+      "polygons": 27
+    },
+    "PF": {
+      "code": "PF",
+      "name": "French Polynesia",
+      "microstate": true,
+      "anchor": [
+        3905.346756,
+        1497.839126
+      ],
+      "focusBox": [
+        3850.63,
+        1395.423,
+        203.94,
+        163.856
+      ],
+      "polygons": 88
+    },
+    "WS": {
+      "code": "WS",
+      "name": "Samoa",
+      "microstate": false,
+      "anchor": [
+        3675.95068,
+        1456.942773
+      ],
+      "focusBox": [
+        3668.174,
+        1451.186,
+        19.576213,
+        14.011
+      ],
+      "polygons": 2
+    },
+    "KI": {
+      "code": "KI",
+      "name": "Kiribati",
+      "microstate": false,
+      "anchor": [
+        3826.210576,
+        1301.525673
+      ],
+      "focusBox": [
+        3791.834,
+        1268.493,
+        40.42,
+        38.17
+      ],
+      "polygons": 35
+    },
+    "TO": {
+      "code": "TO",
+      "name": "Tonga",
+      "microstate": false,
+      "anchor": [
+        3648.392495,
+        1535.023009
+      ],
+      "focusBox": [
+        3633.807,
+        1472.592,
+        31.05,
+        78.267
+      ],
+      "polygons": 10
+    },
+    "FM": {
+      "code": "FM",
+      "name": "Micronesia",
+      "microstate": false,
+      "anchor": [
+        3382.3422,
+        1250.769215
+      ],
+      "focusBox": [
+        3287.808,
+        1225.646,
+        99.578,
+        88.93
+      ],
+      "polygons": 20
+    },
+    "MP": {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "microstate": true,
+      "anchor": [
+        3257.326418,
+        1166.744777
+      ],
+      "focusBox": [
+        3245.021,
+        1107.322,
+        17.668,
+        74.218441
+      ],
+      "polygons": 12
+    },
+    "GU": {
+      "code": "GU",
+      "name": "Guam",
+      "microstate": true,
+      "anchor": [
+        3247.101639,
+        1184.974529
+      ],
+      "focusBox": [
+        3242.242,
+        1178.382,
+        11.28,
+        12.205
+      ],
+      "polygons": 1
+    },
+    "PW": {
+      "code": "PW",
+      "name": "Palau",
+      "microstate": false,
+      "anchor": [
+        3145.963547,
+        1243.893828
+      ],
+      "focusBox": [
+        3107.311,
+        1234.619,
+        43.962,
+        59.64
+      ],
+      "polygons": 9
+    },
+    "NU": {
+      "code": "NU",
+      "name": "Niue",
+      "microstate": true,
+      "anchor": [
+        3701.374394,
+        1512.538937
+      ],
+      "focusBox": [
+        3696.496,
+        1507.654,
+        9.675,
+        9.852
+      ],
+      "polygons": 1
+    },
+    "CK": {
+      "code": "CK",
+      "name": "Cook Islands",
+      "microstate": true,
+      "anchor": [
+        3802.289688,
+        1535.125056
+      ],
+      "focusBox": [
+        3797.537,
+        1506.255,
+        33.335,
+        40.406
+      ],
+      "polygons": 13
+    },
+    "AS": {
+      "code": "AS",
+      "name": "American Samoa",
+      "microstate": true,
+      "anchor": [
+        3692.513703,
+        1464.004078
+      ],
+      "focusBox": [
+        3685.135,
+        1426.713,
+        37.26,
+        43.382
+      ],
+      "polygons": 5
+    },
+    "MH": {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "microstate": false,
+      "anchor": [
+        3510.452515,
+        1248.080084
+      ],
+      "focusBox": [
+        3448.822,
+        1168.629,
+        75.476,
+        109.36
+      ],
+      "polygons": 22
+    },
+    "WF": {
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "microstate": true,
+      "anchor": [
+        3638.424586,
+        1453.129539
+      ],
+      "focusBox": [
+        3614.143,
+        1448.602,
+        28.601,
+        19.314
+      ],
+      "polygons": 2
+    },
+    "NF": {
+      "code": "NF",
+      "name": "Norfolk Island",
+      "microstate": true,
+      "anchor": [
+        3479.673974,
+        1618.437968
+      ],
+      "focusBox": [
+        3475.121,
+        1613.996,
+        8.842,
+        8.898
+      ],
+      "polygons": 1
+    },
+    "PN": {
+      "code": "PN",
+      "name": "Pitcairn Islands",
+      "microstate": true,
+      "anchor": [
+        4116.807961,
+        1568.21368
+      ],
+      "focusBox": [
+        4088.469,
+        1559.58,
+        67.75,
+        20.236
+      ],
+      "polygons": 4
+    },
+    "UM": {
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "microstate": true,
+      "anchor": [
+        3779.317912,
+        1260.889826
+      ],
+      "focusBox": [
+        3771.998,
+        1251.219,
+        11.426,
+        13.779
+      ],
+      "polygons": 12
+    },
+    "NR": {
+      "code": "NR",
+      "name": "Nauru",
+      "microstate": false,
+      "anchor": [
+        3469.33151,
+        1324.941545
+      ],
+      "focusBox": [
+        3465.07,
+        1320.662,
+        8.513,
+        8.615
+      ],
+      "polygons": 1
+    },
+    "TV": {
+      "code": "TV",
+      "name": "Tuvalu",
+      "microstate": false,
+      "anchor": [
+        3592.105406,
+        1405.147406
+      ],
+      "focusBox": [
+        3557.253,
+        1372.593,
+        42.747,
+        45.645
+      ],
+      "polygons": 9
+    },
+    "TK": {
+      "code": "TK",
+      "name": "Tokelau",
+      "microstate": true,
+      "anchor": [
+        3688.054277,
+        1413.478254
+      ],
+      "focusBox": [
+        3670.974,
+        1401.394,
+        21.169,
+        16.249
+      ],
+      "polygons": 2
+    }
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "code": "AK",
+    "name": "Alaska",
+    "microstate": false
+  },
+  {
+    "code": "AL",
+    "name": "Alabama",
+    "microstate": false
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "microstate": false
+  },
+  {
+    "code": "AZ",
+    "name": "Arizona",
+    "microstate": false
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "microstate": false
+  },
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "microstate": false
+  },
+  {
+    "code": "CT",
+    "name": "Connecticut",
+    "microstate": false
+  },
+  {
+    "code": "DE",
+    "name": "Delaware",
+    "microstate": false
+  },
+  {
+    "code": "FL",
+    "name": "Florida",
+    "microstate": false
+  },
+  {
+    "code": "GA",
+    "name": "Georgia",
+    "microstate": false
+  },
+  {
+    "code": "HI",
+    "name": "Hawaii",
+    "microstate": false
+  },
+  {
+    "code": "IA",
+    "name": "Iowa",
+    "microstate": false
+  },
+  {
+    "code": "ID",
+    "name": "Idaho",
+    "microstate": false
+  },
+  {
+    "code": "IL",
+    "name": "Illinois",
+    "microstate": false
+  },
+  {
+    "code": "IN",
+    "name": "Indiana",
+    "microstate": false
+  },
+  {
+    "code": "KS",
+    "name": "Kansas",
+    "microstate": false
+  },
+  {
+    "code": "KY",
+    "name": "Kentucky",
+    "microstate": false
+  },
+  {
+    "code": "LA",
+    "name": "Louisiana",
+    "microstate": false
+  },
+  {
+    "code": "MA",
+    "name": "Massachusetts",
+    "microstate": false
+  },
+  {
+    "code": "MD",
+    "name": "Maryland",
+    "microstate": false
+  },
+  {
+    "code": "ME",
+    "name": "Maine",
+    "microstate": false
+  },
+  {
+    "code": "MI",
+    "name": "Michigan",
+    "microstate": false
+  },
+  {
+    "code": "MN",
+    "name": "Minnesota",
+    "microstate": false
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "microstate": false
+  },
+  {
+    "code": "MS",
+    "name": "Mississippi",
+    "microstate": false
+  },
+  {
+    "code": "MT",
+    "name": "Montana",
+    "microstate": false
+  },
+  {
+    "code": "NC",
+    "name": "North Carolina",
+    "microstate": false
+  },
+  {
+    "code": "ND",
+    "name": "North Dakota",
+    "microstate": false
+  },
+  {
+    "code": "NE",
+    "name": "Nebraska",
+    "microstate": false
+  },
+  {
+    "code": "NH",
+    "name": "New Hampshire",
+    "microstate": false
+  },
+  {
+    "code": "NJ",
+    "name": "New Jersey",
+    "microstate": false
+  },
+  {
+    "code": "NM",
+    "name": "New Mexico",
+    "microstate": false
+  },
+  {
+    "code": "NV",
+    "name": "Nevada",
+    "microstate": false
+  },
+  {
+    "code": "NY",
+    "name": "New York",
+    "microstate": false
+  },
+  {
+    "code": "OH",
+    "name": "Ohio",
+    "microstate": false
+  },
+  {
+    "code": "OK",
+    "name": "Oklahoma",
+    "microstate": false
+  },
+  {
+    "code": "OR",
+    "name": "Oregon",
+    "microstate": false
+  },
+  {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "microstate": false
+  },
+  {
+    "code": "RI",
+    "name": "Rhode Island",
+    "microstate": false
+  },
+  {
+    "code": "SC",
+    "name": "South Carolina",
+    "microstate": false
+  },
+  {
+    "code": "SD",
+    "name": "South Dakota",
+    "microstate": false
+  },
+  {
+    "code": "TN",
+    "name": "Tennessee",
+    "microstate": false
+  },
+  {
+    "code": "TX",
+    "name": "Texas",
+    "microstate": false
+  },
+  {
+    "code": "UT",
+    "name": "Utah",
+    "microstate": false
+  },
+  {
+    "code": "VA",
+    "name": "Virginia",
+    "microstate": false
+  },
+  {
+    "code": "VT",
+    "name": "Vermont",
+    "microstate": false
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "microstate": false
+  },
+  {
+    "code": "WI",
+    "name": "Wisconsin",
+    "microstate": false
+  },
+  {
+    "code": "WV",
+    "name": "West Virginia",
+    "microstate": false
+  },
+  {
+    "code": "WY",
+    "name": "Wyoming",
+    "microstate": false
+  }
+]

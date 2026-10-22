@@ -1,0 +1,694 @@
+{
+  "id": "indian-states",
+  "title": "Indian States",
+  "source": {
+    "file": "assets/maps/sources/india-geoboundaries-9469f09.geojson.gz",
+    "sha256": "47aa0acb6f69868daee49143276f3ce323f18905ba7d38d0a86816b405028736",
+    "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1.geojson",
+    "attribution": "DataMeet India community / Election Commission of India, via geoBoundaries gbOpen IND ADM1 (9469f09)",
+    "license": "CC BY 2.5 IN — https://creativecommons.org/licenses/by/2.5/in/",
+    "modifications": "English display names, Albers projection, coordinate rounding, shared-border SVG and thumbnail conversion, and enlarged click circles for small regions."
+  },
+  "projection": "Albers equal-area, central meridian 82° E, standard parallels 12° and 32° N",
+  "viewBox": [
+    0,
+    0,
+    1100,
+    1200
+  ],
+  "wrapping": false,
+  "coordinateDecimals": 3,
+  "simplification": false,
+  "note": "28 states and 8 union territories. Islands remain in geographic position. Dashed circles enlarge small targets. Boundaries follow the source and do not resolve territorial disputes.",
+  "stats": {
+    "playable": 36,
+    "context": 0,
+    "arcs": 615,
+    "sharedArcs": 95,
+    "vertices": 685017,
+    "svgBytes": 27530760
+  },
+  "regions": {
+    "IN-AN": {
+      "name": "Andaman and Nicobar Islands",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        939.856,
+        960.6
+      ],
+      "focusBox": [
+        932.96,
+        947.175,
+        11.039,
+        24.651
+      ],
+      "polygons": 220,
+      "hitArea": null
+    },
+    "IN-AP": {
+      "name": "Andhra Pradesh",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        415.068,
+        886.603
+      ],
+      "focusBox": [
+        338.587,
+        718.094,
+        293.062,
+        253.571
+      ],
+      "polygons": 13,
+      "hitArea": null
+    },
+    "IN-AR": {
+      "name": "Arunachal Pradesh",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        959.479,
+        338.816
+      ],
+      "focusBox": [
+        853.874,
+        295.883,
+        196.371,
+        111.241
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-AS": {
+      "name": "Assam",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        907.768,
+        429.146
+      ],
+      "focusBox": [
+        794.909,
+        354.224,
+        210.916,
+        158.249
+      ],
+      "polygons": 2,
+      "hitArea": null
+    },
+    "IN-BR": {
+      "name": "Bihar",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        672.734,
+        462.211
+      ],
+      "focusBox": [
+        577.815,
+        392.061,
+        169.202,
+        126.064
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-CH": {
+      "name": "Chandigarh",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        360.31,
+        265.337
+      ],
+      "focusBox": [
+        348.31,
+        253.337,
+        24,
+        24
+      ],
+      "polygons": 1,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          360.31,
+          265.337
+        ],
+        "radius": 12
+      }
+    },
+    "IN-CT": {
+      "name": "Chhattisgarh",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        550.113,
+        606.26
+      ],
+      "focusBox": [
+        469.206,
+        525.654,
+        146.896,
+        247.224
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-DH": {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        212.52,
+        667.796
+      ],
+      "focusBox": [
+        200.52,
+        655.796,
+        24,
+        24
+      ],
+      "polygons": 3,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          212.52,
+          667.796
+        ],
+        "radius": 12
+      }
+    },
+    "IN-DL": {
+      "name": "Delhi",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        369.064,
+        345.898
+      ],
+      "focusBox": [
+        357.064,
+        333.898,
+        24,
+        24
+      ],
+      "polygons": 1,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          369.064,
+          345.898
+        ],
+        "radius": 12
+      }
+    },
+    "IN-GA": {
+      "name": "Goa",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        240.864,
+        861.598
+      ],
+      "focusBox": [
+        226.637,
+        842.289,
+        26.227,
+        35.345
+      ],
+      "polygons": 1,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          240.864,
+          861.598
+        ],
+        "radius": 12
+      }
+    },
+    "IN-GJ": {
+      "name": "Gujarat",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        183.087,
+        542.999
+      ],
+      "focusBox": [
+        49.755,
+        489.861,
+        219.757,
+        183.019
+      ],
+      "polygons": 13,
+      "hitArea": null
+    },
+    "IN-HP": {
+      "name": "Himachal Pradesh",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        379.934,
+        220.057
+      ],
+      "focusBox": [
+        323.335,
+        167.857,
+        110.696,
+        111.696
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-HR": {
+      "name": "Haryana",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        341.248,
+        326.967
+      ],
+      "focusBox": [
+        282.471,
+        257.484,
+        104.573,
+        127.182
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-JH": {
+      "name": "Jharkhand",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        635.791,
+        545.717
+      ],
+      "focusBox": [
+        578.445,
+        473.827,
+        159.173,
+        133.82
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-JK": {
+      "name": "Jammu and Kashmir",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        295.145,
+        147.918
+      ],
+      "focusBox": [
+        256.344,
+        93.638,
+        107.158,
+        110.319
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-KA": {
+      "name": "Karnataka",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        301.053,
+        848.384
+      ],
+      "focusBox": [
+        240.059,
+        744.062,
+        164.858,
+        265.546
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-KL": {
+      "name": "Kerala",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        331.5,
+        1078.09
+      ],
+      "focusBox": [
+        265.102,
+        960.627,
+        91.647,
+        175.579
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-LA": {
+      "name": "Ladakh",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        390.135,
+        128.988
+      ],
+      "focusBox": [
+        232.378,
+        20,
+        246.793,
+        185.036
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-LD": {
+      "name": "Lakshadweep",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        216.381,
+        1034.495
+      ],
+      "focusBox": [
+        204.381,
+        1022.495,
+        24,
+        24
+      ],
+      "polygons": 35,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          216.381,
+          1034.495
+        ],
+        "radius": 12
+      }
+    },
+    "IN-MH": {
+      "name": "Maharashtra",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        293.737,
+        707.175
+      ],
+      "focusBox": [
+        198.822,
+        600.332,
+        294.121,
+        249.826
+      ],
+      "polygons": 3,
+      "hitArea": null
+    },
+    "IN-ML": {
+      "name": "Meghalaya",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        866.747,
+        459.233
+      ],
+      "focusBox": [
+        800.461,
+        436.604,
+        102.812,
+        41.136
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-MN": {
+      "name": "Manipur",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        938.842,
+        490.123
+      ],
+      "focusBox": [
+        912.044,
+        446.491,
+        58.313,
+        73.607
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-MP": {
+      "name": "Madhya Pradesh",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        452.938,
+        566.509
+      ],
+      "focusBox": [
+        253.213,
+        416.515,
+        307.271,
+        224.375
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-MZ": {
+      "name": "Mizoram",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        909.599,
+        532.263
+      ],
+      "focusBox": [
+        888.18,
+        496.755,
+        41.205,
+        100.299
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-NL": {
+      "name": "Nagaland",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        961.862,
+        430.017
+      ],
+      "focusBox": [
+        920.285,
+        392.478,
+        61.781,
+        75.818
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-OR": {
+      "name": "Odisha",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        628.788,
+        655.194
+      ],
+      "focusBox": [
+        510.232,
+        584.175,
+        215.601,
+        187.604
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-PB": {
+      "name": "Punjab",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        319.353,
+        264.019
+      ],
+      "focusBox": [
+        263.438,
+        195.278,
+        101.661,
+        113.829
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-PY": {
+      "name": "Puducherry",
+      "kind": "union territory",
+      "playable": true,
+      "anchor": [
+        449.371,
+        1037.274
+      ],
+      "focusBox": [
+        437.371,
+        1025.274,
+        24,
+        24
+      ],
+      "polygons": 25,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          449.371,
+          1037.274
+        ],
+        "radius": 12
+      }
+    },
+    "IN-RJ": {
+      "name": "Rajasthan",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        257.438,
+        411.506
+      ],
+      "focusBox": [
+        107.798,
+        281.716,
+        298.109,
+        278.386
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-SK": {
+      "name": "Sikkim",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        749.474,
+        390.087
+      ],
+      "focusBox": [
+        735.935,
+        364.176,
+        30.482,
+        41.084
+      ],
+      "polygons": 1,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          749.474,
+          390.087
+        ],
+        "radius": 12
+      }
+    },
+    "IN-TG": {
+      "name": "Telangana",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        424.649,
+        769.822
+      ],
+      "focusBox": [
+        358.242,
+        688.108,
+        149.533,
+        158.875
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-TN": {
+      "name": "Tamil Nadu",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        391.633,
+        1036.808
+      ],
+      "focusBox": [
+        314.564,
+        936.452,
+        156.078,
+        208.494
+      ],
+      "polygons": 68,
+      "hitArea": null
+    },
+    "IN-TR": {
+      "name": "Tripura",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        864.34,
+        530.495
+      ],
+      "focusBox": [
+        850.047,
+        497.891,
+        40.229,
+        63.192
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-UP": {
+      "name": "Uttar Pradesh",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        489.052,
+        420.613
+      ],
+      "focusBox": [
+        368.885,
+        278.454,
+        253.686,
+        256.499
+      ],
+      "polygons": 3,
+      "hitArea": null
+    },
+    "IN-UT": {
+      "name": "Uttarakhand",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        446.954,
+        290.253
+      ],
+      "focusBox": [
+        386.03,
+        239.05,
+        114.746,
+        106.31
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "IN-WB": {
+      "name": "West Bengal",
+      "kind": "state",
+      "playable": true,
+      "anchor": [
+        733.031,
+        562.024
+      ],
+      "focusBox": [
+        665.489,
+        400.282,
+        134.716,
+        220.827
+      ],
+      "polygons": 127,
+      "hitArea": null
+    }
+  }
+}

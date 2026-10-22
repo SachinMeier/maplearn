@@ -1,0 +1,832 @@
+{
+  "id": "us-states",
+  "title": "U.S. States",
+  "source": {
+    "file": "assets/maps/sources/us-states-census-2024.geojson.gz",
+    "sha256": "3c426c67e70afe5b79aa9896bfae96f94027565dd5728c6c54f30f55f5dc19db",
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS2024/State_County/MapServer/7/query?where=1%3D1&outFields=STATE%2CSTUSAB%2CNAME&outSR=4326&returnGeometry=true&f=geojson",
+    "attribution": "U.S. Census Bureau, 2024 generalized state boundaries, 1:500,000",
+    "license": "U.S. federal government public-domain geographic data"
+  },
+  "projection": "Albers equal-area",
+  "viewBox": [
+    0,
+    0,
+    1200,
+    760
+  ],
+  "wrapping": false,
+  "coordinateDecimals": 3,
+  "simplification": false,
+  "note": "All 50 states; Washington, D.C. and territories are excluded. All source islands are retained. Borders are drawn once.",
+  "stats": {
+    "playable": 50,
+    "context": 0,
+    "arcs": 2150,
+    "sharedArcs": 750,
+    "vertices": 235413,
+    "svgBytes": 8125711
+  },
+  "regions": {
+    "AK": {
+      "name": "Alaska",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        210.304,
+        590.226
+      ],
+      "focusBox": [
+        144.745,
+        537.217,
+        175.255,
+        147.613
+      ],
+      "polygons": 549
+    },
+    "AL": {
+      "name": "Alabama",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        803.88,
+        488.967
+      ],
+      "focusBox": [
+        768.204,
+        421.737,
+        75.899,
+        123.304
+      ],
+      "polygons": 5
+    },
+    "AR": {
+      "name": "Arkansas",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        680.345,
+        431.959
+      ],
+      "focusBox": [
+        638.332,
+        391.686,
+        99.414,
+        90.327
+      ],
+      "polygons": 1
+    },
+    "AZ": {
+      "name": "Arizona",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        291.936,
+        437.498
+      ],
+      "focusBox": [
+        221.271,
+        349.035,
+        134.012,
+        156.612
+      ],
+      "polygons": 1
+    },
+    "CA": {
+      "name": "California",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        159.7,
+        354.142
+      ],
+      "focusBox": [
+        85.6,
+        181.025,
+        158.074,
+        270.9
+      ],
+      "polygons": 15
+    },
+    "CO": {
+      "name": "Colorado",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        444.652,
+        324.916
+      ],
+      "focusBox": [
+        355.283,
+        265.616,
+        143.177,
+        113.43
+      ],
+      "polygons": 1
+    },
+    "CT": {
+      "name": "Connecticut",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1038.115,
+        213.175
+      ],
+      "focusBox": [
+        1019.768,
+        200.45,
+        34.032,
+        33.493
+      ],
+      "polygons": 11
+    },
+    "DE": {
+      "name": "Delaware",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1003.415,
+        297.982
+      ],
+      "focusBox": [
+        990.962,
+        269.875,
+        20.658,
+        34.464
+      ],
+      "polygons": 4
+    },
+    "FL": {
+      "name": "Florida",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        932.288,
+        592.076
+      ],
+      "focusBox": [
+        788.735,
+        514.886,
+        179.363,
+        140.855
+      ],
+      "polygons": 121
+    },
+    "GA": {
+      "name": "Georgia",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        880.204,
+        486.458
+      ],
+      "focusBox": [
+        820.47,
+        415.169,
+        107.194,
+        112.171
+      ],
+      "polygons": 2
+    },
+    "HI": {
+      "name": "Hawaii",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        487.248,
+        666.796
+      ],
+      "focusBox": [
+        481.469,
+        659.938,
+        13.531,
+        15.427
+      ],
+      "polygons": 27
+    },
+    "IA": {
+      "name": "Iowa",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        645.904,
+        255.997
+      ],
+      "focusBox": [
+        599.386,
+        217.542,
+        119.003,
+        78.356
+      ],
+      "polygons": 1
+    },
+    "ID": {
+      "name": "Idaho",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        275.694,
+        184.682
+      ],
+      "focusBox": [
+        228.445,
+        45.118,
+        117.397,
+        190.263
+      ],
+      "polygons": 1
+    },
+    "IL": {
+      "name": "Illinois",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        735.464,
+        298.114
+      ],
+      "focusBox": [
+        695.399,
+        238.462,
+        78.65,
+        140.104
+      ],
+      "polygons": 1
+    },
+    "IN": {
+      "name": "Indiana",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        797.131,
+        308.02
+      ],
+      "focusBox": [
+        764.286,
+        251.11,
+        61.153,
+        105.539
+      ],
+      "polygons": 1
+    },
+    "KS": {
+      "name": "Kansas",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        568.604,
+        344.502
+      ],
+      "focusBox": [
+        492.246,
+        303.64,
+        145.903,
+        79.035
+      ],
+      "polygons": 1
+    },
+    "KY": {
+      "name": "Kentucky",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        834.843,
+        351.533
+      ],
+      "focusBox": [
+        741.172,
+        316.027,
+        142.752,
+        74.682
+      ],
+      "polygons": 2
+    },
+    "LA": {
+      "name": "Louisiana",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        681.461,
+        506.693
+      ],
+      "focusBox": [
+        651.507,
+        480.257,
+        111.281,
+        99.184
+      ],
+      "polygons": 42
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1028.192,
+        196.559
+      ],
+      "focusBox": [
+        1019.182,
+        175.326,
+        66.117,
+        34.669
+      ],
+      "polygons": 34
+    },
+    "MD": {
+      "name": "Maryland",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        969.696,
+        287.329
+      ],
+      "focusBox": [
+        922.408,
+        273.765,
+        89.317,
+        44.811
+      ],
+      "polygons": 18
+    },
+    "ME": {
+      "name": "Maine",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1073.949,
+        105.577
+      ],
+      "focusBox": [
+        1041.393,
+        55.68,
+        73.007,
+        114.583
+      ],
+      "polygons": 212
+    },
+    "MI": {
+      "name": "Michigan",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        814.323,
+        224.858
+      ],
+      "focusBox": [
+        779.544,
+        151.136,
+        76.31,
+        103.947
+      ],
+      "polygons": 111
+    },
+    "MN": {
+      "name": "Minnesota",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        636.642,
+        131.832
+      ],
+      "focusBox": [
+        590.503,
+        73.881,
+        129.498,
+        145.832
+      ],
+      "polygons": 4
+    },
+    "MO": {
+      "name": "Missouri",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        678.619,
+        353.173
+      ],
+      "focusBox": [
+        615.193,
+        290.166,
+        131.43,
+        114.37
+      ],
+      "polygons": 1
+    },
+    "MS": {
+      "name": "Mississippi",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        741.203,
+        467.997
+      ],
+      "focusBox": [
+        702.955,
+        426.471,
+        70.701,
+        122.151
+      ],
+      "polygons": 8
+    },
+    "MT": {
+      "name": "Montana",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        348.855,
+        111.75
+      ],
+      "focusBox": [
+        277.082,
+        48.56,
+        201.143,
+        127.836
+      ],
+      "polygons": 1
+    },
+    "NC": {
+      "name": "North Carolina",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        961.276,
+        389.989
+      ],
+      "focusBox": [
+        846.101,
+        351.91,
+        170.611,
+        76.888
+      ],
+      "polygons": 13
+    },
+    "ND": {
+      "name": "North Dakota",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        557.116,
+        120.258
+      ],
+      "focusBox": [
+        471.901,
+        77.749,
+        129.498,
+        81.285
+      ],
+      "polygons": 1
+    },
+    "NE": {
+      "name": "Nebraska",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        534.653,
+        268.116
+      ],
+      "focusBox": [
+        461.321,
+        226.029,
+        162.707,
+        81.31
+      ],
+      "polygons": 1
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1044.431,
+        170.74
+      ],
+      "focusBox": [
+        1030.094,
+        117.97,
+        32.442,
+        68.418
+      ],
+      "polygons": 4
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1009.932,
+        272.075
+      ],
+      "focusBox": [
+        995.699,
+        229.3,
+        26.286,
+        60.466
+      ],
+      "polygons": 2
+    },
+    "NM": {
+      "name": "New Mexico",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        407.072,
+        436.031
+      ],
+      "focusBox": [
+        335.767,
+        365.094,
+        137.657,
+        142.89
+      ],
+      "polygons": 1
+    },
+    "NV": {
+      "name": "Nevada",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        218.081,
+        268.473
+      ],
+      "focusBox": [
+        156.61,
+        202.065,
+        125.399,
+        193.95
+      ],
+      "polygons": 1
+    },
+    "NY": {
+      "name": "New York",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        990.44,
+        188.527
+      ],
+      "focusBox": [
+        906.224,
+        134.87,
+        148.7,
+        111.113
+      ],
+      "polygons": 23
+    },
+    "OH": {
+      "name": "Ohio",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        854.251,
+        288.248
+      ],
+      "focusBox": [
+        816.72,
+        234.715,
+        82.49,
+        94.39
+      ],
+      "polygons": 16
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        603.02,
+        421.483
+      ],
+      "focusBox": [
+        472.496,
+        377.574,
+        170.001,
+        89.691
+      ],
+      "polygons": 1
+    },
+    "OR": {
+      "name": "Oregon",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        190.829,
+        157.624
+      ],
+      "focusBox": [
+        99.34,
+        80.961,
+        158.458,
+        133.78
+      ],
+      "polygons": 6
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        964.856,
+        250.074
+      ],
+      "focusBox": [
+        893.764,
+        216.29,
+        114.537,
+        74.221
+      ],
+      "polygons": 1
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1054.899,
+        203.719
+      ],
+      "focusBox": [
+        1050.041,
+        198.613,
+        12.169,
+        19.487
+      ],
+      "polygons": 14
+    },
+    "SC": {
+      "name": "South Carolina",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        926.958,
+        438.568
+      ],
+      "focusBox": [
+        866.459,
+        405.399,
+        100.138,
+        76.481
+      ],
+      "polygons": 4
+    },
+    "SD": {
+      "name": "South Dakota",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        511.417,
+        192.62
+      ],
+      "focusBox": [
+        465.56,
+        152.923,
+        137.537,
+        92.276
+      ],
+      "polygons": 1
+    },
+    "TN": {
+      "name": "Tennessee",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        795.187,
+        403.286
+      ],
+      "focusBox": [
+        725.774,
+        371.006,
+        167.805,
+        58.482
+      ],
+      "polygons": 1
+    },
+    "TX": {
+      "name": "Texas",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        563.432,
+        531.394
+      ],
+      "focusBox": [
+        387.807,
+        390.022,
+        276.072,
+        270.589
+      ],
+      "polygons": 32
+    },
+    "UT": {
+      "name": "Utah",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        314.367,
+        310.439
+      ],
+      "focusBox": [
+        258.198,
+        226.061,
+        110.735,
+        139.033
+      ],
+      "polygons": 1
+    },
+    "VA": {
+      "name": "Virginia",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        953.492,
+        335.017
+      ],
+      "focusBox": [
+        853.918,
+        289.673,
+        152.317,
+        87.219
+      ],
+      "polygons": 14
+    },
+    "VT": {
+      "name": "Vermont",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        1019.87,
+        143.393
+      ],
+      "focusBox": [
+        1004.819,
+        126.701,
+        33.502,
+        62.799
+      ],
+      "polygons": 1
+    },
+    "WA": {
+      "name": "Washington",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        208.336,
+        70.567
+      ],
+      "focusBox": [
+        134.438,
+        21.526,
+        132.052,
+        96.403
+      ],
+      "polygons": 60
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        717.431,
+        182.069
+      ],
+      "focusBox": [
+        665.076,
+        131.231,
+        103.542,
+        110.52
+      ],
+      "polygons": 31
+    },
+    "WV": {
+      "name": "West Virginia",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        896.952,
+        329.29
+      ],
+      "focusBox": [
+        868.605,
+        267.804,
+        88.45,
+        88.666
+      ],
+      "polygons": 1
+    },
+    "WY": {
+      "name": "Wyoming",
+      "playable": true,
+      "park": false,
+      "anchor": [
+        389.595,
+        217.973
+      ],
+      "focusBox": [
+        332.179,
+        161.404,
+        137.512,
+        114.492
+      ],
+      "polygons": 1
+    }
+  }
+}

@@ -1,0 +1,727 @@
+{
+  "sources": [
+    {
+      "file": "assets/maps/sources/ne_10m_geography_marine_polys.v5.1.2.geojson.gz",
+      "sha256": "53f865e8ffa966cdd402145c82c5cd14ee7ce974cd0eb9a3f59f03a4cfd2d66c",
+      "license": "Public domain",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_geography_marine_polys.geojson"
+    },
+    {
+      "file": "assets/maps/sources/ne_10m_ocean.v5.1.2.geojson.gz",
+      "sha256": "f9696a1337c746a0f6c8c13bc60d0f230d2ef8d105198d5657726c8f8e763fc2",
+      "license": "Public domain",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_ocean.geojson"
+    }
+  ],
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    0,
+    0,
+    3600,
+    2639.516
+  ],
+  "wrapWidth": 3600,
+  "notes": [
+    "Caspian Sea included by request; no other standalone lake questions. Connected Maracaibo basin grouped with the Caribbean.",
+    "Natural Earth marine label limits are approximate. Detailed ocean geometry supplies coastlines.",
+    "Small straits and canals use artificial dashed click envelopes. Canal routes are schematic.",
+    "Sub-seas omitted from the roster are grouped with their named sea or parent ocean."
+  ],
+  "regions": {
+    "bering-strait": {
+      "name": "Bering Strait",
+      "anchor": [
+        115.605,
+        539.933
+      ],
+      "focusBox": [
+        92,
+        530.978,
+        38,
+        21.677
+      ],
+      "sourceNames": [],
+      "artificialTarget": true,
+      "schematic": false
+    },
+    "hormuz": {
+      "name": "Strait of Hormuz",
+      "anchor": [
+        2366.995,
+        1046.894
+      ],
+      "focusBox": [
+        2355,
+        1037.956,
+        19,
+        19.965
+      ],
+      "sourceNames": [],
+      "artificialTarget": true,
+      "schematic": false
+    },
+    "gibraltar": {
+      "name": "Strait of Gibraltar",
+      "anchor": [
+        1746.204,
+        941.985
+      ],
+      "focusBox": [
+        1739.954,
+        935.856,
+        12,
+        12
+      ],
+      "sourceNames": [
+        "Strait of Gibraltar"
+      ],
+      "artificialTarget": true,
+      "schematic": false
+    },
+    "malacca": {
+      "name": "Strait of Malacca",
+      "anchor": [
+        2789.714,
+        1266.04
+      ],
+      "focusBox": [
+        2754.636,
+        1236.124,
+        80.24,
+        76.571
+      ],
+      "sourceNames": [
+        "Strait of Malacca"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "magellan": {
+      "name": "Strait of Magellan",
+      "anchor": [
+        1092.759,
+        1911.487
+      ],
+      "focusBox": [
+        1050.654,
+        1892.324,
+        65.383,
+        32.216
+      ],
+      "sourceNames": [
+        "Estrecho de Magellanes"
+      ],
+      "artificialTarget": true,
+      "schematic": false
+    },
+    "james-bay": {
+      "name": "James Bay",
+      "anchor": [
+        992.523,
+        723.086
+      ],
+      "focusBox": [
+        975.761,
+        708.28,
+        39.756,
+        55.086
+      ],
+      "sourceNames": [
+        "James Bay"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "caspian": {
+      "name": "Caspian Sea",
+      "anchor": [
+        2311.752,
+        911.674
+      ],
+      "focusBox": [
+        2266.804,
+        810.338,
+        80.87,
+        126.562
+      ],
+      "sourceNames": [
+        "Caspian Sea",
+        "Garabogaz Bay"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "azov": {
+      "name": "Sea of Azov",
+      "anchor": [
+        2170.026,
+        823.808
+      ],
+      "focusBox": [
+        2148.436,
+        808.433,
+        44.49,
+        25.039
+      ],
+      "sourceNames": [
+        "Sea of Azov"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "adriatic": {
+      "name": "Adriatic Sea",
+      "anchor": [
+        1980.257,
+        877.988
+      ],
+      "focusBox": [
+        1922.255,
+        827.009,
+        77.712,
+        73.195
+      ],
+      "sourceNames": [
+        "Adriatic Sea"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "ionian": {
+      "name": "Ionian Sea",
+      "anchor": [
+        1985.911,
+        919.695
+      ],
+      "focusBox": [
+        1950.994,
+        891.11,
+        80.81,
+        47.163
+      ],
+      "sourceNames": [
+        "Ionian Sea"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "aegean": {
+      "name": "Aegean Sea",
+      "anchor": [
+        2046.531,
+        943.119
+      ],
+      "focusBox": [
+        2025.691,
+        885.398,
+        56.732,
+        68.141
+      ],
+      "sourceNames": [
+        "Aegean Sea",
+        "Sea of Crete"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "english-channel": {
+      "name": "English Channel",
+      "anchor": [
+        1757.128,
+        779.788
+      ],
+      "focusBox": [
+        1734.295,
+        758.159,
+        82.717,
+        35.659
+      ],
+      "sourceNames": [
+        "English Channel"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "aden": {
+      "name": "Gulf of Aden",
+      "anchor": [
+        2298.295,
+        1187.705
+      ],
+      "focusBox": [
+        2225.219,
+        1166.599,
+        87.455,
+        48.484
+      ],
+      "sourceNames": [
+        "Gulf of Aden",
+        "Bab el Mandeb"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "arabian": {
+      "name": "Arabian Sea",
+      "anchor": [
+        2433.654,
+        1186.048
+      ],
+      "focusBox": [
+        2310.319,
+        1058.108,
+        232.828,
+        268.455
+      ],
+      "sourceNames": [
+        "Arabian Sea"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "bengal": {
+      "name": "Bay of Bengal",
+      "anchor": [
+        2664.325,
+        1194.049
+      ],
+      "focusBox": [
+        2596.932,
+        1079.459,
+        155.375,
+        185.014
+      ],
+      "sourceNames": [
+        "Bay of Bengal"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "red-sea": {
+      "name": "Red Sea",
+      "anchor": [
+        2203.738,
+        1143.624
+      ],
+      "focusBox": [
+        2123.598,
+        1010.876,
+        111.214,
+        183.469
+      ],
+      "sourceNames": [
+        "Red Sea",
+        "Gulf of Suez",
+        "Gulf of Aqaba"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "black-sea": {
+      "name": "Black Sea",
+      "anchor": [
+        2113.622,
+        854.759
+      ],
+      "focusBox": [
+        2061.885,
+        813.383,
+        155.744,
+        83.776
+      ],
+      "sourceNames": [
+        "Black Sea",
+        "Sea of Marmara",
+        "Bosporus",
+        "Dardanelles"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "north-sea": {
+      "name": "North Sea",
+      "anchor": [
+        1831.731,
+        690.425
+      ],
+      "focusBox": [
+        1758.652,
+        623.589,
+        155.231,
+        137.609
+      ],
+      "sourceNames": [
+        "North Sea",
+        "Waddenzee",
+        "Skagerrak"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "baltic": {
+      "name": "Baltic Sea",
+      "anchor": [
+        1994.347,
+        609.409
+      ],
+      "focusBox": [
+        1902.872,
+        541.922,
+        198.855,
+        178.965
+      ],
+      "sourceNames": [
+        "Baltic Sea",
+        "Gulf of Bothnia",
+        "Gulf of Finland",
+        "Gulf of Riga",
+        "Kattegat",
+        "Øresund",
+        "Mecklenburger Bucht"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "persian-gulf": {
+      "name": "Persian Gulf",
+      "anchor": [
+        2299.631,
+        1029.348
+      ],
+      "focusBox": [
+        2277.225,
+        1004.994,
+        83.615,
+        70.446
+      ],
+      "sourceNames": [
+        "Persian Gulf"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "south-china": {
+      "name": "South China Sea",
+      "anchor": [
+        2965.419,
+        1128.922
+      ],
+      "focusBox": [
+        2791.586,
+        1077.68,
+        231.076,
+        274.283
+      ],
+      "sourceNames": [
+        "South China Sea",
+        "Gulf of Tonkin",
+        "Gulf of Thailand",
+        "Strait of Singapore",
+        "Qiongzhou Strait"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "mexico": {
+      "name": "Gulf of Mexico",
+      "anchor": [
+        929.984,
+        1057.853
+      ],
+      "focusBox": [
+        821.519,
+        1002.962,
+        179.525,
+        133.158
+      ],
+      "sourceNames": [
+        "Gulf of Mexico",
+        "Bahía de Campeche"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "bering-sea": {
+      "name": "Bering Sea",
+      "anchor": [
+        49.503,
+        692.588
+      ],
+      "focusBox": [
+        0,
+        533.562,
+        231.089,
+        225.586
+      ],
+      "sourceNames": [
+        "Bering Sea",
+        "Bristol Bay",
+        "Norton Sound",
+        "Gulf of Anadyr'"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "okhotsk": {
+      "name": "Sea of Okhotsk",
+      "anchor": [
+        3296.914,
+        733.507
+      ],
+      "focusBox": [
+        3152.117,
+        592.935,
+        301.995,
+        264.994
+      ],
+      "sourceNames": [
+        "Sea of Okhotsk",
+        "Shelikhova Gulf",
+        "Gulf of Sakhalin",
+        "Uda Bay"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "yellow-sea": {
+      "name": "Yellow Sea",
+      "anchor": [
+        3027.188,
+        958.413
+      ],
+      "focusBox": [
+        2975.435,
+        885.384,
+        94.334,
+        103.476
+      ],
+      "sourceNames": [
+        "Yellow Sea",
+        "Bo Hai"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "hudson": {
+      "name": "Hudson Bay",
+      "anchor": [
+        922.814,
+        631.237
+      ],
+      "focusBox": [
+        850.428,
+        460.322,
+        227.318,
+        249.879
+      ],
+      "sourceNames": [
+        "Hudson Bay",
+        "Foxe Basin"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "japan": {
+      "name": "Sea of Japan",
+      "anchor": [
+        3142.3,
+        900.669
+      ],
+      "focusBox": [
+        3073.72,
+        728.536,
+        148.358,
+        234.249
+      ],
+      "sourceNames": [
+        "Sea of Japan",
+        "East Korea Bay",
+        "Tatar Strait"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "east-china": {
+      "name": "East China Sea",
+      "anchor": [
+        3059.94,
+        1010.637
+      ],
+      "focusBox": [
+        2975.933,
+        944.162,
+        133.222,
+        140.946
+      ],
+      "sourceNames": [
+        "East China Sea",
+        "Taiwan Strait",
+        "Hangzhou Bay",
+        "Yangtze River",
+        "Korea Strait"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "mediterranean": {
+      "name": "Mediterranean Sea",
+      "anchor": [
+        1977.377,
+        967.299
+      ],
+      "focusBox": [
+        1743.85,
+        843.961,
+        418.033,
+        163.701
+      ],
+      "sourceNames": [
+        "Mediterranean Sea",
+        "Alboran Sea",
+        "Balearic Sea",
+        "Ligurian Sea",
+        "Tyrrhenian Sea",
+        "Gulf of Sidra",
+        "Gulf of Gabès",
+        "Golfe du Lion"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "caribbean": {
+      "name": "Caribbean Sea",
+      "anchor": [
+        1051.37,
+        1171.332
+      ],
+      "focusBox": [
+        910.885,
+        1088.973,
+        297.026,
+        151.444
+      ],
+      "sourceNames": [
+        "Caribbean Sea",
+        "Gulf of Honduras",
+        "Golfo de Urabá",
+        "Lago de Maracaibo"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "southern": {
+      "name": "Southern Ocean",
+      "anchor": [
+        1388.902,
+        2170.905
+      ],
+      "focusBox": [
+        0,
+        2005.493,
+        3600,
+        493.3
+      ],
+      "sourceNames": [],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "arctic": {
+      "name": "Arctic Ocean",
+      "anchor": [
+        368.182,
+        234.395
+      ],
+      "focusBox": [
+        0,
+        0,
+        3600,
+        575.585
+      ],
+      "sourceNames": [
+        "White Sea"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "indian": {
+      "name": "Indian Ocean",
+      "anchor": [
+        2775.502,
+        1794.535
+      ],
+      "focusBox": [
+        2000,
+        1173.03,
+        1269,
+        832.463
+      ],
+      "sourceNames": [],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "atlantic": {
+      "name": "Atlantic Ocean",
+      "anchor": [
+        1478.218,
+        1726.937
+      ],
+      "focusBox": [
+        969.649,
+        530.442,
+        1030.351,
+        1475.051
+      ],
+      "sourceNames": [],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "pacific": {
+      "name": "Pacific Ocean",
+      "anchor": [
+        328.235,
+        902.655
+      ],
+      "focusBox": [
+        0,
+        611.138,
+        1127,
+        1394.355
+      ],
+      "sourceNames": [],
+      "artificialTarget": false,
+      "schematic": false
+    },
+    "suez": {
+      "name": "Suez Canal",
+      "anchor": [
+        2124.4,
+        1003.984
+      ],
+      "focusBox": [
+        2118.4,
+        993.622,
+        12,
+        20.724
+      ],
+      "sourceNames": [],
+      "artificialTarget": true,
+      "schematic": true
+    },
+    "panama": {
+      "name": "Panama Canal",
+      "anchor": [
+        1002.65,
+        1227.957
+      ],
+      "focusBox": [
+        996.65,
+        1221.957,
+        12,
+        12
+      ],
+      "sourceNames": [],
+      "artificialTarget": true,
+      "schematic": true
+    }
+  }
+}

@@ -1,0 +1,910 @@
+{
+  "id": "europe",
+  "name": "Europe",
+  "source": {
+    "file": "assets/maps/world.svg",
+    "sha256": "aabf1b4d24c76023ffab29551682a67464ed20cad812acdd48bb45912ffb4c2a"
+  },
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    1470,
+    198.30233,
+    1040,
+    779.118091
+  ],
+  "extent": [
+    -33,
+    33,
+    71,
+    83
+  ],
+  "wrapWidth": null,
+  "cropBoundary": [
+    [
+      70,
+      83
+    ],
+    [
+      70,
+      73
+    ],
+    [
+      67,
+      69
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      60,
+      63
+    ],
+    [
+      59,
+      59
+    ],
+    [
+      59,
+      55
+    ],
+    [
+      58,
+      51
+    ],
+    [
+      58,
+      33
+    ]
+  ],
+  "countries": {
+    "RU": {
+      "code": "RU",
+      "name": "Russia",
+      "microstate": false,
+      "anchor": [
+        2280.765,
+        644.181379
+      ],
+      "focusBox": [
+        2073.28,
+        471.559,
+        395.903087,
+        411.481
+      ],
+      "polygons": 86
+    },
+    "SE": {
+      "code": "SE",
+      "name": "Sweden",
+      "microstate": false,
+      "anchor": [
+        1980.504484,
+        551.962598
+      ],
+      "focusBox": [
+        1911.082,
+        488.092,
+        130.552,
+        213.18
+      ],
+      "polygons": 41
+    },
+    "FI": {
+      "code": "FI",
+      "name": "Finland",
+      "microstate": false,
+      "anchor": [
+        2067.579868,
+        590.085375
+      ],
+      "focusBox": [
+        2006.232,
+        469.68,
+        109.463,
+        167.16
+      ],
+      "polygons": 42
+    },
+    "NO": {
+      "code": "NO",
+      "name": "Norway",
+      "microstate": false,
+      "anchor": [
+        1899.63541,
+        613.747551
+      ],
+      "focusBox": [
+        1849.268,
+        450.632,
+        261.502,
+        212.929
+      ],
+      "polygons": 96
+    },
+    "UA": {
+      "code": "UA",
+      "name": "Ukraine",
+      "microstate": false,
+      "anchor": [
+        2123.78494,
+        779.994429
+      ],
+      "focusBox": [
+        2021.328,
+        741.997,
+        180.267,
+        92.204
+      ],
+      "polygons": 4
+    },
+    "FR": {
+      "code": "FR",
+      "name": "France",
+      "microstate": false,
+      "anchor": [
+        1824.399278,
+        811.218886
+      ],
+      "focusBox": [
+        1752.151,
+        759.076,
+        129.852,
+        110.391
+      ],
+      "polygons": 10
+    },
+    "ES": {
+      "code": "ES",
+      "name": "Spain",
+      "microstate": false,
+      "anchor": [
+        1763.854989,
+        901.385609
+      ],
+      "focusBox": [
+        1707.08,
+        851.668,
+        126.097,
+        91.823
+      ],
+      "polygons": 15
+    },
+    "DE": {
+      "code": "DE",
+      "name": "Germany",
+      "microstate": false,
+      "anchor": [
+        1893.486758,
+        760.646284
+      ],
+      "focusBox": [
+        1858.525,
+        707.354,
+        91.696,
+        101.084
+      ],
+      "polygons": 22
+    },
+    "SJ": {
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "microstate": true,
+      "anchor": [
+        1981.088452,
+        296.87242
+      ],
+      "focusBox": [
+        1906.768,
+        268.34,
+        108.751,
+        76.268
+      ],
+      "polygons": 23
+    },
+    "PL": {
+      "code": "PL",
+      "name": "Poland",
+      "microstate": false,
+      "anchor": [
+        1999.860631,
+        746.008287
+      ],
+      "focusBox": [
+        1941.239,
+        708.292,
+        100.193,
+        78.128
+      ],
+      "polygons": 1
+    },
+    "GB": {
+      "code": "GB",
+      "name": "United Kingdom",
+      "microstate": false,
+      "anchor": [
+        1785.180514,
+        737.758742
+      ],
+      "focusBox": [
+        1737.636,
+        653.595,
+        80.076,
+        120.303
+      ],
+      "polygons": 57
+    },
+    "IT": {
+      "code": "IT",
+      "name": "Italy",
+      "microstate": false,
+      "anchor": [
+        1906.814263,
+        835.228754
+      ],
+      "focusBox": [
+        1866.027,
+        810.789,
+        119.147,
+        110.711
+      ],
+      "polygons": 29
+    },
+    "BY": {
+      "code": "BY",
+      "name": "Belarus",
+      "microstate": false,
+      "anchor": [
+        2084.895635,
+        724.276184
+      ],
+      "focusBox": [
+        2031.656,
+        689.838,
+        95.539,
+        67.284
+      ],
+      "polygons": 1
+    },
+    "RO": {
+      "code": "RO",
+      "name": "Romania",
+      "microstate": false,
+      "anchor": [
+        2049.62178,
+        827.445602
+      ],
+      "focusBox": [
+        2002.428,
+        795.662,
+        94.568,
+        57.756
+      ],
+      "polygons": 1
+    },
+    "IS": {
+      "code": "IS",
+      "name": "Iceland",
+      "microstate": false,
+      "anchor": [
+        1609.480632,
+        562.286919
+      ],
+      "focusBox": [
+        1554.601,
+        530.866,
+        110.37,
+        50.988
+      ],
+      "polygons": 5
+    },
+    "GR": {
+      "code": "GR",
+      "name": "Greece",
+      "microstate": false,
+      "anchor": [
+        2016.024222,
+        899.478581
+      ],
+      "focusBox": [
+        1999.998,
+        876.375,
+        66.368,
+        62.721
+      ],
+      "polygons": 74
+    },
+    "BG": {
+      "code": "BG",
+      "name": "Bulgaria",
+      "microstate": false,
+      "anchor": [
+        2051.617528,
+        866.762823
+      ],
+      "focusBox": [
+        2023.45,
+        846.344,
+        62.585,
+        36.154
+      ],
+      "polygons": 1
+    },
+    "HU": {
+      "code": "HU",
+      "name": "Hungary",
+      "microstate": false,
+      "anchor": [
+        2002.12144,
+        809.857071
+      ],
+      "focusBox": [
+        1960.94,
+        791.888,
+        67.836,
+        35.757
+      ],
+      "polygons": 1
+    },
+    "LV": {
+      "code": "LV",
+      "name": "Latvia",
+      "microstate": false,
+      "anchor": [
+        2064.89552,
+        682.007259
+      ],
+      "focusBox": [
+        2009.686,
+        662.372,
+        72.487,
+        34.36
+      ],
+      "polygons": 1
+    },
+    "LT": {
+      "code": "LT",
+      "name": "Lithuania",
+      "microstate": false,
+      "anchor": [
+        2042.982489,
+        703.611412
+      ],
+      "focusBox": [
+        2010.447,
+        685.793,
+        57.56,
+        35.614
+      ],
+      "polygons": 2
+    },
+    "CZ": {
+      "code": "CZ",
+      "name": "Czechia",
+      "microstate": false,
+      "anchor": [
+        1942.333563,
+        775.955814
+      ],
+      "focusBox": [
+        1920.761,
+        759.704,
+        67.613,
+        32.329
+      ],
+      "polygons": 1
+    },
+    "AT": {
+      "code": "AT",
+      "name": "Austria",
+      "microstate": false,
+      "anchor": [
+        1943.608064,
+        804.938887
+      ],
+      "focusBox": [
+        1895.212,
+        786.217,
+        76.271,
+        33.464
+      ],
+      "polygons": 1
+    },
+    "IE": {
+      "code": "IE",
+      "name": "Ireland",
+      "microstate": false,
+      "anchor": [
+        1724.188303,
+        731.273649
+      ],
+      "focusBox": [
+        1695.218,
+        700.661,
+        44.847,
+        53.668
+      ],
+      "polygons": 7
+    },
+    "PT": {
+      "code": "PT",
+      "name": "Portugal",
+      "microstate": false,
+      "anchor": [
+        1722.876265,
+        889.332012
+      ],
+      "focusBox": [
+        1705.025,
+        871.537,
+        32.916,
+        60.724
+      ],
+      "polygons": 13
+    },
+    "RS": {
+      "code": "RS",
+      "name": "Serbia",
+      "microstate": false,
+      "anchor": [
+        2006.841836,
+        847.458423
+      ],
+      "focusBox": [
+        1988.45,
+        822.246,
+        41.396,
+        48.313
+      ],
+      "polygons": 1
+    },
+    "EE": {
+      "code": "EE",
+      "name": "Estonia",
+      "microstate": false,
+      "anchor": [
+        2061.651188,
+        652.898537
+      ],
+      "focusBox": [
+        2034.084,
+        638.929,
+        47.781,
+        31.529
+      ],
+      "polygons": 8
+    },
+    "DK": {
+      "code": "DK",
+      "name": "Denmark",
+      "microstate": false,
+      "anchor": [
+        1890.557217,
+        691.312001
+      ],
+      "focusBox": [
+        1880.94,
+        667.064,
+        28.701,
+        41.737
+      ],
+      "polygons": 15
+    },
+    "HR": {
+      "code": "HR",
+      "name": "Croatia",
+      "microstate": false,
+      "anchor": [
+        1964.478934,
+        826.840877
+      ],
+      "focusBox": [
+        1935.015,
+        817.569,
+        59.063,
+        44.454
+      ],
+      "polygons": 25
+    },
+    "SK": {
+      "code": "SK",
+      "name": "Slovakia",
+      "microstate": false,
+      "anchor": [
+        1988.379806,
+        789.848068
+      ],
+      "focusBox": [
+        1968.445,
+        778.551,
+        56.951,
+        23.809
+      ],
+      "polygons": 1
+    },
+    "BA": {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "microstate": false,
+      "anchor": [
+        1980.100295,
+        847.188309
+      ],
+      "focusBox": [
+        1957.161,
+        833.322,
+        39.028,
+        33.33
+      ],
+      "polygons": 1
+    },
+    "NL": {
+      "code": "NL",
+      "name": "Netherlands",
+      "microstate": false,
+      "anchor": [
+        1857.821781,
+        740.110428
+      ],
+      "focusBox": [
+        1834.47,
+        727.229,
+        37.515,
+        36.333
+      ],
+      "polygons": 9
+    },
+    "CH": {
+      "code": "CH",
+      "name": "Switzerland",
+      "microstate": false,
+      "anchor": [
+        1875.558221,
+        814.575723
+      ],
+      "focusBox": [
+        1859.548,
+        801.709,
+        45.118,
+        24.947
+      ],
+      "polygons": 1
+    },
+    "BE": {
+      "code": "BE",
+      "name": "Belgium",
+      "microstate": false,
+      "anchor": [
+        1847.499435,
+        763.297799
+      ],
+      "focusBox": [
+        1825.218,
+        753.658,
+        38.527,
+        26.276
+      ],
+      "polygons": 1
+    },
+    "MD": {
+      "code": "MD",
+      "name": "Moldova",
+      "microstate": false,
+      "anchor": [
+        2084.065436,
+        805.424123
+      ],
+      "focusBox": [
+        2066.179,
+        792.956,
+        35.137,
+        38.166
+      ],
+      "polygons": 1
+    },
+    "AL": {
+      "code": "AL",
+      "name": "Albania",
+      "microstate": false,
+      "anchor": [
+        2001.312465,
+        889.840791
+      ],
+      "focusBox": [
+        1992.72,
+        865.497,
+        17.647,
+        35.955
+      ],
+      "polygons": 1
+    },
+    "MK": {
+      "code": "MK",
+      "name": "North Macedonia",
+      "microstate": false,
+      "anchor": [
+        2012.795346,
+        879.419132
+      ],
+      "focusBox": [
+        2004.442,
+        868.929,
+        25.654,
+        18.196
+      ],
+      "polygons": 1
+    },
+    "SI": {
+      "code": "SI",
+      "name": "Slovenia",
+      "microstate": false,
+      "anchor": [
+        1942.190993,
+        824.39066
+      ],
+      "focusBox": [
+        1933.653,
+        813.581,
+        31.5,
+        18.015
+      ],
+      "polygons": 1
+    },
+    "ME": {
+      "code": "ME",
+      "name": "Montenegro",
+      "microstate": false,
+      "anchor": [
+        1991.390656,
+        863.395921
+      ],
+      "focusBox": [
+        1984.335,
+        854.663,
+        19.217,
+        20.491
+      ],
+      "polygons": 1
+    },
+    "XK": {
+      "code": "XK",
+      "name": "Kosovo",
+      "microstate": false,
+      "anchor": [
+        2008.848087,
+        866.289041
+      ],
+      "focusBox": [
+        2000.248,
+        858.128,
+        17.48,
+        17.127
+      ],
+      "polygons": 1
+    },
+    "CY": {
+      "code": "CY",
+      "name": "Cyprus",
+      "microstate": false,
+      "anchor": [
+        2126.357366,
+        955.959217
+      ],
+      "focusBox": [
+        2122.717,
+        952.812,
+        14.312,
+        6.362
+      ],
+      "polygons": 6
+    },
+    "LU": {
+      "code": "LU",
+      "name": "Luxembourg",
+      "microstate": false,
+      "anchor": [
+        1861.315387,
+        777.390562
+      ],
+      "focusBox": [
+        1853.149,
+        767.078,
+        15.877,
+        17.556
+      ],
+      "polygons": 1
+    },
+    "FO": {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "microstate": true,
+      "anchor": [
+        1728.888236,
+        600.311873
+      ],
+      "focusBox": [
+        1719.558,
+        593.481,
+        21.684,
+        23.477
+      ],
+      "polygons": 11
+    },
+    "AX": {
+      "code": "AX",
+      "name": "Åland Islands",
+      "microstate": true,
+      "anchor": [
+        1998.759525,
+        631.701959
+      ],
+      "focusBox": [
+        1991.132,
+        622.811,
+        23.835,
+        16.638
+      ],
+      "polygons": 16
+    },
+    "IM": {
+      "code": "IM",
+      "name": "Isle of Man",
+      "microstate": false,
+      "anchor": [
+        1755.355952,
+        715.892631
+      ],
+      "focusBox": [
+        1748.098,
+        710.092,
+        12.783,
+        12.982
+      ],
+      "polygons": 1
+    },
+    "AD": {
+      "code": "AD",
+      "name": "Andorra",
+      "microstate": false,
+      "anchor": [
+        1815.513526,
+        866.871095
+      ],
+      "focusBox": [
+        1810.065,
+        861.563,
+        11.586,
+        10.663
+      ],
+      "polygons": 1
+    },
+    "MT": {
+      "code": "MT",
+      "name": "Malta",
+      "microstate": false,
+      "anchor": [
+        1944.299324,
+        944.804169
+      ],
+      "focusBox": [
+        1937.836,
+        938.702,
+        11.835,
+        11.129
+      ],
+      "polygons": 2
+    },
+    "LI": {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "microstate": false,
+      "anchor": [
+        1895.631385,
+        810.543068
+      ],
+      "focusBox": [
+        1890.759,
+        804.543,
+        9.398,
+        10.66
+      ],
+      "polygons": 1
+    },
+    "JE": {
+      "code": "JE",
+      "name": "Jersey",
+      "microstate": false,
+      "anchor": [
+        1779.268347,
+        783.574472
+      ],
+      "focusBox": [
+        1775.812991,
+        781.124991,
+        5.871018,
+        4.772018
+      ],
+      "polygons": 1
+    },
+    "GG": {
+      "code": "GG",
+      "name": "Guernsey",
+      "microstate": false,
+      "anchor": [
+        1774.32475,
+        780.37075
+      ],
+      "focusBox": [
+        1771.497991,
+        775.097991,
+        8.566018,
+        7.688018
+      ],
+      "polygons": 4
+    },
+    "SM": {
+      "code": "SM",
+      "name": "San Marino",
+      "microstate": false,
+      "anchor": [
+        1924.349324,
+        850.007855
+      ],
+      "focusBox": [
+        1919.856,
+        845.356,
+        9.068,
+        9.107
+      ],
+      "polygons": 1
+    },
+    "MC": {
+      "code": "MC",
+      "name": "Monaco",
+      "microstate": false,
+      "anchor": [
+        1873.945316,
+        852.353895
+      ],
+      "focusBox": [
+        1869.657,
+        848.033,
+        8.718,
+        8.556
+      ],
+      "polygons": 1
+    },
+    "GI": {
+      "code": "GI",
+      "name": "Gibraltar",
+      "microstate": true,
+      "anchor": [
+        1746.525867,
+        942.032242
+      ],
+      "focusBox": [
+        1742.416,
+        937.953,
+        8.196,
+        8.35
+      ],
+      "polygons": 1
+    },
+    "VA": {
+      "code": "VA",
+      "name": "Vatican City",
+      "microstate": false,
+      "anchor": [
+        1924.533998,
+        874.543266
+      ],
+      "focusBox": [
+        1920.527,
+        870.536,
+        8.013,
+        8.014
+      ],
+      "polygons": 1
+    }
+  }
+}

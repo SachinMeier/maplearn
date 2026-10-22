@@ -1,0 +1,187 @@
+[
+  {
+    "code": "bering-strait",
+    "name": "Bering Strait",
+    "microstate": false
+  },
+  {
+    "code": "hormuz",
+    "name": "Strait of Hormuz",
+    "microstate": false
+  },
+  {
+    "code": "gibraltar",
+    "name": "Strait of Gibraltar",
+    "microstate": false
+  },
+  {
+    "code": "malacca",
+    "name": "Strait of Malacca",
+    "microstate": false
+  },
+  {
+    "code": "magellan",
+    "name": "Strait of Magellan",
+    "microstate": false
+  },
+  {
+    "code": "james-bay",
+    "name": "James Bay",
+    "microstate": false
+  },
+  {
+    "code": "caspian",
+    "name": "Caspian Sea",
+    "microstate": false
+  },
+  {
+    "code": "azov",
+    "name": "Sea of Azov",
+    "microstate": false
+  },
+  {
+    "code": "adriatic",
+    "name": "Adriatic Sea",
+    "microstate": false
+  },
+  {
+    "code": "ionian",
+    "name": "Ionian Sea",
+    "microstate": false
+  },
+  {
+    "code": "aegean",
+    "name": "Aegean Sea",
+    "microstate": false
+  },
+  {
+    "code": "english-channel",
+    "name": "English Channel",
+    "microstate": false
+  },
+  {
+    "code": "aden",
+    "name": "Gulf of Aden",
+    "microstate": false
+  },
+  {
+    "code": "arabian",
+    "name": "Arabian Sea",
+    "microstate": false
+  },
+  {
+    "code": "bengal",
+    "name": "Bay of Bengal",
+    "microstate": false
+  },
+  {
+    "code": "red-sea",
+    "name": "Red Sea",
+    "microstate": false
+  },
+  {
+    "code": "black-sea",
+    "name": "Black Sea",
+    "microstate": false
+  },
+  {
+    "code": "north-sea",
+    "name": "North Sea",
+    "microstate": false
+  },
+  {
+    "code": "baltic",
+    "name": "Baltic Sea",
+    "microstate": false
+  },
+  {
+    "code": "persian-gulf",
+    "name": "Persian Gulf",
+    "microstate": false
+  },
+  {
+    "code": "south-china",
+    "name": "South China Sea",
+    "microstate": false
+  },
+  {
+    "code": "mexico",
+    "name": "Gulf of Mexico",
+    "microstate": false
+  },
+  {
+    "code": "bering-sea",
+    "name": "Bering Sea",
+    "microstate": false
+  },
+  {
+    "code": "okhotsk",
+    "name": "Sea of Okhotsk",
+    "microstate": false
+  },
+  {
+    "code": "yellow-sea",
+    "name": "Yellow Sea",
+    "microstate": false
+  },
+  {
+    "code": "hudson",
+    "name": "Hudson Bay",
+    "microstate": false
+  },
+  {
+    "code": "japan",
+    "name": "Sea of Japan",
+    "microstate": false
+  },
+  {
+    "code": "east-china",
+    "name": "East China Sea",
+    "microstate": false
+  },
+  {
+    "code": "mediterranean",
+    "name": "Mediterranean Sea",
+    "microstate": false
+  },
+  {
+    "code": "caribbean",
+    "name": "Caribbean Sea",
+    "microstate": false
+  },
+  {
+    "code": "southern",
+    "name": "Southern Ocean",
+    "microstate": false
+  },
+  {
+    "code": "arctic",
+    "name": "Arctic Ocean",
+    "microstate": false
+  },
+  {
+    "code": "indian",
+    "name": "Indian Ocean",
+    "microstate": false
+  },
+  {
+    "code": "atlantic",
+    "name": "Atlantic Ocean",
+    "microstate": false
+  },
+  {
+    "code": "pacific",
+    "name": "Pacific Ocean",
+    "microstate": false
+  },
+  {
+    "code": "suez",
+    "name": "Suez Canal",
+    "microstate": false
+  },
+  {
+    "code": "panama",
+    "name": "Panama Canal",
+    "microstate": false
+  }
+]

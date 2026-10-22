@@ -1,0 +1,200 @@
+[
+  {
+    "code": "CN-AH",
+    "name": "Anhui",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-BJ",
+    "name": "Beijing",
+    "kind": "municipality",
+    "microstate": false
+  },
+  {
+    "code": "CN-CQ",
+    "name": "Chongqing",
+    "kind": "municipality",
+    "microstate": false
+  },
+  {
+    "code": "CN-FJ",
+    "name": "Fujian",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-GD",
+    "name": "Guangdong",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-GS",
+    "name": "Gansu",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-GX",
+    "name": "Guangxi",
+    "kind": "autonomous region",
+    "microstate": false
+  },
+  {
+    "code": "CN-GZ",
+    "name": "Guizhou",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-HA",
+    "name": "Henan",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-HB",
+    "name": "Hubei",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-HE",
+    "name": "Hebei",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-HI",
+    "name": "Hainan",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-HK",
+    "name": "Hong Kong",
+    "kind": "special administrative region",
+    "microstate": false
+  },
+  {
+    "code": "CN-HL",
+    "name": "Heilongjiang",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-HN",
+    "name": "Hunan",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-JL",
+    "name": "Jilin",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-JS",
+    "name": "Jiangsu",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-JX",
+    "name": "Jiangxi",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-LN",
+    "name": "Liaoning",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-MO",
+    "name": "Macao",
+    "kind": "special administrative region",
+    "microstate": false
+  },
+  {
+    "code": "CN-NM",
+    "name": "Inner Mongolia",
+    "kind": "autonomous region",
+    "microstate": false
+  },
+  {
+    "code": "CN-NX",
+    "name": "Ningxia",
+    "kind": "autonomous region",
+    "microstate": false
+  },
+  {
+    "code": "CN-QH",
+    "name": "Qinghai",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-SC",
+    "name": "Sichuan",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-SD",
+    "name": "Shandong",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-SH",
+    "name": "Shanghai",
+    "kind": "municipality",
+    "microstate": false
+  },
+  {
+    "code": "CN-SN",
+    "name": "Shaanxi",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-SX",
+    "name": "Shanxi",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-TJ",
+    "name": "Tianjin",
+    "kind": "municipality",
+    "microstate": false
+  },
+  {
+    "code": "CN-XJ",
+    "name": "Xinjiang",
+    "kind": "autonomous region",
+    "microstate": false
+  },
+  {
+    "code": "CN-XZ",
+    "name": "Tibet",
+    "kind": "autonomous region",
+    "microstate": false
+  },
+  {
+    "code": "CN-YN",
+    "name": "Yunnan",
+    "kind": "province",
+    "microstate": false
+  },
+  {
+    "code": "CN-ZJ",
+    "name": "Zhejiang",
+    "kind": "province",
+    "microstate": false
+  }
+]

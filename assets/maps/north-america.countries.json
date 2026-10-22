@@ -1,0 +1,207 @@
+[
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "microstate": false
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "microstate": true
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "microstate": true
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "microstate": false
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthélemy",
+    "microstate": true
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "microstate": true
+  },
+  {
+    "code": "BQ",
+    "name": "Caribbean Netherlands",
+    "microstate": true
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "microstate": false
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "microstate": false
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "microstate": false
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "microstate": false
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "microstate": false
+  },
+  {
+    "code": "CW",
+    "name": "Curaçao",
+    "microstate": true
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "microstate": false
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "microstate": false
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "microstate": false
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "microstate": true
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "microstate": true
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "microstate": false
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "microstate": false
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "microstate": false
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "microstate": false
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "microstate": false
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "microstate": true
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "microstate": false
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "microstate": true
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "microstate": true
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "microstate": true
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "microstate": false
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "microstate": false
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "microstate": false
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "microstate": true
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "microstate": true
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "microstate": false
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "microstate": true
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "microstate": true
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "microstate": false
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "microstate": false
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "microstate": false
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "microstate": true
+  },
+  {
+    "code": "VI",
+    "name": "United States Virgin Islands",
+    "microstate": true
+  }
+]

@@ -1,0 +1,1817 @@
+{
+  "id": "french-departments",
+  "title": "French Departments",
+  "source": {
+    "file": "assets/maps/sources/france-departements-2026-100m.geojson.gz",
+    "sha256": "e236204431730cdfe103efea54497896b874c3451efc663a4d4fdcbc831f9e0b",
+    "url": "https://etalab-datasets.geo.data.gouv.fr/contours-administratifs/2026/geojson/departements-100m.geojson.gz",
+    "attribution": "data.gouv.fr / Etalab, Contours administratifs 2026, derived from IGN Admin Express; 100 m generalization",
+    "license": "ODbL 1.0 — https://opendatacommons.org/licenses/odbl/1-0/",
+    "modifications": "Department selection, Gironde estuary water subtraction using BD TOPAGE, projection, overseas inset placement, coordinate rounding, shared-border topology, SVG and thumbnail conversion. The archived sources and offline generator accompany these derived assets."
+  },
+  "hydrography": {
+    "attribution": "IGN / OFB, BD TOPAGE, distributed by Sandre / Eaufrance",
+    "url": "https://services.sandre.eaufrance.fr/geo/topage",
+    "retrieved": "2026-10-21",
+    "license": "Licence Ouverte 2.0 — https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+    "sources": [
+      {
+        "file": "assets/maps/sources/france-topage-rivers.geojson.gz",
+        "sha256": "c128268ce77e9a89f33535d430b203051e1314c30367c04034063e1a1c33df32",
+        "layer": "CoursEau_FXX"
+      },
+      {
+        "file": "assets/maps/sources/france-topage-gironde-water.geojson.gz",
+        "sha256": "fa513edb8fdbe12f115587e1049569f76c2533ac80229f7af7fe107b23678515",
+        "layer": "SurfaceElementaire_FXX"
+      }
+    ],
+    "rivers": [
+      "Somme",
+      "Marne",
+      "Loire",
+      "Seine",
+      "Rhône",
+      "Garonne",
+      "Dordogne"
+    ],
+    "waterClipBounds": [
+      -1.3,
+      44.78,
+      -0.35,
+      45.7
+    ]
+  },
+  "tricolor": {
+    "blue": {
+      "fill": "#24479c",
+      "title": "#ffffff",
+      "codes": [
+        "14",
+        "16",
+        "17",
+        "22",
+        "24",
+        "29",
+        "32",
+        "33",
+        "35",
+        "37",
+        "40",
+        "44",
+        "47",
+        "49",
+        "50",
+        "53",
+        "56",
+        "61",
+        "64",
+        "65",
+        "72",
+        "79",
+        "85",
+        "86",
+        "87",
+        "971",
+        "972",
+        "973"
+      ]
+    },
+    "white": {
+      "fill": "#f5f4ee",
+      "title": "#172a2f"
+    },
+    "red": {
+      "fill": "#c93d49",
+      "title": "#ffffff",
+      "codes": [
+        "01",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "13",
+        "21",
+        "25",
+        "26",
+        "30",
+        "38",
+        "39",
+        "52",
+        "54",
+        "55",
+        "57",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "73",
+        "74",
+        "83",
+        "84",
+        "88",
+        "90",
+        "2A",
+        "2B",
+        "974",
+        "976"
+      ]
+    }
+  },
+  "projection": "Albers equal-area (3° E; 44°/49° N), local overseas insets",
+  "viewBox": [
+    0,
+    0,
+    1100,
+    1020
+  ],
+  "wrapping": false,
+  "coordinateDecimals": 3,
+  "simplification": false,
+  "note": "101 departments: 96 metropolitan and five overseas. Corsica remains in geographic position. Overseas departments use independent scales in unlabeled insets. No other overseas collectivities are included.",
+  "insets": [
+    {
+      "code": "971",
+      "frame": [
+        10,
+        490,
+        165,
+        150
+      ],
+      "center": -61.5,
+      "latitude": 16.2
+    },
+    {
+      "code": "972",
+      "frame": [
+        10,
+        660,
+        165,
+        150
+      ],
+      "center": -61,
+      "latitude": 14.6
+    },
+    {
+      "code": "973",
+      "frame": [
+        10,
+        830,
+        165,
+        150
+      ],
+      "center": -53,
+      "latitude": 4
+    },
+    {
+      "code": "976",
+      "frame": [
+        915,
+        40,
+        165,
+        150
+      ],
+      "center": 45.2,
+      "latitude": -12.8
+    },
+    {
+      "code": "974",
+      "frame": [
+        915,
+        210,
+        165,
+        150
+      ],
+      "center": 55.5,
+      "latitude": -21.1
+    }
+  ],
+  "stats": {
+    "playable": 101,
+    "context": 0,
+    "arcs": 455,
+    "sharedArcs": 255,
+    "vertices": 107699,
+    "svgBytes": 5902272
+  },
+  "regions": {
+    "10": {
+      "name": "Aube",
+      "playable": true,
+      "anchor": [
+        640.336,
+        324.91
+      ],
+      "focusBox": [
+        591.833,
+        285.655,
+        89.487,
+        72.104
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "11": {
+      "name": "Aude",
+      "playable": true,
+      "anchor": [
+        524.595,
+        794.481
+      ],
+      "focusBox": [
+        482.073,
+        763.08,
+        102.543,
+        73.462
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "12": {
+      "name": "Aveyron",
+      "playable": true,
+      "anchor": [
+        547.085,
+        682.451
+      ],
+      "focusBox": [
+        493.664,
+        628.906,
+        104.479,
+        113.502
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "13": {
+      "name": "Bouches-du-Rhône",
+      "playable": true,
+      "anchor": [
+        690.929,
+        741.475
+      ],
+      "focusBox": [
+        649.765,
+        719.983,
+        103.506,
+        67.664
+      ],
+      "polygons": 10,
+      "checkedBand": "red"
+    },
+    "14": {
+      "name": "Calvados",
+      "playable": true,
+      "anchor": [
+        360.044,
+        246.594
+      ],
+      "focusBox": [
+        320.492,
+        218.559,
+        96.355,
+        58.935
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "15": {
+      "name": "Cantal",
+      "playable": true,
+      "anchor": [
+        540.929,
+        610.63
+      ],
+      "focusBox": [
+        508.649,
+        579.673,
+        83.897,
+        78.552
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "16": {
+      "name": "Charente",
+      "playable": true,
+      "anchor": [
+        394.605,
+        547.426
+      ],
+      "focusBox": [
+        349.817,
+        518.007,
+        89.634,
+        84.584
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "17": {
+      "name": "Charente-Maritime",
+      "playable": true,
+      "anchor": [
+        333.804,
+        535.55
+      ],
+      "focusBox": [
+        300.562,
+        493.088,
+        77.068,
+        118.456
+      ],
+      "polygons": 5,
+      "checkedBand": "blue"
+    },
+    "18": {
+      "name": "Cher",
+      "playable": true,
+      "anchor": [
+        541.181,
+        433.549
+      ],
+      "focusBox": [
+        493.139,
+        384.746,
+        80.506,
+        109.715
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "19": {
+      "name": "Corrèze",
+      "playable": true,
+      "anchor": [
+        491.7,
+        595.58
+      ],
+      "focusBox": [
+        455.565,
+        553.789,
+        83.328,
+        76.476
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "21": {
+      "name": "Côte-d'Or",
+      "playable": true,
+      "anchor": [
+        681.702,
+        410.716
+      ],
+      "focusBox": [
+        634.073,
+        347.433,
+        89.406,
+        102.601
+      ],
+      "polygons": 2,
+      "checkedBand": "red"
+    },
+    "22": {
+      "name": "Côtes-d'Armor",
+      "playable": true,
+      "anchor": [
+        198.737,
+        294.661
+      ],
+      "focusBox": [
+        169.88,
+        257.914,
+        104.088,
+        78.155
+      ],
+      "polygons": 15,
+      "checkedBand": "blue"
+    },
+    "23": {
+      "name": "Creuse",
+      "playable": true,
+      "anchor": [
+        512.279,
+        526.477
+      ],
+      "focusBox": [
+        466.827,
+        490.933,
+        77.432,
+        72.207
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "24": {
+      "name": "Dordogne",
+      "playable": true,
+      "anchor": [
+        422.643,
+        612.972
+      ],
+      "focusBox": [
+        373.783,
+        556.484,
+        95.529,
+        104.587
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "25": {
+      "name": "Doubs",
+      "playable": true,
+      "anchor": [
+        768.224,
+        425.516
+      ],
+      "focusBox": [
+        734.675,
+        384.246,
+        83.419,
+        94.453
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "26": {
+      "name": "Drôme",
+      "playable": true,
+      "anchor": [
+        707.219,
+        652.55
+      ],
+      "focusBox": [
+        675.529,
+        590.811,
+        75.604,
+        110.499
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "27": {
+      "name": "Eure",
+      "playable": true,
+      "anchor": [
+        446.084,
+        258.368
+      ],
+      "focusBox": [
+        408.951,
+        214.206,
+        88.902,
+        74.707
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "28": {
+      "name": "Eure-et-Loir",
+      "playable": true,
+      "anchor": [
+        472.182,
+        320.364
+      ],
+      "focusBox": [
+        433.423,
+        265.046,
+        74.662,
+        89.402
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "29": {
+      "name": "Finistère",
+      "playable": true,
+      "anchor": [
+        152.832,
+        296.883
+      ],
+      "focusBox": [
+        100.383,
+        266.807,
+        80.845,
+        89.547
+      ],
+      "polygons": 22,
+      "checkedBand": "blue"
+    },
+    "30": {
+      "name": "Gard",
+      "playable": true,
+      "anchor": [
+        653.824,
+        714.327
+      ],
+      "focusBox": [
+        585.885,
+        672.237,
+        103.271,
+        90.406
+      ],
+      "polygons": 2,
+      "checkedBand": "red"
+    },
+    "31": {
+      "name": "Haute-Garonne",
+      "playable": true,
+      "anchor": [
+        467.733,
+        758.464
+      ],
+      "focusBox": [
+        398.744,
+        720.62,
+        107.34,
+        110.264
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "32": {
+      "name": "Gers",
+      "playable": true,
+      "anchor": [
+        403.792,
+        740.51
+      ],
+      "focusBox": [
+        353.278,
+        704.703,
+        97.367,
+        69.751
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "33": {
+      "name": "Gironde",
+      "playable": true,
+      "anchor": [
+        352.978,
+        657.894
+      ],
+      "focusBox": [
+        293.613,
+        565.035,
+        102.583,
+        127.324
+      ],
+      "polygons": 20,
+      "checkedBand": "blue"
+    },
+    "34": {
+      "name": "Hérault",
+      "playable": true,
+      "anchor": [
+        594.813,
+        752.186
+      ],
+      "focusBox": [
+        538.355,
+        716.582,
+        108.794,
+        69.122
+      ],
+      "polygons": 2,
+      "checkedBand": "white"
+    },
+    "35": {
+      "name": "Ille-et-Vilaine",
+      "playable": true,
+      "anchor": [
+        293.899,
+        330.292
+      ],
+      "focusBox": [
+        248.181,
+        278.052,
+        77.075,
+        96.623
+      ],
+      "polygons": 3,
+      "checkedBand": "blue"
+    },
+    "36": {
+      "name": "Indre",
+      "playable": true,
+      "anchor": [
+        479.705,
+        462.838
+      ],
+      "focusBox": [
+        436.338,
+        416.11,
+        82.755,
+        84.244
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "37": {
+      "name": "Indre-et-Loire",
+      "playable": true,
+      "anchor": [
+        423.776,
+        411.234
+      ],
+      "focusBox": [
+        387.258,
+        375.486,
+        80.734,
+        88.817
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "38": {
+      "name": "Isère",
+      "playable": true,
+      "anchor": [
+        750.398,
+        616.427
+      ],
+      "focusBox": [
+        679.57,
+        541.223,
+        104.866,
+        106.894
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "39": {
+      "name": "Jura",
+      "playable": true,
+      "anchor": [
+        739.298,
+        464.817
+      ],
+      "focusBox": [
+        708.037,
+        411.808,
+        59.728,
+        94.614
+      ],
+      "polygons": 2,
+      "checkedBand": "red"
+    },
+    "40": {
+      "name": "Landes",
+      "playable": true,
+      "anchor": [
+        320.587,
+        711.663
+      ],
+      "focusBox": [
+        271.429,
+        659.229,
+        110.899,
+        94.453
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "41": {
+      "name": "Loir-et-Cher",
+      "playable": true,
+      "anchor": [
+        475.474,
+        395.721
+      ],
+      "focusBox": [
+        421.21,
+        337.698,
+        101.461,
+        86.341
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "42": {
+      "name": "Loire",
+      "playable": true,
+      "anchor": [
+        634.584,
+        548.12
+      ],
+      "focusBox": [
+        612.292,
+        507.416,
+        68.48,
+        94.296
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "43": {
+      "name": "Haute-Loire",
+      "playable": true,
+      "anchor": [
+        623.059,
+        615.567
+      ],
+      "focusBox": [
+        574.039,
+        584.703,
+        89.872,
+        61.842
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "44": {
+      "name": "Loire-Atlantique",
+      "playable": true,
+      "anchor": [
+        276.119,
+        400.987
+      ],
+      "focusBox": [
+        227.861,
+        358.509,
+        98.988,
+        88.139
+      ],
+      "polygons": 2,
+      "checkedBand": "blue"
+    },
+    "45": {
+      "name": "Loiret",
+      "playable": true,
+      "anchor": [
+        538.374,
+        363.405
+      ],
+      "focusBox": [
+        478.563,
+        319.735,
+        97.98,
+        78.403
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "46": {
+      "name": "Lot",
+      "playable": true,
+      "anchor": [
+        482.835,
+        650.864
+      ],
+      "focusBox": [
+        438.314,
+        618.542,
+        79.488,
+        76.256
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "47": {
+      "name": "Lot-et-Garonne",
+      "playable": true,
+      "anchor": [
+        402.347,
+        679.743
+      ],
+      "focusBox": [
+        364.688,
+        641.842,
+        79.974,
+        71.655
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "48": {
+      "name": "Lozère",
+      "playable": true,
+      "anchor": [
+        602.788,
+        668.268
+      ],
+      "focusBox": [
+        567.56,
+        625.756,
+        65.794,
+        78.429
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "49": {
+      "name": "Maine-et-Loire",
+      "playable": true,
+      "anchor": [
+        355.213,
+        401
+      ],
+      "focusBox": [
+        301.294,
+        361.626,
+        98.401,
+        77.422
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "50": {
+      "name": "Manche",
+      "playable": true,
+      "anchor": [
+        317.409,
+        247.033
+      ],
+      "focusBox": [
+        278.372,
+        185.596,
+        66.84,
+        116.926
+      ],
+      "polygons": 3,
+      "checkedBand": "blue"
+    },
+    "51": {
+      "name": "Marne",
+      "playable": true,
+      "anchor": [
+        638.345,
+        258.144
+      ],
+      "focusBox": [
+        592.408,
+        223.238,
+        97.744,
+        81.025
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "52": {
+      "name": "Haute-Marne",
+      "playable": true,
+      "anchor": [
+        703.996,
+        343.234
+      ],
+      "focusBox": [
+        666.521,
+        287.247,
+        77.807,
+        100.492
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "53": {
+      "name": "Mayenne",
+      "playable": true,
+      "anchor": [
+        346.933,
+        329.543
+      ],
+      "focusBox": [
+        310.877,
+        295.741,
+        74.539,
+        74.587
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "54": {
+      "name": "Meurthe-et-Moselle",
+      "playable": true,
+      "anchor": [
+        757.92,
+        291.256
+      ],
+      "focusBox": [
+        713.186,
+        206.6,
+        103.103,
+        109.618
+      ],
+      "polygons": 3,
+      "checkedBand": "red"
+    },
+    "55": {
+      "name": "Meuse",
+      "playable": true,
+      "anchor": [
+        709.649,
+        273.645
+      ],
+      "focusBox": [
+        681.522,
+        202.478,
+        56.938,
+        109.291
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "56": {
+      "name": "Morbihan",
+      "playable": true,
+      "anchor": [
+        235.207,
+        358.59
+      ],
+      "focusBox": [
+        161.57,
+        317.949,
+        100.94,
+        72.361
+      ],
+      "polygons": 16,
+      "checkedBand": "blue"
+    },
+    "57": {
+      "name": "Moselle",
+      "playable": true,
+      "anchor": [
+        768.663,
+        243.126
+      ],
+      "focusBox": [
+        739.173,
+        210.065,
+        105.261,
+        86.839
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "58": {
+      "name": "Nièvre",
+      "playable": true,
+      "anchor": [
+        602.327,
+        433.205
+      ],
+      "focusBox": [
+        559.252,
+        388.641,
+        85.308,
+        85.005
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "59": {
+      "name": "Nord",
+      "playable": true,
+      "anchor": [
+        595.519,
+        149.652
+      ],
+      "focusBox": [
+        516.651,
+        71.175,
+        123.819,
+        101.057
+      ],
+      "polygons": 2,
+      "checkedBand": "white"
+    },
+    "60": {
+      "name": "Oise",
+      "playable": true,
+      "anchor": [
+        520.276,
+        219.814
+      ],
+      "focusBox": [
+        491.675,
+        190.695,
+        86.829,
+        64.331
+      ],
+      "polygons": 3,
+      "checkedBand": "white"
+    },
+    "61": {
+      "name": "Orne",
+      "playable": true,
+      "anchor": [
+        402.639,
+        284.275
+      ],
+      "focusBox": [
+        336.901,
+        260.445,
+        110.148,
+        72.581
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "62": {
+      "name": "Pas-de-Calais",
+      "playable": true,
+      "anchor": [
+        512.043,
+        117.537
+      ],
+      "focusBox": [
+        485.1,
+        78.053,
+        94.574,
+        90.025
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "63": {
+      "name": "Puy-de-Dôme",
+      "playable": true,
+      "anchor": [
+        570.927,
+        558.062
+      ],
+      "focusBox": [
+        530.112,
+        509.537,
+        101.234,
+        88.02
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "64": {
+      "name": "Pyrénées-Atlantiques",
+      "playable": true,
+      "anchor": [
+        332.735,
+        778.128
+      ],
+      "focusBox": [
+        252.784,
+        746.05,
+        119.978,
+        73.775
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "65": {
+      "name": "Hautes-Pyrénées",
+      "playable": true,
+      "anchor": [
+        379.862,
+        802.799
+      ],
+      "focusBox": [
+        347.603,
+        745.678,
+        65.02,
+        85.852
+      ],
+      "polygons": 3,
+      "checkedBand": "blue"
+    },
+    "66": {
+      "name": "Pyrénées-Orientales",
+      "playable": true,
+      "anchor": [
+        542.564,
+        839.327
+      ],
+      "focusBox": [
+        483.152,
+        812.394,
+        97.487,
+        52.965
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "67": {
+      "name": "Bas-Rhin",
+      "playable": true,
+      "anchor": [
+        843.671,
+        275.489
+      ],
+      "focusBox": [
+        803.486,
+        245.935,
+        76.6,
+        86.416
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "68": {
+      "name": "Haut-Rhin",
+      "playable": true,
+      "anchor": [
+        826.525,
+        354.498
+      ],
+      "focusBox": [
+        802.422,
+        316.251,
+        46.871,
+        80.653
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "69": {
+      "name": "Rhône",
+      "playable": true,
+      "anchor": [
+        673.617,
+        554.405
+      ],
+      "focusBox": [
+        647.046,
+        503.924,
+        58.375,
+        77.207
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "70": {
+      "name": "Haute-Saône",
+      "playable": true,
+      "anchor": [
+        758.331,
+        375.035
+      ],
+      "focusBox": [
+        713.604,
+        345.329,
+        88.722,
+        71.206
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "71": {
+      "name": "Saône-et-Loire",
+      "playable": true,
+      "anchor": [
+        659.713,
+        475.638
+      ],
+      "focusBox": [
+        607.404,
+        427.374,
+        114.125,
+        90.65
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "72": {
+      "name": "Sarthe",
+      "playable": true,
+      "anchor": [
+        402.1,
+        350.742
+      ],
+      "focusBox": [
+        359.004,
+        304.42,
+        83.721,
+        83.374
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "73": {
+      "name": "Savoie",
+      "playable": true,
+      "anchor": [
+        797.623,
+        579.736
+      ],
+      "focusBox": [
+        734.93,
+        535.231,
+        100.043,
+        78.854
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "74": {
+      "name": "Haute-Savoie",
+      "playable": true,
+      "anchor": [
+        789.649,
+        518.435
+      ],
+      "focusBox": [
+        745.252,
+        490.348,
+        78.29,
+        67.218
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "75": {
+      "name": "Paris",
+      "playable": true,
+      "anchor": [
+        529.548,
+        273.103
+      ],
+      "focusBox": [
+        522.445,
+        269.278,
+        14.651,
+        7.809
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "76": {
+      "name": "Seine-Maritime",
+      "playable": true,
+      "anchor": [
+        454.448,
+        200.676
+      ],
+      "focusBox": [
+        395.893,
+        162.496,
+        101.584,
+        73.817
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "77": {
+      "name": "Seine-et-Marne",
+      "playable": true,
+      "anchor": [
+        569.232,
+        293.133
+      ],
+      "focusBox": [
+        532.115,
+        249.854,
+        70.135,
+        90.478
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "78": {
+      "name": "Yvelines",
+      "playable": true,
+      "anchor": [
+        501.345,
+        275.09
+      ],
+      "focusBox": [
+        476.372,
+        252.069,
+        46.21,
+        58.946
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "79": {
+      "name": "Deux-Sèvres",
+      "playable": true,
+      "anchor": [
+        359.583,
+        452.694
+      ],
+      "focusBox": [
+        327.463,
+        428.254,
+        66.83,
+        103.503
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "80": {
+      "name": "Somme",
+      "playable": true,
+      "anchor": [
+        515.306,
+        173.956
+      ],
+      "focusBox": [
+        474.354,
+        135.982,
+        106.225,
+        72.615
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "81": {
+      "name": "Tarn",
+      "playable": true,
+      "anchor": [
+        510.481,
+        730.6
+      ],
+      "focusBox": [
+        473.104,
+        695.794,
+        91.536,
+        74.312
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "82": {
+      "name": "Tarn-et-Garonne",
+      "playable": true,
+      "anchor": [
+        448.773,
+        709.121
+      ],
+      "focusBox": [
+        421.342,
+        677.186,
+        82.256,
+        56.917
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "83": {
+      "name": "Var",
+      "playable": true,
+      "anchor": [
+        781.037,
+        763.227
+      ],
+      "focusBox": [
+        743.283,
+        726.551,
+        84.338,
+        71.966
+      ],
+      "polygons": 7,
+      "checkedBand": "red"
+    },
+    "84": {
+      "name": "Vaucluse",
+      "playable": true,
+      "anchor": [
+        713.672,
+        713.829
+      ],
+      "focusBox": [
+        675.748,
+        683.313,
+        73.717,
+        59.282
+      ],
+      "polygons": 2,
+      "checkedBand": "red"
+    },
+    "85": {
+      "name": "Vendée",
+      "playable": true,
+      "anchor": [
+        309.746,
+        466.172
+      ],
+      "focusBox": [
+        249.592,
+        427.235,
+        98.064,
+        74.239
+      ],
+      "polygons": 3,
+      "checkedBand": "blue"
+    },
+    "86": {
+      "name": "Vienne",
+      "playable": true,
+      "anchor": [
+        411.346,
+        480.472
+      ],
+      "focusBox": [
+        377.145,
+        422.612,
+        80.012,
+        103.207
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "87": {
+      "name": "Haute-Vienne",
+      "playable": true,
+      "anchor": [
+        455.999,
+        548.847
+      ],
+      "focusBox": [
+        418.741,
+        495.298,
+        81.054,
+        87.448
+      ],
+      "polygons": 1,
+      "checkedBand": "blue"
+    },
+    "88": {
+      "name": "Vosges",
+      "playable": true,
+      "anchor": [
+        788.005,
+        329.814
+      ],
+      "focusBox": [
+        712.825,
+        298.21,
+        108.948,
+        64.384
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "89": {
+      "name": "Yonne",
+      "playable": true,
+      "anchor": [
+        598.85,
+        365.792
+      ],
+      "focusBox": [
+        559.503,
+        314.991,
+        90.837,
+        98.473
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "90": {
+      "name": "Territoire de Belfort",
+      "playable": true,
+      "anchor": [
+        806.976,
+        374.184
+      ],
+      "focusBox": [
+        797.669,
+        361.469,
+        24.534,
+        35.228
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "91": {
+      "name": "Essonne",
+      "playable": true,
+      "anchor": [
+        523.761,
+        305.164
+      ],
+      "focusBox": [
+        503.486,
+        280.625,
+        40.418,
+        44.471
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "92": {
+      "name": "Hauts-de-Seine",
+      "playable": true,
+      "anchor": [
+        525.184,
+        278.884
+      ],
+      "focusBox": [
+        517.749,
+        264.786,
+        11.489,
+        20.12
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "93": {
+      "name": "Seine-Saint-Denis",
+      "playable": true,
+      "anchor": [
+        538.574,
+        268.55
+      ],
+      "focusBox": [
+        526.355,
+        259.354,
+        18.75,
+        18.612
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "94": {
+      "name": "Val-de-Marne",
+      "playable": true,
+      "anchor": [
+        539.632,
+        280.04
+      ],
+      "focusBox": [
+        527.409,
+        273.002,
+        18.305,
+        15.73
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "95": {
+      "name": "Val-d'Oise",
+      "playable": true,
+      "anchor": [
+        526.909,
+        254.775
+      ],
+      "focusBox": [
+        486.076,
+        238.013,
+        58.556,
+        30.577
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "971": {
+      "name": "Guadeloupe",
+      "playable": true,
+      "anchor": [
+        47.034,
+        580.49
+      ],
+      "focusBox": [
+        22,
+        530.465,
+        46.779,
+        75.487
+      ],
+      "polygons": 14,
+      "checkedBand": "blue"
+    },
+    "972": {
+      "name": "Martinique",
+      "playable": true,
+      "anchor": [
+        79.103,
+        713.547
+      ],
+      "focusBox": [
+        39.752,
+        672,
+        105.496,
+        126
+      ],
+      "polygons": 11,
+      "checkedBand": "blue"
+    },
+    "973": {
+      "name": "Guyane",
+      "playable": true,
+      "anchor": [
+        96.191,
+        901.542
+      ],
+      "focusBox": [
+        40.956,
+        842,
+        103.088,
+        126
+      ],
+      "polygons": 11,
+      "checkedBand": "blue"
+    },
+    "974": {
+      "name": "La Réunion",
+      "playable": true,
+      "anchor": [
+        992.347,
+        280.725
+      ],
+      "focusBox": [
+        927.03,
+        222,
+        140.94,
+        126
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "976": {
+      "name": "Mayotte",
+      "playable": true,
+      "anchor": [
+        998.454,
+        103.273
+      ],
+      "focusBox": [
+        958.375,
+        57.026,
+        66.69,
+        120.974
+      ],
+      "polygons": 7,
+      "checkedBand": "red"
+    },
+    "01": {
+      "name": "Ain",
+      "playable": true,
+      "anchor": [
+        705.056,
+        521.007
+      ],
+      "focusBox": [
+        677.621,
+        483.959,
+        89.283,
+        81.418
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "02": {
+      "name": "Aisne",
+      "playable": true,
+      "anchor": [
+        603.236,
+        194.729
+      ],
+      "focusBox": [
+        566.311,
+        163.392,
+        75.853,
+        111.817
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "03": {
+      "name": "Allier",
+      "playable": true,
+      "anchor": [
+        589.841,
+        499.542
+      ],
+      "focusBox": [
+        523.567,
+        459.819,
+        108.041,
+        79.122
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "04": {
+      "name": "Alpes-de-Haute-Provence",
+      "playable": true,
+      "anchor": [
+        783.21,
+        701.47
+      ],
+      "focusBox": [
+        731.328,
+        648.219,
+        95.087,
+        92.424
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "05": {
+      "name": "Hautes-Alpes",
+      "playable": true,
+      "anchor": [
+        799.769,
+        641.744
+      ],
+      "focusBox": [
+        725.33,
+        607.278,
+        106.126,
+        87.173
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "06": {
+      "name": "Alpes-Maritimes",
+      "playable": true,
+      "anchor": [
+        844.641,
+        712.996
+      ],
+      "focusBox": [
+        806.756,
+        675.378,
+        69.09,
+        79.659
+      ],
+      "polygons": 3,
+      "checkedBand": "red"
+    },
+    "07": {
+      "name": "Ardèche",
+      "playable": true,
+      "anchor": [
+        654.346,
+        656.344
+      ],
+      "focusBox": [
+        624.247,
+        589.146,
+        65.537,
+        100.577
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "08": {
+      "name": "Ardennes",
+      "playable": true,
+      "anchor": [
+        661.98,
+        207.461
+      ],
+      "focusBox": [
+        628.974,
+        153.314,
+        80.523,
+        85.333
+      ],
+      "polygons": 1,
+      "checkedBand": "red"
+    },
+    "09": {
+      "name": "Ariège",
+      "playable": true,
+      "anchor": [
+        471.979,
+        809.874
+      ],
+      "focusBox": [
+        424.205,
+        775.245,
+        89.508,
+        67.982
+      ],
+      "polygons": 1,
+      "checkedBand": "white"
+    },
+    "2A": {
+      "name": "Corse-du-Sud",
+      "playable": true,
+      "anchor": [
+        975.375,
+        894.82
+      ],
+      "focusBox": [
+        940.558,
+        847.865,
+        62.483,
+        88.602
+      ],
+      "polygons": 8,
+      "checkedBand": "red"
+    },
+    "2B": {
+      "name": "Haute-Corse",
+      "playable": true,
+      "anchor": [
+        983.98,
+        840.297
+      ],
+      "focusBox": [
+        942.413,
+        786.652,
+        67.587,
+        107.089
+      ],
+      "polygons": 2,
+      "checkedBand": "red"
+    }
+  }
+}

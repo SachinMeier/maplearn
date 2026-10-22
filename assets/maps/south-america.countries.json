@@ -1,0 +1,77 @@
+[
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "microstate": false
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "microstate": false
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "microstate": false
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "microstate": false
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "microstate": false
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "microstate": false
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands",
+    "microstate": true
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "microstate": true
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia",
+    "microstate": true
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "microstate": false
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "microstate": false
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "microstate": false
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "microstate": false
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "microstate": false
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "microstate": false
+  }
+]

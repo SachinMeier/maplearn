@@ -1,0 +1,292 @@
+[
+  {
+    "code": "AO",
+    "name": "Angola",
+    "microstate": false
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "microstate": false
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "microstate": false
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "microstate": false
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "microstate": false
+  },
+  {
+    "code": "CD",
+    "name": "DR Congo",
+    "microstate": false
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "microstate": false
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "microstate": false
+  },
+  {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "microstate": false
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "microstate": false
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "microstate": false
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "microstate": false
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "microstate": false
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "microstate": false
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "microstate": false
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "microstate": false
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "microstate": false
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "microstate": false
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "microstate": false
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "microstate": false
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "microstate": false
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "microstate": false
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "microstate": false
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "microstate": false
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "microstate": false
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "microstate": false
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "microstate": false
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "microstate": false
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "microstate": false
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "microstate": false
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "microstate": false
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "microstate": false
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "microstate": false
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "microstate": false
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "microstate": false
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "microstate": false
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "microstate": false
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "microstate": false
+  },
+  {
+    "code": "RE",
+    "name": "Réunion",
+    "microstate": true
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "microstate": false
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "microstate": false
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "microstate": false
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "microstate": true
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "microstate": false
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "microstate": false
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "microstate": false
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "microstate": false
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé and Príncipe",
+    "microstate": false
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "microstate": false
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "microstate": false
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "microstate": false
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "microstate": false
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "microstate": false
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "microstate": false
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "microstate": true
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "microstate": false
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "microstate": false
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "microstate": false
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "code": "01",
+    "name": "Ain",
+    "microstate": false
+  },
+  {
+    "code": "02",
+    "name": "Aisne",
+    "microstate": false
+  },
+  {
+    "code": "03",
+    "name": "Allier",
+    "microstate": false
+  },
+  {
+    "code": "04",
+    "name": "Alpes-de-Haute-Provence",
+    "microstate": false
+  },
+  {
+    "code": "05",
+    "name": "Hautes-Alpes",
+    "microstate": false
+  },
+  {
+    "code": "06",
+    "name": "Alpes-Maritimes",
+    "microstate": false
+  },
+  {
+    "code": "07",
+    "name": "Ardèche",
+    "microstate": false
+  },
+  {
+    "code": "08",
+    "name": "Ardennes",
+    "microstate": false
+  },
+  {
+    "code": "09",
+    "name": "Ariège",
+    "microstate": false
+  },
+  {
+    "code": "10",
+    "name": "Aube",
+    "microstate": false
+  },
+  {
+    "code": "11",
+    "name": "Aude",
+    "microstate": false
+  },
+  {
+    "code": "12",
+    "name": "Aveyron",
+    "microstate": false
+  },
+  {
+    "code": "13",
+    "name": "Bouches-du-Rhône",
+    "microstate": false
+  },
+  {
+    "code": "14",
+    "name": "Calvados",
+    "microstate": false
+  },
+  {
+    "code": "15",
+    "name": "Cantal",
+    "microstate": false
+  },
+  {
+    "code": "16",
+    "name": "Charente",
+    "microstate": false
+  },
+  {
+    "code": "17",
+    "name": "Charente-Maritime",
+    "microstate": false
+  },
+  {
+    "code": "18",
+    "name": "Cher",
+    "microstate": false
+  },
+  {
+    "code": "19",
+    "name": "Corrèze",
+    "microstate": false
+  },
+  {
+    "code": "21",
+    "name": "Côte-d'Or",
+    "microstate": false
+  },
+  {
+    "code": "22",
+    "name": "Côtes-d'Armor",
+    "microstate": false
+  },
+  {
+    "code": "23",
+    "name": "Creuse",
+    "microstate": false
+  },
+  {
+    "code": "24",
+    "name": "Dordogne",
+    "microstate": false
+  },
+  {
+    "code": "25",
+    "name": "Doubs",
+    "microstate": false
+  },
+  {
+    "code": "26",
+    "name": "Drôme",
+    "microstate": false
+  },
+  {
+    "code": "27",
+    "name": "Eure",
+    "microstate": false
+  },
+  {
+    "code": "28",
+    "name": "Eure-et-Loir",
+    "microstate": false
+  },
+  {
+    "code": "29",
+    "name": "Finistère",
+    "microstate": false
+  },
+  {
+    "code": "2A",
+    "name": "Corse-du-Sud",
+    "microstate": false
+  },
+  {
+    "code": "2B",
+    "name": "Haute-Corse",
+    "microstate": false
+  },
+  {
+    "code": "30",
+    "name": "Gard",
+    "microstate": false
+  },
+  {
+    "code": "31",
+    "name": "Haute-Garonne",
+    "microstate": false
+  },
+  {
+    "code": "32",
+    "name": "Gers",
+    "microstate": false
+  },
+  {
+    "code": "33",
+    "name": "Gironde",
+    "microstate": false
+  },
+  {
+    "code": "34",
+    "name": "Hérault",
+    "microstate": false
+  },
+  {
+    "code": "35",
+    "name": "Ille-et-Vilaine",
+    "microstate": false
+  },
+  {
+    "code": "36",
+    "name": "Indre",
+    "microstate": false
+  },
+  {
+    "code": "37",
+    "name": "Indre-et-Loire",
+    "microstate": false
+  },
+  {
+    "code": "38",
+    "name": "Isère",
+    "microstate": false
+  },
+  {
+    "code": "39",
+    "name": "Jura",
+    "microstate": false
+  },
+  {
+    "code": "40",
+    "name": "Landes",
+    "microstate": false
+  },
+  {
+    "code": "41",
+    "name": "Loir-et-Cher",
+    "microstate": false
+  },
+  {
+    "code": "42",
+    "name": "Loire",
+    "microstate": false
+  },
+  {
+    "code": "43",
+    "name": "Haute-Loire",
+    "microstate": false
+  },
+  {
+    "code": "44",
+    "name": "Loire-Atlantique",
+    "microstate": false
+  },
+  {
+    "code": "45",
+    "name": "Loiret",
+    "microstate": false
+  },
+  {
+    "code": "46",
+    "name": "Lot",
+    "microstate": false
+  },
+  {
+    "code": "47",
+    "name": "Lot-et-Garonne",
+    "microstate": false
+  },
+  {
+    "code": "48",
+    "name": "Lozère",
+    "microstate": false
+  },
+  {
+    "code": "49",
+    "name": "Maine-et-Loire",
+    "microstate": false
+  },
+  {
+    "code": "50",
+    "name": "Manche",
+    "microstate": false
+  },
+  {
+    "code": "51",
+    "name": "Marne",
+    "microstate": false
+  },
+  {
+    "code": "52",
+    "name": "Haute-Marne",
+    "microstate": false
+  },
+  {
+    "code": "53",
+    "name": "Mayenne",
+    "microstate": false
+  },
+  {
+    "code": "54",
+    "name": "Meurthe-et-Moselle",
+    "microstate": false
+  },
+  {
+    "code": "55",
+    "name": "Meuse",
+    "microstate": false
+  },
+  {
+    "code": "56",
+    "name": "Morbihan",
+    "microstate": false
+  },
+  {
+    "code": "57",
+    "name": "Moselle",
+    "microstate": false
+  },
+  {
+    "code": "58",
+    "name": "Nièvre",
+    "microstate": false
+  },
+  {
+    "code": "59",
+    "name": "Nord",
+    "microstate": false
+  },
+  {
+    "code": "60",
+    "name": "Oise",
+    "microstate": false
+  },
+  {
+    "code": "61",
+    "name": "Orne",
+    "microstate": false
+  },
+  {
+    "code": "62",
+    "name": "Pas-de-Calais",
+    "microstate": false
+  },
+  {
+    "code": "63",
+    "name": "Puy-de-Dôme",
+    "microstate": false
+  },
+  {
+    "code": "64",
+    "name": "Pyrénées-Atlantiques",
+    "microstate": false
+  },
+  {
+    "code": "65",
+    "name": "Hautes-Pyrénées",
+    "microstate": false
+  },
+  {
+    "code": "66",
+    "name": "Pyrénées-Orientales",
+    "microstate": false
+  },
+  {
+    "code": "67",
+    "name": "Bas-Rhin",
+    "microstate": false
+  },
+  {
+    "code": "68",
+    "name": "Haut-Rhin",
+    "microstate": false
+  },
+  {
+    "code": "69",
+    "name": "Rhône",
+    "microstate": false
+  },
+  {
+    "code": "70",
+    "name": "Haute-Saône",
+    "microstate": false
+  },
+  {
+    "code": "71",
+    "name": "Saône-et-Loire",
+    "microstate": false
+  },
+  {
+    "code": "72",
+    "name": "Sarthe",
+    "microstate": false
+  },
+  {
+    "code": "73",
+    "name": "Savoie",
+    "microstate": false
+  },
+  {
+    "code": "74",
+    "name": "Haute-Savoie",
+    "microstate": false
+  },
+  {
+    "code": "75",
+    "name": "Paris",
+    "microstate": false
+  },
+  {
+    "code": "76",
+    "name": "Seine-Maritime",
+    "microstate": false
+  },
+  {
+    "code": "77",
+    "name": "Seine-et-Marne",
+    "microstate": false
+  },
+  {
+    "code": "78",
+    "name": "Yvelines",
+    "microstate": false
+  },
+  {
+    "code": "79",
+    "name": "Deux-Sèvres",
+    "microstate": false
+  },
+  {
+    "code": "80",
+    "name": "Somme",
+    "microstate": false
+  },
+  {
+    "code": "81",
+    "name": "Tarn",
+    "microstate": false
+  },
+  {
+    "code": "82",
+    "name": "Tarn-et-Garonne",
+    "microstate": false
+  },
+  {
+    "code": "83",
+    "name": "Var",
+    "microstate": false
+  },
+  {
+    "code": "84",
+    "name": "Vaucluse",
+    "microstate": false
+  },
+  {
+    "code": "85",
+    "name": "Vendée",
+    "microstate": false
+  },
+  {
+    "code": "86",
+    "name": "Vienne",
+    "microstate": false
+  },
+  {
+    "code": "87",
+    "name": "Haute-Vienne",
+    "microstate": false
+  },
+  {
+    "code": "88",
+    "name": "Vosges",
+    "microstate": false
+  },
+  {
+    "code": "89",
+    "name": "Yonne",
+    "microstate": false
+  },
+  {
+    "code": "90",
+    "name": "Territoire de Belfort",
+    "microstate": false
+  },
+  {
+    "code": "91",
+    "name": "Essonne",
+    "microstate": false
+  },
+  {
+    "code": "92",
+    "name": "Hauts-de-Seine",
+    "microstate": false
+  },
+  {
+    "code": "93",
+    "name": "Seine-Saint-Denis",
+    "microstate": false
+  },
+  {
+    "code": "94",
+    "name": "Val-de-Marne",
+    "microstate": false
+  },
+  {
+    "code": "95",
+    "name": "Val-d'Oise",
+    "microstate": false
+  },
+  {
+    "code": "971",
+    "name": "Guadeloupe",
+    "microstate": false
+  },
+  {
+    "code": "972",
+    "name": "Martinique",
+    "microstate": false
+  },
+  {
+    "code": "973",
+    "name": "Guyane",
+    "microstate": false
+  },
+  {
+    "code": "974",
+    "name": "La Réunion",
+    "microstate": false
+  },
+  {
+    "code": "976",
+    "name": "Mayotte",
+    "microstate": false
+  }
+]

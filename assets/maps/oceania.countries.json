@@ -1,0 +1,142 @@
+[
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "microstate": true
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "microstate": false
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "microstate": true
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "microstate": false
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "microstate": false
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "microstate": true
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "microstate": false
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "microstate": false
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "microstate": false
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "microstate": true
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "microstate": true
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "microstate": true
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "microstate": false
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "microstate": true
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "microstate": false
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "microstate": true
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "microstate": false
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn Islands",
+    "microstate": true
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "microstate": false
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "microstate": false
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "microstate": true
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "microstate": false
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "microstate": false
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "microstate": false
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "microstate": true
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "microstate": false
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "microstate": true
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "microstate": false
+  }
+]

@@ -1,0 +1,857 @@
+{
+  "id": "asia",
+  "name": "Asia",
+  "source": {
+    "file": "assets/maps/world.svg",
+    "sha256": "aabf1b4d24c76023ffab29551682a67464ed20cad812acdd48bb45912ffb4c2a"
+  },
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    1980,
+    198.30233,
+    1750,
+    1252.175468
+  ],
+  "extent": [
+    18,
+    -13,
+    193,
+    83
+  ],
+  "wrapWidth": null,
+  "cropBoundary": null,
+  "countries": {
+    "RU": {
+      "code": "RU",
+      "name": "Russia",
+      "microstate": false,
+      "anchor": [
+        2894.27301,
+        594.445481
+      ],
+      "focusBox": [
+        2073.28,
+        319.895,
+        1526.72,
+        563.145
+      ],
+      "polygons": 214
+    },
+    "CN": {
+      "code": "CN",
+      "name": "China",
+      "microstate": false,
+      "anchor": [
+        2886.458936,
+        979.523177
+      ],
+      "focusBox": [
+        2536.023,
+        725.746,
+        611.703,
+        388.881
+      ],
+      "polygons": 63
+    },
+    "KZ": {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "microstate": false,
+      "anchor": [
+        2493.198767,
+        791.458539
+      ],
+      "focusBox": [
+        2264.783,
+        699.988,
+        408.455,
+        190.278
+      ],
+      "polygons": 6
+    },
+    "IN": {
+      "code": "IN",
+      "name": "India",
+      "microstate": false,
+      "anchor": [
+        2593.491515,
+        1091.329006
+      ],
+      "focusBox": [
+        2481.434,
+        949.311,
+        292.189,
+        289.515
+      ],
+      "polygons": 35
+    },
+    "MN": {
+      "code": "MN",
+      "name": "Mongolia",
+      "microstate": false,
+      "anchor": [
+        2845.135073,
+        823.119201
+      ],
+      "focusBox": [
+        2677.357,
+        745.208,
+        321.713,
+        133.134
+      ],
+      "polygons": 1
+    },
+    "SA": {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "microstate": false,
+      "anchor": [
+        2247.359848,
+        1077.727948
+      ],
+      "focusBox": [
+        2145.728,
+        987.2,
+        210.648,
+        167.404
+      ],
+      "polygons": 11
+    },
+    "IR": {
+      "code": "IR",
+      "name": "Iran",
+      "microstate": false,
+      "anchor": [
+        2352.271989,
+        987.1699
+      ],
+      "focusBox": [
+        2240.149,
+        899.869,
+        193.047,
+        164.019
+      ],
+      "polygons": 12
+    },
+    "ID": {
+      "code": "ID",
+      "name": "Indonesia",
+      "microstate": false,
+      "anchor": [
+        2941.450347,
+        1329.271807
+      ],
+      "focusBox": [
+        2888.555,
+        1275.762,
+        101.562,
+        85.862
+      ],
+      "polygons": 264
+    },
+    "TR": {
+      "code": "TR",
+      "name": "Turkey",
+      "microstate": false,
+      "anchor": [
+        2137.412896,
+        904.726808
+      ],
+      "focusBox": [
+        2060.7,
+        872.197,
+        187.37,
+        73.423
+      ],
+      "polygons": 6
+    },
+    "PK": {
+      "code": "PK",
+      "name": "Pakistan",
+      "microstate": false,
+      "anchor": [
+        2471.880145,
+        1034.759538
+      ],
+      "focusBox": [
+        2408.444,
+        931.482,
+        162.046,
+        146.886
+      ],
+      "polygons": 2
+    },
+    "AF": {
+      "code": "AF",
+      "name": "Afghanistan",
+      "microstate": false,
+      "anchor": [
+        2467.062435,
+        962.56261
+      ],
+      "focusBox": [
+        2404.868,
+        915.059,
+        144.055,
+        102.222
+      ],
+      "polygons": 1
+    },
+    "MM": {
+      "code": "MM",
+      "name": "Myanmar",
+      "microstate": false,
+      "anchor": [
+        2759.481365,
+        1099.726733
+      ],
+      "focusBox": [
+        2721.75,
+        1026.507,
+        89.989,
+        193.051
+      ],
+      "polygons": 39
+    },
+    "UZ": {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "microstate": false,
+      "anchor": [
+        2438.846306,
+        875.667556
+      ],
+      "focusBox": [
+        2359.758,
+        829.918,
+        171.728,
+        100.059
+      ],
+      "polygons": 3
+    },
+    "TM": {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "microstate": false,
+      "anchor": [
+        2388.467849,
+        900.577779
+      ],
+      "focusBox": [
+        2324.377,
+        863.849,
+        142.081,
+        89.49
+      ],
+      "polygons": 3
+    },
+    "IQ": {
+      "code": "IQ",
+      "name": "Iraq",
+      "microstate": false,
+      "anchor": [
+        2230.492453,
+        975.523913
+      ],
+      "focusBox": [
+        2187.745,
+        927.783,
+        97.848,
+        93.022
+      ],
+      "polygons": 1
+    },
+    "TH": {
+      "code": "TH",
+      "name": "Thailand",
+      "microstate": false,
+      "anchor": [
+        2813.522059,
+        1163.757249
+      ],
+      "focusBox": [
+        2773.514,
+        1112.473,
+        82.996,
+        150.928
+      ],
+      "polygons": 20
+    },
+    "JP": {
+      "code": "JP",
+      "name": "Japan",
+      "microstate": false,
+      "anchor": [
+        3194.33698,
+        935.938813
+      ],
+      "focusBox": [
+        3108.616,
+        878.812,
+        112.087,
+        93.763
+      ],
+      "polygons": 109
+    },
+    "YE": {
+      "code": "YE",
+      "name": "Yemen",
+      "microstate": false,
+      "anchor": [
+        2250.121044,
+        1165.554143
+      ],
+      "focusBox": [
+        2226.101,
+        1127.535,
+        104.802,
+        65.588
+      ],
+      "polygons": 9
+    },
+    "VN": {
+      "code": "VN",
+      "name": "Vietnam",
+      "microstate": false,
+      "anchor": [
+        2853.489038,
+        1099.228887
+      ],
+      "focusBox": [
+        2821.187,
+        1081.836,
+        73.537,
+        152.061
+      ],
+      "polygons": 25
+    },
+    "OM": {
+      "code": "OM",
+      "name": "Oman",
+      "microstate": false,
+      "anchor": [
+        2373.940966,
+        1094.99666
+      ],
+      "focusBox": [
+        2319.786,
+        1064.752,
+        78.66,
+        87.064
+      ],
+      "polygons": 6
+    },
+    "MY": {
+      "code": "MY",
+      "name": "Malaysia",
+      "microstate": false,
+      "anchor": [
+        2937.648584,
+        1295.124935
+      ],
+      "focusBox": [
+        2895.284,
+        1249.377,
+        97.497,
+        61.867
+      ],
+      "polygons": 17
+    },
+    "KG": {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "microstate": false,
+      "anchor": [
+        2546.935606,
+        876.752529
+      ],
+      "focusBox": [
+        2492.263,
+        858.145,
+        110.313,
+        48.56
+      ],
+      "polygons": 1
+    },
+    "PH": {
+      "code": "PH",
+      "name": "Philippines",
+      "microstate": false,
+      "anchor": [
+        3013.930656,
+        1148.714614
+      ],
+      "focusBox": [
+        2997.557,
+        1131.156,
+        44.325,
+        62.599
+      ],
+      "polygons": 97
+    },
+    "SY": {
+      "code": "SY",
+      "name": "Syria",
+      "microstate": false,
+      "anchor": [
+        2182.863127,
+        954.161389
+      ],
+      "focusBox": [
+        2157.234,
+        928.367,
+        66.538,
+        56.705
+      ],
+      "polygons": 1
+    },
+    "LA": {
+      "code": "LA",
+      "name": "Laos",
+      "microstate": false,
+      "anchor": [
+        2825.789079,
+        1120.342645
+      ],
+      "focusBox": [
+        2800.971,
+        1091.004,
+        75.673,
+        88.716
+      ],
+      "polygons": 1
+    },
+    "TJ": {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "microstate": false,
+      "anchor": [
+        2526.454143,
+        917.319767
+      ],
+      "focusBox": [
+        2473.427,
+        884.858,
+        78.214,
+        50.942
+      ],
+      "polygons": 3
+    },
+    "KH": {
+      "code": "KH",
+      "name": "Cambodia",
+      "microstate": false,
+      "anchor": [
+        2844.829751,
+        1192.550136
+      ],
+      "focusBox": [
+        2823.134,
+        1171.668,
+        52.971,
+        43.563
+      ],
+      "polygons": 6
+    },
+    "KP": {
+      "code": "KP",
+      "name": "North Korea",
+      "microstate": false,
+      "anchor": [
+        3064.413932,
+        896.896119
+      ],
+      "focusBox": [
+        3043.215,
+        861.196,
+        63.785,
+        63.121
+      ],
+      "polygons": 10
+    },
+    "NP": {
+      "code": "NP",
+      "name": "Nepal",
+      "microstate": false,
+      "anchor": [
+        2620.316822,
+        1021.735483
+      ],
+      "focusBox": [
+        2600.303,
+        1006.01,
+        81.388,
+        44.161
+      ],
+      "polygons": 1
+    },
+    "BD": {
+      "code": "BD",
+      "name": "Bangladesh",
+      "microstate": false,
+      "anchor": [
+        2697.653599,
+        1071.796452
+      ],
+      "focusBox": [
+        2680.218,
+        1047.17,
+        46.211,
+        62.24
+      ],
+      "polygons": 22
+    },
+    "KR": {
+      "code": "KR",
+      "name": "South Korea",
+      "microstate": false,
+      "anchor": [
+        3081.056655,
+        939.427236
+      ],
+      "focusBox": [
+        3061.282,
+        913.304,
+        34.591,
+        49.624
+      ],
+      "polygons": 53
+    },
+    "AZ": {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "microstate": false,
+      "anchor": [
+        2271.53755,
+        892.989717
+      ],
+      "focusBox": [
+        2250.024,
+        874.698,
+        53.887,
+        41.304
+      ],
+      "polygons": 6
+    },
+    "JO": {
+      "code": "JO",
+      "name": "Jordan",
+      "microstate": false,
+      "anchor": [
+        2163.664303,
+        1002.662499
+      ],
+      "focusBox": [
+        2149.494,
+        973.265,
+        43.426,
+        46.159
+      ],
+      "polygons": 1
+    },
+    "GE": {
+      "code": "GE",
+      "name": "Georgia",
+      "microstate": false,
+      "anchor": [
+        2225.763437,
+        869.159385
+      ],
+      "focusBox": [
+        2199.86,
+        854.322,
+        67.088,
+        30.487
+      ],
+      "polygons": 1
+    },
+    "AE": {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "microstate": false,
+      "anchor": [
+        2345.042011,
+        1080.746247
+      ],
+      "focusBox": [
+        2315.693,
+        1053.051,
+        48.143,
+        36.64
+      ],
+      "polygons": 10
+    },
+    "LK": {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "microstate": false,
+      "anchor": [
+        2608.434205,
+        1248.665136
+      ],
+      "focusBox": [
+        2596.968,
+        1221.152,
+        21.935,
+        39.301
+      ],
+      "polygons": 5
+    },
+    "BT": {
+      "code": "BT",
+      "name": "Bhutan",
+      "microstate": false,
+      "anchor": [
+        2700.07361,
+        1037.46659
+      ],
+      "focusBox": [
+        2687.301,
+        1028.459,
+        33.587,
+        17.932
+      ],
+      "polygons": 1
+    },
+    "AM": {
+      "code": "AM",
+      "name": "Armenia",
+      "microstate": false,
+      "anchor": [
+        2245.224168,
+        890.137751
+      ],
+      "focusBox": [
+        2234.363,
+        881.874,
+        31.663,
+        28.638
+      ],
+      "polygons": 2
+    },
+    "TW": {
+      "code": "TW",
+      "name": "Taiwan",
+      "microstate": false,
+      "anchor": [
+        3008.14635,
+        1080.128768
+      ],
+      "focusBox": [
+        3000.524,
+        1061.46,
+        19.53,
+        35.755
+      ],
+      "polygons": 8
+    },
+    "IL": {
+      "code": "IL",
+      "name": "Israel",
+      "microstate": false,
+      "anchor": [
+        2148.515782,
+        1000.33177
+      ],
+      "focusBox": [
+        2142.484,
+        972.873,
+        16.397,
+        43.284
+      ],
+      "polygons": 1
+    },
+    "KW": {
+      "code": "KW",
+      "name": "Kuwait",
+      "microstate": false,
+      "anchor": [
+        2274.592185,
+        1013.78751
+      ],
+      "focusBox": [
+        2261.324,
+        1005.504,
+        27.004,
+        25.057
+      ],
+      "polygons": 4
+    },
+    "TL": {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "microstate": false,
+      "anchor": [
+        3054.483372,
+        1408.969929
+      ],
+      "focusBox": [
+        3049.079,
+        1403.035,
+        24.053,
+        11.859
+      ],
+      "polygons": 3
+    },
+    "LB": {
+      "code": "LB",
+      "name": "Lebanon",
+      "microstate": false,
+      "anchor": [
+        2160.184708,
+        964.431648
+      ],
+      "focusBox": [
+        2150.996,
+        958.467,
+        15.045,
+        18.333
+      ],
+      "polygons": 1
+    },
+    "QA": {
+      "code": "QA",
+      "name": "Qatar",
+      "microstate": false,
+      "anchor": [
+        2311.978017,
+        1063.568474
+      ],
+      "focusBox": [
+        2307.51,
+        1052.138,
+        8.655,
+        17.061
+      ],
+      "polygons": 1
+    },
+    "PS": {
+      "code": "PS",
+      "name": "Palestine",
+      "microstate": false,
+      "anchor": [
+        2152.61951,
+        986.911489
+      ],
+      "focusBox": [
+        2148.672,
+        982.518,
+        7.053,
+        13.277
+      ],
+      "polygons": 2
+    },
+    "BN": {
+      "code": "BN",
+      "name": "Brunei",
+      "microstate": false,
+      "anchor": [
+        2945.519813,
+        1275.196349
+      ],
+      "focusBox": [
+        2935.988,
+        1265.144,
+        21.619,
+        18.426
+      ],
+      "polygons": 2
+    },
+    "HK": {
+      "code": "HK",
+      "name": "Hong Kong",
+      "microstate": false,
+      "anchor": [
+        2940.93106,
+        1091.592144
+      ],
+      "focusBox": [
+        2936.798414,
+        1088.423411,
+        9.081175,
+        7.799178
+      ],
+      "polygons": 4
+    },
+    "BH": {
+      "code": "BH",
+      "name": "Bahrain",
+      "microstate": false,
+      "anchor": [
+        2305.44177,
+        1054.033551
+      ],
+      "focusBox": [
+        2300.337223,
+        1047.306223,
+        10.457886,
+        14.501555
+      ],
+      "polygons": 7
+    },
+    "SG": {
+      "code": "SG",
+      "name": "Singapore",
+      "microstate": false,
+      "anchor": [
+        2838.216853,
+        1306.156054
+      ],
+      "focusBox": [
+        2832.404,
+        1301.271,
+        11.63,
+        9.843
+      ],
+      "polygons": 1
+    },
+    "MV": {
+      "code": "MV",
+      "name": "Maldives",
+      "microstate": false,
+      "anchor": [
+        2535.073104,
+        1277.989657
+      ],
+      "focusBox": [
+        2522.848,
+        1244.569,
+        18.684,
+        86.075
+      ],
+      "polygons": 176
+    },
+    "IO": {
+      "code": "IO",
+      "name": "British Indian Ocean Territory",
+      "microstate": true,
+      "anchor": [
+        2523.853974,
+        1392.789686
+      ],
+      "focusBox": [
+        2508.61,
+        1368.074,
+        20.336,
+        30.14
+      ],
+      "polygons": 10
+    },
+    "MO": {
+      "code": "MO",
+      "name": "Macau",
+      "microstate": true,
+      "anchor": [
+        2935.495353,
+        1094.619271
+      ],
+      "focusBox": [
+        2933.332411,
+        1092.030411,
+        4.409178,
+        4.945178
+      ],
+      "polygons": 2
+    }
+  }
+}

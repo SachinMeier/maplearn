@@ -1,0 +1,631 @@
+{
+  "id": "chinese-provinces",
+  "title": "Chinese Provinces",
+  "source": {
+    "file": "assets/maps/sources/china-admin1-natural-earth-v5.1.2.geojson.gz",
+    "sha256": "aa315610acf793f25db4b178b528a5840f4c4f4f95f02bcd8b8acb625ca91239",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+    "upstreamSha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+    "selection": "Unmodified features with adm0_a3 in CHN, HKG, MAC; compact JSON serialization. No TWN features.",
+    "attribution": "Made with Natural Earth · Admin 1 states and provinces, repository release v5.1.2",
+    "license": "Public domain — https://www.naturalearthdata.com/about/terms-of-use/",
+    "modifications": "Hong Kong districts dissolved; source Paracel Islands grouped with Hainan; English names; Albers projection; coordinate rounding; shared-border SVG; simplified thumbnail; small-target circles."
+  },
+  "projection": "Albers equal-area, central meridian 105° E, standard parallels 25° and 47° N",
+  "viewBox": [
+    0,
+    0,
+    1400,
+    1100
+  ],
+  "wrapping": false,
+  "coordinateDecimals": 3,
+  "simplification": false,
+  "note": "33 province-level divisions: 22 provinces, five autonomous regions, four municipalities, and Hong Kong and Macao. Taiwan is excluded from both geometry and roster. Islands remain in geographic position. Dashed circles enlarge small targets. Boundaries follow Natural Earth’s release conventions.",
+  "stats": {
+    "playable": 33,
+    "context": 0,
+    "arcs": 166,
+    "sharedArcs": 73,
+    "vertices": 34252,
+    "svgBytes": 1432531
+  },
+  "regions": {
+    "CN-AH": {
+      "name": "Anhui",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1035.954,
+        650.824
+      ],
+      "focusBox": [
+        972.847,
+        554.976,
+        113.564,
+        138.977
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-BJ": {
+      "name": "Beijing",
+      "kind": "municipality",
+      "playable": true,
+      "anchor": [
+        985.461,
+        397.385
+      ],
+      "focusBox": [
+        964.819,
+        378.321,
+        39.727,
+        44.681
+      ],
+      "polygons": 1,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          985.461,
+          397.385
+        ],
+        "radius": 12
+      }
+    },
+    "CN-CQ": {
+      "name": "Chongqing",
+      "kind": "municipality",
+      "playable": true,
+      "anchor": [
+        787.963,
+        712.515
+      ],
+      "focusBox": [
+        758.328,
+        635.606,
+        111.986,
+        109.711
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-FJ": {
+      "name": "Fujian",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1063.069,
+        789.417
+      ],
+      "focusBox": [
+        1017.793,
+        721.117,
+        103.462,
+        132.365
+      ],
+      "polygons": 9,
+      "hitArea": null
+    },
+    "CN-GD": {
+      "name": "Guangdong",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        951.405,
+        853.85
+      ],
+      "focusBox": [
+        871.651,
+        811.924,
+        183.929,
+        147.888
+      ],
+      "polygons": 20,
+      "hitArea": null
+    },
+    "CN-GS": {
+      "name": "Gansu",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        571.681,
+        400.694
+      ],
+      "focusBox": [
+        501.147,
+        338.036,
+        330.276,
+        288.018
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-GX": {
+      "name": "Guangxi",
+      "kind": "autonomous region",
+      "playable": true,
+      "anchor": [
+        856.977,
+        869.429
+      ],
+      "focusBox": [
+        738.865,
+        792.296,
+        187.703,
+        137.553
+      ],
+      "polygons": 2,
+      "hitArea": null
+    },
+    "CN-GZ": {
+      "name": "Guizhou",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        807.981,
+        783.029
+      ],
+      "focusBox": [
+        717.856,
+        717.622,
+        142.907,
+        126.88
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-HA": {
+      "name": "Henan",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        937.299,
+        583.515
+      ],
+      "focusBox": [
+        868.918,
+        513.101,
+        140.282,
+        133.889
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-HB": {
+      "name": "Hubei",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        924.329,
+        661.94
+      ],
+      "focusBox": [
+        829.933,
+        603.456,
+        181.226,
+        116.705
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-HE": {
+      "name": "Hebei",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        966.311,
+        456.678
+      ],
+      "focusBox": [
+        929.466,
+        332.687,
+        125.313,
+        186.836
+      ],
+      "polygons": 3,
+      "hitArea": null
+    },
+    "CN-HI": {
+      "name": "Hainan",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        875.805,
+        989.101
+      ],
+      "focusBox": [
+        846.527,
+        960.765,
+        62.553,
+        54.552
+      ],
+      "polygons": 7,
+      "hitArea": null
+    },
+    "CN-HK": {
+      "name": "Hong Kong",
+      "kind": "special administrative region",
+      "playable": true,
+      "anchor": [
+        981.806,
+        893.3
+      ],
+      "focusBox": [
+        975.162,
+        886.656,
+        14.498,
+        13.288
+      ],
+      "polygons": 4,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          981.806,
+          893.3
+        ],
+        "radius": 6.644
+      }
+    },
+    "CN-HL": {
+      "name": "Heilongjiang",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1164.817,
+        172.36
+      ],
+      "focusBox": [
+        1025.906,
+        24,
+        264.031,
+        243.223
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-HN": {
+      "name": "Hunan",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        902.493,
+        746.321
+      ],
+      "focusBox": [
+        842.821,
+        691.023,
+        132.681,
+        147.892
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-JL": {
+      "name": "Jilin",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1174.895,
+        290.334
+      ],
+      "focusBox": [
+        1064.752,
+        214.18,
+        194.629,
+        139.555
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-JS": {
+      "name": "Jiangsu",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1066.297,
+        570.761
+      ],
+      "focusBox": [
+        1001.072,
+        534.123,
+        134.571,
+        114.656
+      ],
+      "polygons": 2,
+      "hitArea": null
+    },
+    "CN-JX": {
+      "name": "Jiangxi",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1007.436,
+        730.729
+      ],
+      "focusBox": [
+        956.297,
+        680.052,
+        114.19,
+        156.976
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-LN": {
+      "name": "Liaoning",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1121.186,
+        344.212
+      ],
+      "focusBox": [
+        1031.153,
+        290.782,
+        136.725,
+        138.234
+      ],
+      "polygons": 7,
+      "hitArea": null
+    },
+    "CN-MO": {
+      "name": "Macao",
+      "kind": "special administrative region",
+      "playable": true,
+      "anchor": [
+        968.758,
+        902.244
+      ],
+      "focusBox": [
+        962.114,
+        895.6,
+        13.288,
+        13.288
+      ],
+      "polygons": 2,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          968.758,
+          902.244
+        ],
+        "radius": 6.644
+      }
+    },
+    "CN-NM": {
+      "name": "Inner Mongolia",
+      "kind": "autonomous region",
+      "playable": true,
+      "anchor": [
+        1021.025,
+        277.628
+      ],
+      "focusBox": [
+        597.895,
+        36.819,
+        518.89,
+        456.404
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-NX": {
+      "name": "Ningxia",
+      "kind": "autonomous region",
+      "playable": true,
+      "anchor": [
+        770.469,
+        498.811
+      ],
+      "focusBox": [
+        738.051,
+        438.048,
+        69.746,
+        114.176
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-QH": {
+      "name": "Qinghai",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        531.752,
+        523.175
+      ],
+      "focusBox": [
+        412.896,
+        426.959,
+        296.553,
+        219.443
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-SC": {
+      "name": "Sichuan",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        679.295,
+        687.4
+      ],
+      "focusBox": [
+        580.214,
+        578.402,
+        251.717,
+        226.686
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-SD": {
+      "name": "Shandong",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1028.197,
+        508.751
+      ],
+      "focusBox": [
+        966.356,
+        451.515,
+        158.538,
+        107.488
+      ],
+      "polygons": 7,
+      "hitArea": null
+    },
+    "CN-SH": {
+      "name": "Shanghai",
+      "kind": "municipality",
+      "playable": true,
+      "anchor": [
+        1126.893,
+        636.458
+      ],
+      "focusBox": [
+        1114.235,
+        624.458,
+        26.273,
+        24
+      ],
+      "polygons": 4,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          1126.893,
+          636.458
+        ],
+        "radius": 12
+      }
+    },
+    "CN-SN": {
+      "name": "Shaanxi",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        820.369,
+        592.992
+      ],
+      "focusBox": [
+        762.855,
+        428.737,
+        123.059,
+        219.717
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-SX": {
+      "name": "Shanxi",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        906.571,
+        483.672
+      ],
+      "focusBox": [
+        866.138,
+        391.946,
+        81.904,
+        175.692
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-TJ": {
+      "name": "Tianjin",
+      "kind": "municipality",
+      "playable": true,
+      "anchor": [
+        1005.891,
+        424.678
+      ],
+      "focusBox": [
+        993.81,
+        398.245,
+        26.404,
+        46.842
+      ],
+      "polygons": 1,
+      "hitArea": {
+        "type": "circle",
+        "center": [
+          1005.891,
+          424.678
+        ],
+        "radius": 12
+      }
+    },
+    "CN-XJ": {
+      "name": "Xinjiang",
+      "kind": "autonomous region",
+      "playable": true,
+      "anchor": [
+        389.89,
+        333.414
+      ],
+      "focusBox": [
+        110.063,
+        142.013,
+        471.487,
+        368.024
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-XZ": {
+      "name": "Tibet",
+      "kind": "autonomous region",
+      "playable": true,
+      "anchor": [
+        325.004,
+        594.259
+      ],
+      "focusBox": [
+        157.196,
+        478.333,
+        456.188,
+        264.612
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-YN": {
+      "name": "Yunnan",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        653.669,
+        851.867
+      ],
+      "focusBox": [
+        565.213,
+        714.869,
+        216.397,
+        222.701
+      ],
+      "polygons": 1,
+      "hitArea": null
+    },
+    "CN-ZJ": {
+      "name": "Zhejiang",
+      "kind": "province",
+      "playable": true,
+      "anchor": [
+        1099.243,
+        697.055
+      ],
+      "focusBox": [
+        1056.377,
+        639.837,
+        92.612,
+        106.21
+      ],
+      "polygons": 17,
+      "hitArea": null
+    }
+  }
+}

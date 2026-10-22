@@ -1,0 +1,387 @@
+[
+  {
+    "code": "bath-beach-brooklyn",
+    "name": "Bath Beach",
+    "microstate": false
+  },
+  {
+    "code": "bay-ridge-brooklyn",
+    "name": "Bay Ridge",
+    "microstate": false
+  },
+  {
+    "code": "bedford-brooklyn",
+    "name": "Bedford",
+    "microstate": false
+  },
+  {
+    "code": "bedford-stuyvesant-brooklyn",
+    "name": "Bedford Stuyvesant",
+    "microstate": false
+  },
+  {
+    "code": "bensonhurst-brooklyn",
+    "name": "Bensonhurst",
+    "microstate": false
+  },
+  {
+    "code": "bergen-beach-brooklyn",
+    "name": "Bergen Beach",
+    "microstate": false
+  },
+  {
+    "code": "beverly-square-east-brooklyn",
+    "name": "Beverley Square East",
+    "microstate": false
+  },
+  {
+    "code": "beverly-square-west-brooklyn",
+    "name": "Beverley Square West",
+    "microstate": false
+  },
+  {
+    "code": "boerum-hill-brooklyn",
+    "name": "Boerum Hill",
+    "microstate": false
+  },
+  {
+    "code": "borough-park-brooklyn",
+    "name": "Borough Park",
+    "microstate": false
+  },
+  {
+    "code": "bridge-plaza-brooklyn",
+    "name": "Bridge Plaza",
+    "microstate": false
+  },
+  {
+    "code": "brighton-beach-brooklyn",
+    "name": "Brighton Beach",
+    "microstate": false
+  },
+  {
+    "code": "brooklyn-heights-brooklyn",
+    "name": "Brooklyn Heights",
+    "microstate": false
+  },
+  {
+    "code": "brownsville-brooklyn",
+    "name": "Brownsville",
+    "microstate": false
+  },
+  {
+    "code": "bushwick-brooklyn",
+    "name": "Bushwick",
+    "microstate": false
+  },
+  {
+    "code": "canarsie-brooklyn",
+    "name": "Canarsie",
+    "microstate": false
+  },
+  {
+    "code": "carroll-gardens-brooklyn",
+    "name": "Carroll Gardens",
+    "microstate": false
+  },
+  {
+    "code": "city-line-brooklyn",
+    "name": "City Line",
+    "microstate": false
+  },
+  {
+    "code": "clinton-hill-brooklyn",
+    "name": "Clinton Hill",
+    "microstate": false
+  },
+  {
+    "code": "cobble-hill-brooklyn",
+    "name": "Cobble Hill",
+    "microstate": false
+  },
+  {
+    "code": "columbia-street-waterfront-district-brooklyn",
+    "name": "Columbia Street Waterfront District",
+    "microstate": false
+  },
+  {
+    "code": "coney-island-brooklyn",
+    "name": "Coney Island",
+    "microstate": false
+  },
+  {
+    "code": "crown-heights-brooklyn",
+    "name": "Crown Heights",
+    "microstate": false
+  },
+  {
+    "code": "cypress-hills-brooklyn",
+    "name": "Cypress Hills",
+    "microstate": false
+  },
+  {
+    "code": "ditmas-park-brooklyn",
+    "name": "Ditmas Park",
+    "microstate": false
+  },
+  {
+    "code": "downtown-brooklyn-brooklyn",
+    "name": "Downtown Brooklyn",
+    "microstate": false
+  },
+  {
+    "code": "dumbo-brooklyn",
+    "name": "DUMBO",
+    "microstate": false
+  },
+  {
+    "code": "dyker-heights-brooklyn",
+    "name": "Dyker Heights",
+    "microstate": false
+  },
+  {
+    "code": "east-flatbush-brooklyn",
+    "name": "East Flatbush",
+    "microstate": false
+  },
+  {
+    "code": "east-new-york-brooklyn",
+    "name": "East New York",
+    "microstate": false
+  },
+  {
+    "code": "east-williamsburg-brooklyn",
+    "name": "East Williamsburg",
+    "microstate": false
+  },
+  {
+    "code": "farragut-brooklyn",
+    "name": "Farragut",
+    "microstate": false
+  },
+  {
+    "code": "fiske-terrace-brooklyn",
+    "name": "Fiske Terrace",
+    "microstate": false
+  },
+  {
+    "code": "flatbush-brooklyn",
+    "name": "Flatbush",
+    "microstate": false
+  },
+  {
+    "code": "flatlands-brooklyn",
+    "name": "Flatlands",
+    "microstate": false
+  },
+  {
+    "code": "fort-greene-brooklyn",
+    "name": "Fort Greene",
+    "microstate": false
+  },
+  {
+    "code": "fort-hamilton-brooklyn",
+    "name": "Fort Hamilton",
+    "microstate": false
+  },
+  {
+    "code": "fulton-ferry-brooklyn",
+    "name": "Fulton Ferry",
+    "microstate": false
+  },
+  {
+    "code": "georgetown-brooklyn",
+    "name": "Georgetown",
+    "microstate": false
+  },
+  {
+    "code": "gerritsen-beach-brooklyn",
+    "name": "Gerritsen Beach",
+    "microstate": false
+  },
+  {
+    "code": "gowanus-brooklyn",
+    "name": "Gowanus",
+    "microstate": false
+  },
+  {
+    "code": "gravesend-brooklyn",
+    "name": "Gravesend",
+    "microstate": false
+  },
+  {
+    "code": "greenpoint-brooklyn",
+    "name": "Greenpoint",
+    "microstate": false
+  },
+  {
+    "code": "greenwood-heights-brooklyn",
+    "name": "Greenwood Heights",
+    "microstate": false
+  },
+  {
+    "code": "homecrest-brooklyn",
+    "name": "Homecrest",
+    "microstate": false
+  },
+  {
+    "code": "kensington-brooklyn",
+    "name": "Kensington",
+    "microstate": false
+  },
+  {
+    "code": "manhattan-beach-brooklyn",
+    "name": "Manhattan Beach",
+    "microstate": false
+  },
+  {
+    "code": "marine-park-brooklyn",
+    "name": "Marine Park",
+    "microstate": false
+  },
+  {
+    "code": "midwood-brooklyn",
+    "name": "Midwood",
+    "microstate": false
+  },
+  {
+    "code": "mill-basin-brooklyn",
+    "name": "Mill Basin",
+    "microstate": false
+  },
+  {
+    "code": "navy-yard-brooklyn",
+    "name": "Navy Yard",
+    "microstate": false
+  },
+  {
+    "code": "new-lots-brooklyn",
+    "name": "New Lots",
+    "microstate": false
+  },
+  {
+    "code": "ocean-hill-brooklyn",
+    "name": "Ocean Hill",
+    "microstate": false
+  },
+  {
+    "code": "pacific-park-brooklyn",
+    "name": "Pacific Park",
+    "microstate": false
+  },
+  {
+    "code": "park-slope-brooklyn",
+    "name": "Park Slope",
+    "microstate": false
+  },
+  {
+    "code": "parkville-brooklyn",
+    "name": "Parkville",
+    "microstate": false
+  },
+  {
+    "code": "prospect-heights-brooklyn",
+    "name": "Prospect Heights",
+    "microstate": false
+  },
+  {
+    "code": "prospect-lefferts-gardens-brooklyn",
+    "name": "Prospect Lefferts Gardens",
+    "microstate": false
+  },
+  {
+    "code": "prospect-park-south-brooklyn",
+    "name": "Prospect Park South",
+    "microstate": false
+  },
+  {
+    "code": "red-hook-brooklyn",
+    "name": "Red Hook",
+    "microstate": false
+  },
+  {
+    "code": "remsen-village-brooklyn",
+    "name": "Remsen Village",
+    "microstate": false
+  },
+  {
+    "code": "sea-gate-brooklyn",
+    "name": "Sea Gate",
+    "microstate": false
+  },
+  {
+    "code": "sheepshead-bay-brooklyn",
+    "name": "Sheepshead Bay",
+    "microstate": false
+  },
+  {
+    "code": "south-slope-brooklyn",
+    "name": "South Slope",
+    "microstate": false
+  },
+  {
+    "code": "south-williamsburg-brooklyn",
+    "name": "South Williamsburg",
+    "microstate": false
+  },
+  {
+    "code": "southside-brooklyn",
+    "name": "Southside",
+    "microstate": false
+  },
+  {
+    "code": "spring-creek-brooklyn",
+    "name": "Spring Creek",
+    "microstate": false
+  },
+  {
+    "code": "starrett-city-brooklyn",
+    "name": "Starrett City",
+    "microstate": false
+  },
+  {
+    "code": "stuyvesant-heights-brooklyn",
+    "name": "Stuyvesant Heights",
+    "microstate": false
+  },
+  {
+    "code": "sunset-park-brooklyn",
+    "name": "Sunset Park",
+    "microstate": false
+  },
+  {
+    "code": "vinegar-hill-brooklyn",
+    "name": "Vinegar Hill",
+    "microstate": false
+  },
+  {
+    "code": "weeksville-brooklyn",
+    "name": "Weeksville",
+    "microstate": false
+  },
+  {
+    "code": "white-sands-brooklyn",
+    "name": "White Sands",
+    "microstate": false
+  },
+  {
+    "code": "williamsburg-brooklyn",
+    "name": "Williamsburg",
+    "microstate": false
+  },
+  {
+    "code": "windsor-terrace-brooklyn",
+    "name": "Windsor Terrace",
+    "microstate": false
+  },
+  {
+    "code": "wingate-brooklyn",
+    "name": "Wingate",
+    "microstate": false
+  },
+  {
+    "code": "wyckoff-heights-brooklyn",
+    "name": "Wyckoff Heights",
+    "microstate": false
+  }
+]

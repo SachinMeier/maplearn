@@ -1,0 +1,953 @@
+{
+  "id": "africa",
+  "name": "Africa",
+  "source": {
+    "file": "assets/maps/world.svg",
+    "sha256": "aabf1b4d24c76023ffab29551682a67464ed20cad812acdd48bb45912ffb4c2a"
+  },
+  "projection": "Miller cylindrical",
+  "viewBox": [
+    1540,
+    908.919088,
+    910,
+    845.262757
+  ],
+  "extent": [
+    -26,
+    -41,
+    65,
+    39
+  ],
+  "wrapWidth": null,
+  "cropBoundary": null,
+  "countries": {
+    "DZ": {
+      "code": "DZ",
+      "name": "Algeria",
+      "microstate": false,
+      "anchor": [
+        1829.527162,
+        1038.36601
+      ],
+      "focusBox": [
+        1713.176,
+        931.028,
+        206.513,
+        196.715
+      ],
+      "polygons": 1
+    },
+    "CD": {
+      "code": "CD",
+      "name": "DR Congo",
+      "microstate": false,
+      "anchor": [
+        2032.412741,
+        1338.154764
+      ],
+      "focusBox": [
+        1922.105,
+        1265.955,
+        190.699,
+        189.186
+      ],
+      "polygons": 2
+    },
+    "SD": {
+      "code": "SD",
+      "name": "Sudan",
+      "microstate": false,
+      "anchor": [
+        2094.630812,
+        1151.065456
+      ],
+      "focusBox": [
+        2018.094,
+        1093.832,
+        167.945,
+        138.896
+      ],
+      "polygons": 2
+    },
+    "LY": {
+      "code": "LY",
+      "name": "Libya",
+      "microstate": false,
+      "anchor": [
+        2003.852184,
+        1052.088226
+      ],
+      "focusBox": [
+        1892.865,
+        975.396,
+        158.698,
+        146.947
+      ],
+      "polygons": 1
+    },
+    "ZA": {
+      "code": "ZA",
+      "name": "South Africa",
+      "microstate": false,
+      "anchor": [
+        2031.903588,
+        1634.155907
+      ],
+      "focusBox": [
+        1964.7,
+        1544.629,
+        164.231,
+        137.939
+      ],
+      "polygons": 1
+    },
+    "ML": {
+      "code": "ML",
+      "name": "Mali",
+      "microstate": false,
+      "anchor": [
+        1780.128152,
+        1131.540269
+      ],
+      "focusBox": [
+        1677.359,
+        1064.573,
+        164.997,
+        153.444
+      ],
+      "polygons": 1
+    },
+    "TD": {
+      "code": "TD",
+      "name": "Chad",
+      "microstate": false,
+      "anchor": [
+        1994.788964,
+        1143.565975
+      ],
+      "focusBox": [
+        1934.492,
+        1081.008,
+        105.352,
+        164.059
+      ],
+      "polygons": 1
+    },
+    "AO": {
+      "code": "AO",
+      "name": "Angola",
+      "microstate": false,
+      "anchor": [
+        1977.596538,
+        1453.178275
+      ],
+      "focusBox": [
+        1917.355,
+        1378.239,
+        123.262,
+        123.769
+      ],
+      "polygons": 3
+    },
+    "NE": {
+      "code": "NE",
+      "name": "Niger",
+      "microstate": false,
+      "anchor": [
+        1903.776699,
+        1141.568578
+      ],
+      "focusBox": [
+        1801.529,
+        1080.241,
+        158.174,
+        122.036
+      ],
+      "polygons": 1
+    },
+    "EG": {
+      "code": "EG",
+      "name": "Egypt",
+      "microstate": false,
+      "anchor": [
+        2093.654719,
+        1052.426942
+      ],
+      "focusBox": [
+        2046.883,
+        992.351,
+        122.109,
+        103.922
+      ],
+      "polygons": 8
+    },
+    "MR": {
+      "code": "MR",
+      "name": "Mauritania",
+      "microstate": false,
+      "anchor": [
+        1702.19684,
+        1123.532896
+      ],
+      "focusBox": [
+        1629.188,
+        1040.053,
+        122.596,
+        131.31
+      ],
+      "polygons": 5
+    },
+    "ET": {
+      "code": "ET",
+      "name": "Ethiopia",
+      "microstate": false,
+      "anchor": [
+        2184.342688,
+        1234.313496
+      ],
+      "focusBox": [
+        2129.898,
+        1169.881,
+        149.894,
+        115.831
+      ],
+      "polygons": 1
+    },
+    "TZ": {
+      "code": "TZ",
+      "name": "Tanzania",
+      "microstate": false,
+      "anchor": [
+        2140.289829,
+        1375.29301
+      ],
+      "focusBox": [
+        2093.21,
+        1329.617,
+        111.284,
+        107.982
+      ],
+      "polygons": 7
+    },
+    "NA": {
+      "code": "NA",
+      "name": "Namibia",
+      "microstate": false,
+      "anchor": [
+        1970.957201,
+        1528.013368
+      ],
+      "focusBox": [
+        1917.176,
+        1490.874,
+        135.422,
+        126.708
+      ],
+      "polygons": 1
+    },
+    "NG": {
+      "code": "NG",
+      "name": "Nigeria",
+      "microstate": false,
+      "anchor": [
+        1872.770297,
+        1225.40811
+      ],
+      "focusBox": [
+        1826.711,
+        1180.078,
+        119.988,
+        96.933
+      ],
+      "polygons": 3
+    },
+    "MZ": {
+      "code": "MZ",
+      "name": "Mozambique",
+      "microstate": false,
+      "anchor": [
+        2181.473828,
+        1460.485199
+      ],
+      "focusBox": [
+        2102.138,
+        1424.823,
+        106.342,
+        170.065
+      ],
+      "polygons": 4
+    },
+    "ZM": {
+      "code": "ZM",
+      "name": "Zambia",
+      "microstate": false,
+      "anchor": [
+        2061.867251,
+        1468.106106
+      ],
+      "focusBox": [
+        2019.799,
+        1401.879,
+        116.943,
+        100.519
+      ],
+      "polygons": 1
+    },
+    "MA": {
+      "code": "MA",
+      "name": "Morocco",
+      "microstate": false,
+      "anchor": [
+        1734.351592,
+        991.817763
+      ],
+      "focusBox": [
+        1629.863,
+        944.403,
+        159.817,
+        157.889
+      ],
+      "polygons": 1
+    },
+    "BW": {
+      "code": "BW",
+      "name": "Botswana",
+      "microstate": false,
+      "anchor": [
+        2042.307242,
+        1543.748776
+      ],
+      "focusBox": [
+        1999.783,
+        1499.432,
+        93.718,
+        95.795
+      ],
+      "polygons": 1
+    },
+    "MG": {
+      "code": "MG",
+      "name": "Madagascar",
+      "microstate": false,
+      "anchor": [
+        2267.003063,
+        1505.447204
+      ],
+      "focusBox": [
+        2232.229,
+        1439.752,
+        72.81,
+        141.623
+      ],
+      "polygons": 3
+    },
+    "SO": {
+      "code": "SO",
+      "name": "Somalia",
+      "microstate": false,
+      "anchor": [
+        2288.089641,
+        1224.255844
+      ],
+      "focusBox": [
+        2209.654,
+        1199.303,
+        104.516,
+        137.42
+      ],
+      "polygons": 1
+    },
+    "SS": {
+      "code": "SS",
+      "name": "South Sudan",
+      "microstate": false,
+      "anchor": [
+        2104.80682,
+        1248.42569
+      ],
+      "focusBox": [
+        2041.216,
+        1197,
+        117.992,
+        87.842
+      ],
+      "polygons": 1
+    },
+    "CF": {
+      "code": "CF",
+      "name": "Central African Republic",
+      "microstate": false,
+      "anchor": [
+        2015.771261,
+        1250.31659
+      ],
+      "focusBox": [
+        1943.873,
+        1209.315,
+        130.54,
+        88.075
+      ],
+      "polygons": 1
+    },
+    "KE": {
+      "code": "KE",
+      "name": "Kenya",
+      "microstate": false,
+      "anchor": [
+        2178.437739,
+        1315.546423
+      ],
+      "focusBox": [
+        2138.905,
+        1269.413,
+        79.945,
+        97.153
+      ],
+      "polygons": 2
+    },
+    "CM": {
+      "code": "CM",
+      "name": "Cameroon",
+      "microstate": false,
+      "anchor": [
+        1924.424924,
+        1274.494085
+      ],
+      "focusBox": [
+        1885.051,
+        1188.213,
+        77.026,
+        114.998
+      ],
+      "polygons": 1
+    },
+    "ZW": {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "microstate": false,
+      "anchor": [
+        2099.295398,
+        1511.611617
+      ],
+      "focusBox": [
+        2052.194,
+        1477.158,
+        78.234,
+        70.316
+      ],
+      "polygons": 1
+    },
+    "CG": {
+      "code": "CG",
+      "name": "Republic of the Congo",
+      "microstate": false,
+      "anchor": [
+        1959.334925,
+        1319.066676
+      ],
+      "focusBox": [
+        1911.14,
+        1282.659,
+        75.284,
+        87.336
+      ],
+      "polygons": 1
+    },
+    "CI": {
+      "code": "CI",
+      "name": "Ivory Coast",
+      "microstate": false,
+      "anchor": [
+        1744.944866,
+        1244.303773
+      ],
+      "focusBox": [
+        1713.813,
+        1212.09,
+        61.124,
+        64.201
+      ],
+      "polygons": 2
+    },
+    "BF": {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "microstate": false,
+      "anchor": [
+        1790.591115,
+        1191.053311
+      ],
+      "focusBox": [
+        1744.774,
+        1167.832,
+        79.128,
+        57.737
+      ],
+      "polygons": 1
+    },
+    "GA": {
+      "code": "GA",
+      "name": "Gabon",
+      "microstate": false,
+      "anchor": [
+        1914.284297,
+        1325.897555
+      ],
+      "focusBox": [
+        1886.956,
+        1296.529,
+        58.034,
+        62.617
+      ],
+      "polygons": 3
+    },
+    "GN": {
+      "code": "GN",
+      "name": "Guinea",
+      "microstate": false,
+      "anchor": [
+        1699.64022,
+        1212.383951
+      ],
+      "focusBox": [
+        1649.189,
+        1192.357,
+        74.187,
+        55.378
+      ],
+      "polygons": 1
+    },
+    "GH": {
+      "code": "GH",
+      "name": "Ghana",
+      "microstate": false,
+      "anchor": [
+        1787.616707,
+        1249.771617
+      ],
+      "focusBox": [
+        1767.375,
+        1207.674,
+        44.505,
+        64.678
+      ],
+      "polygons": 1
+    },
+    "UG": {
+      "code": "UG",
+      "name": "Uganda",
+      "microstate": false,
+      "anchor": [
+        2130.095946,
+        1299.809648
+      ],
+      "focusBox": [
+        2095.485,
+        1277.537,
+        54.58,
+        56.974
+      ],
+      "polygons": 1
+    },
+    "TN": {
+      "code": "TN",
+      "name": "Tunisia",
+      "microstate": false,
+      "anchor": [
+        1896.178627,
+        951.753461
+      ],
+      "focusBox": [
+        1874.798,
+        928.133,
+        40.843,
+        79.939
+      ],
+      "polygons": 4
+    },
+    "SN": {
+      "code": "SN",
+      "name": "Senegal",
+      "microstate": false,
+      "anchor": [
+        1650.721125,
+        1166.537036
+      ],
+      "focusBox": [
+        1624.64,
+        1151.312,
+        61.582,
+        44.78
+      ],
+      "polygons": 1
+    },
+    "ER": {
+      "code": "ER",
+      "name": "Eritrea",
+      "microstate": false,
+      "anchor": [
+        2180.78024,
+        1158.432344
+      ],
+      "focusBox": [
+        2164.236,
+        1137.783,
+        67.003,
+        57.757
+      ],
+      "polygons": 3
+    },
+    "MW": {
+      "code": "MW",
+      "name": "Malawi",
+      "microstate": false,
+      "anchor": [
+        2137.581068,
+        1454.848026
+      ],
+      "focusBox": [
+        2126.633,
+        1413.84,
+        32.41,
+        78.93
+      ],
+      "polygons": 3
+    },
+    "BJ": {
+      "code": "BJ",
+      "name": "Benin",
+      "microstate": false,
+      "anchor": [
+        1823.765079,
+        1215.572828
+      ],
+      "focusBox": [
+        1807.599,
+        1195.141,
+        30.775,
+        62.4
+      ],
+      "polygons": 1
+    },
+    "EH": {
+      "code": "EH",
+      "name": "Western Sahara",
+      "microstate": false,
+      "anchor": [
+        1662.986515,
+        1096.768077
+      ],
+      "focusBox": [
+        1628.954,
+        1035.998,
+        84.238,
+        73.118
+      ],
+      "polygons": 1
+    },
+    "LR": {
+      "code": "LR",
+      "name": "Liberia",
+      "microstate": false,
+      "anchor": [
+        1697.691756,
+        1249.374876
+      ],
+      "focusBox": [
+        1685.238,
+        1233.899,
+        40.921,
+        42.36
+      ],
+      "polygons": 1
+    },
+    "SL": {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "microstate": false,
+      "anchor": [
+        1682.296319,
+        1232.80959
+      ],
+      "focusBox": [
+        1666.989,
+        1219.472,
+        30.189,
+        30.984
+      ],
+      "polygons": 2
+    },
+    "TG": {
+      "code": "TG",
+      "name": "Togo",
+      "microstate": false,
+      "anchor": [
+        1810.539126,
+        1231.333886
+      ],
+      "focusBox": [
+        1798.339,
+        1207.957,
+        19.485,
+        50.722
+      ],
+      "polygons": 1
+    },
+    "LS": {
+      "code": "LS",
+      "name": "Lesotho",
+      "microstate": false,
+      "anchor": [
+        2084.508391,
+        1622.759418
+      ],
+      "focusBox": [
+        2070.022,
+        1613.36,
+        24.337,
+        22.803
+      ],
+      "polygons": 1
+    },
+    "GW": {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "microstate": false,
+      "anchor": [
+        1654.982495,
+        1197.617522
+      ],
+      "focusBox": [
+        1632.716,
+        1192.296,
+        30.677,
+        17.759
+      ],
+      "polygons": 13
+    },
+    "BI": {
+      "code": "BI",
+      "name": "Burundi",
+      "microstate": false,
+      "anchor": [
+        2098.363247,
+        1353.824981
+      ],
+      "focusBox": [
+        2089.869,
+        1342.793,
+        18.471,
+        21.627
+      ],
+      "polygons": 1
+    },
+    "GQ": {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "microstate": false,
+      "anchor": [
+        1907.503322,
+        1303.9225
+      ],
+      "focusBox": [
+        1893.467,
+        1296.336,
+        19.896,
+        14.173
+      ],
+      "polygons": 3
+    },
+    "RW": {
+      "code": "RW",
+      "name": "Rwanda",
+      "microstate": false,
+      "anchor": [
+        2103.228801,
+        1337.959238
+      ],
+      "focusBox": [
+        2088.572,
+        1330.345,
+        20.306,
+        17.689
+      ],
+      "polygons": 1
+    },
+    "DJ": {
+      "code": "DJ",
+      "name": "Djibouti",
+      "microstate": false,
+      "anchor": [
+        2221.674681,
+        1205.453781
+      ],
+      "focusBox": [
+        2217.491,
+        1192.007,
+        16.696,
+        18.026
+      ],
+      "polygons": 1
+    },
+    "SZ": {
+      "code": "SZ",
+      "name": "Eswatini",
+      "microstate": false,
+      "anchor": [
+        2114.460367,
+        1591.65545
+      ],
+      "focusBox": [
+        2103.829,
+        1578.842,
+        21.345,
+        24.953
+      ],
+      "polygons": 1
+    },
+    "GM": {
+      "code": "GM",
+      "name": "Gambia",
+      "microstate": false,
+      "anchor": [
+        1650.39438,
+        1182.492703
+      ],
+      "focusBox": [
+        1627.703,
+        1176.692,
+        38.11,
+        15.685
+      ],
+      "polygons": 1
+    },
+    "CV": {
+      "code": "CV",
+      "name": "Cape Verde",
+      "microstate": false,
+      "anchor": [
+        1563.894881,
+        1168.244396
+      ],
+      "focusBox": [
+        1542.396,
+        1142.115,
+        34.938,
+        32.538
+      ],
+      "polygons": 11
+    },
+    "RE": {
+      "code": "RE",
+      "name": "Réunion",
+      "microstate": true,
+      "anchor": [
+        2355.109021,
+        1533.78479
+      ],
+      "focusBox": [
+        2348.254,
+        1527.386,
+        14.291,
+        13.324
+      ],
+      "polygons": 1
+    },
+    "MU": {
+      "code": "MU",
+      "name": "Mauritius",
+      "microstate": false,
+      "anchor": [
+        2375.467761,
+        1525.70565
+      ],
+      "focusBox": [
+        2369.035,
+        1518.195,
+        12.922,
+        13.602
+      ],
+      "polygons": 3
+    },
+    "KM": {
+      "code": "KM",
+      "name": "Comoros",
+      "microstate": false,
+      "anchor": [
+        2233.440768,
+        1437.826506
+      ],
+      "focusBox": [
+        2228.132,
+        1429.85,
+        21.159,
+        18.332
+      ],
+      "polygons": 3
+    },
+    "ST": {
+      "code": "ST",
+      "name": "São Tomé and Príncipe",
+      "microstate": false,
+      "anchor": [
+        1866.016943,
+        1317.304877
+      ],
+      "focusBox": [
+        1860.617,
+        1298.759,
+        18.01,
+        24.758
+      ],
+      "polygons": 2
+    },
+    "SH": {
+      "code": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "microstate": true,
+      "anchor": [
+        1743.02312,
+        1480.601448
+      ],
+      "focusBox": [
+        1738.105,
+        1476.102,
+        9.391,
+        9.165
+      ],
+      "polygons": 4
+    },
+    "SC": {
+      "code": "SC",
+      "name": "Seychelles",
+      "microstate": false,
+      "anchor": [
+        2354.297918,
+        1366.175576
+      ],
+      "focusBox": [
+        2323.419,
+        1353.687,
+        43.455,
+        42.119
+      ],
+      "polygons": 26
+    },
+    "YT": {
+      "code": "YT",
+      "name": "Mayotte",
+      "microstate": true,
+      "anchor": [
+        2251.491523,
+        1448.191086
+      ],
+      "focusBox": [
+        2246.425,
+        1442.893,
+        10.484,
+        11.475
+      ],
+      "polygons": 2
+    }
+  }
+}

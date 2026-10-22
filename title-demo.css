@@ -1,0 +1,30 @@
+.title-demo { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+.demo-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 14px 22px; padding: 14px 20px; background: #101720; border-bottom: 1px solid #34404d; z-index: 2; }
+.demo-heading { margin-right: auto; }
+.demo-heading h1 { font-size: 20px; letter-spacing: -.4px; }
+.demo-heading p { margin: 3px 0 0; color: #a9b4c1; font-size: 12px; }
+.demo-toggle, .demo-size { display: flex; align-items: center; gap: 8px; font-size: 13px; white-space: nowrap; }
+.demo-toggle input { width: 18px; height: 18px; accent-color: #a7cba0; }
+.demo-size input { width: 95px; accent-color: #a7cba0; }
+.demo-size output { min-width: 2ch; font-variant-numeric: tabular-nums; }
+.demo-density { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.demo-density select { font: inherit; color: #f5f7fa; background: #25313d; border: 1px solid #526372; padding: 8px; border-radius: 7px; }
+.demo-main { flex: 1; min-height: 0; position: relative; background: var(--ocean); }
+.demo-main .map-surface { bottom: 72px; }
+.demo-footer { position: absolute; bottom: 0; left: 0; right: 0; min-height: 72px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 20px; padding: 12px 20px; background: #101720; border-top: 1px solid #34404d; }
+.demo-footer p { font-size: 12px; color: #c1cdd8; margin: 0; }
+.demo-footer .demo-hint { margin-left: auto; color: #a9b4c1; max-width: 360px; line-height: 1.5; }
+.demo-footer select { max-width: 240px; background: #25313d; border: 1px solid #526372; border-radius: 7px; padding: 10px; color: #f5f7fa; font: inherit; font-size: 13px; }
+#demo-map .map-region.is-active { fill: #97c6d4; }
+#demo-map .map-region.is-active .region-fill { filter: brightness(1.08); }
+@media (max-width: 700px) {
+  .demo-toolbar { padding: 10px 12px; gap: 10px 14px; }
+  .demo-toolbar .button { min-height: 38px; font-size: 12px; padding: 8px 12px; }
+  .demo-heading { min-width: 160px; }
+  .demo-toggle { margin-right: auto; }
+  .demo-size input { width: 70px; }
+  .demo-footer { padding: 10px 12px; gap: 8px; min-height: 88px; }
+  .demo-footer select { max-width: 210px; }
+  .demo-footer .demo-hint { display: none; }
+  .demo-main .map-surface { bottom: 88px; }
+}
