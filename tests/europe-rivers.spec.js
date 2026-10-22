@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('European Rivers appears under Other and countries are noninteractive context', async ({ page }, testInfo) => {
+test('European Rivers appears under Other and countries are noninteractive context', { tag: '@smoke' }, async ({ page }, testInfo) => {
   await page.goto('/');
   await expect(page.locator('#other-options #europe-rivers-button')).toBeVisible();
   await page.locator('#europe-rivers-button').click();
@@ -48,7 +48,12 @@ test('all 31 rivers accept pointer guesses after zoom/pan, with mistakes, reveal
       // Pick a real, unobstructed point on the rendered curve, not its box center.
       for (const fraction of [.5, .35, .65, .2, .8, .1, .9]) {
         const p = line.getPointAtLength(line.getTotalLength() * fraction).matrixTransform(matrix);
-        if (document.elementFromPoint(p.x, p.y)?.closest('[data-country]') === region) return { x: p.x, y: p.y };
+        // Touchscreen.tap rounds to CSS pixels. Validate the actual tap point,
+        // including nearby pixels when rounding lands beside a narrow river.
+        for (const [dx, dy] of [[0, 0], [-1, 0], [1, 0], [0, -1], [0, 1]]) {
+          const x = Math.round(p.x) + dx, y = Math.round(p.y) + dy;
+          if (document.elementFromPoint(x, y)?.closest('[data-country]') === region) return { x, y };
+        }
       }
       return null;
     });

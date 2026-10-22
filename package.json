@@ -9,6 +9,7 @@
     "preview": "python3 -m http.server 4174 --bind 127.0.0.1 --directory dist",
     "test": "node --test tests/*.test.js",
     "test:browser": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
     "placeholder": "node scripts/generate-placeholder.mjs",
     "maps:generate": "node scripts/generate-world.mjs && node scripts/generate-regions.mjs",
     "maps:regions": "node scripts/generate-regions.mjs",

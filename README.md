@@ -214,6 +214,7 @@ The original tile fixture remains available through `npm run placeholder`; the g
 npm ci
 npm test
 npx playwright install chromium
+npm run test:smoke
 npm run test:browser
 ```
 
@@ -227,12 +228,19 @@ Regional tests additionally cover every roster and native country hit target on 
 
 ## GitHub Pages
 
-`.github/workflows/ci-pages.yml` runs the game/asset tests, checks JavaScript
-syntax, builds the static site, and runs Chromium tests for desktop and mobile
-on pushes and pull requests. Passing runs on the repository's default branch
-deploy that same `dist/` artifact to GitHub Pages. Manual runs are also available;
-other branches and pull requests never deploy. Map assets are already generated
-and are not rebuilt or downloaded during deployment.
+`.github/workflows/ci-pages.yml` runs only on pushes. It runs the fast game/asset
+tests, checks JavaScript syntax, builds the static site, and runs six Chromium
+smoke checks across desktop and mobile: the main game flow, load recovery, and
+opening a map without the microstate prompt. Passing runs on the repository's
+default branch deploy that same `dist/` artifact to GitHub Pages. Other branches
+are tested but never deployed; pull requests do not trigger another run.
+
+The exhaustive browser suite runs only when manually requested: in GitHub
+Actions choose **Full regression tests (manual) → Run workflow**, or run
+`npm run test:browser` locally. The manual workflow never deploys and uploads
+failure traces for debugging. Map assets are already generated and are not
+rebuilt or downloaded during deployment. The build excludes the map-generation
+source datasets and includes the standalone title-demo page.
 
 One-time setup after pushing this project to a GitHub repository:
 
@@ -241,7 +249,7 @@ One-time setup after pushing this project to a GitHub repository:
 3. At your DNS provider, set the `maps` CNAME record to `<owner>.github.io`
    (the GitHub user or organization that owns the repository; no repository path).
 4. Enable **Enforce HTTPS** once GitHub has provisioned the certificate.
-5. Push to the default branch or manually run **Test and deploy Pages** on it.
+5. Push to the default branch to run **Test and deploy Pages**.
 
 The repository's `CNAME` is copied into the build to record the intended domain.
 GitHub Actions deployments require the domain setting above even with that file;

@@ -5,6 +5,8 @@ const manifest = JSON.parse(readFileSync(new URL('../assets/maps/world-waters.ma
 const roster = Object.entries(manifest.regions);
 
 test('water menu skips microstates, every target receives real pointer hits, colors and retry', async ({page,isMobile}) => {
+  // This exhaustive case clicks every sea and ocean, not just a smoke sample.
+  test.slow();
   await page.emulateMedia({reducedMotion:'reduce'});
   const errors=[];page.on('pageerror', e=>errors.push(e.message));
   await page.goto('/');

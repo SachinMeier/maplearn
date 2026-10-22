@@ -29,7 +29,7 @@ async function target(page) {
   return page.locator('#map-surface').getByRole('button', { name, exact: true });
 }
 
-test('home, microstate preference, guess scoring, reveal, menu, and retry', async ({ page }) => {
+test('home, microstate preference, guess scoring, reveal, menu, and retry', { tag: '@smoke' }, async ({ page }) => {
   const errors = []; page.on('pageerror', error => errors.push(error.message));
   await start(page);
   await expect(page.locator('[data-country="AI"]')).toHaveCount(0);
@@ -178,7 +178,7 @@ test('reveal all preserves scores and completion can close for map exploration',
   await expect(page.locator('#progress')).toHaveText('4 / 4');
 });
 
-test('load failure offers retry and home', async ({ page }) => {
+test('load failure offers retry and home', { tag: '@smoke' }, async ({ page }) => {
   await page.route('**/assets/maps/world.svg', route => route.fulfill({ status: 503, body: '' }));
   await page.goto('/#/world');
   await expect(page.locator('#load-error')).toBeVisible();

@@ -124,14 +124,20 @@ test('Massachusetts menu, all 64 native circle targets, scoring, reveal, and ret
   await page.keyboard.press('+');
   await page.keyboard.press('ArrowRight');
   await page.keyboard.press('ArrowDown');
-  const point = await target.evaluate((region, town) => {
-    for (let i = 0; i < 16; i++) {
-      const p = new DOMPoint(town.anchor[0] + Math.cos(i * Math.PI / 8) * town.radius * .7,
-        town.anchor[1] + Math.sin(i * Math.PI / 8) * town.radius * .7).matrixTransform(region.ownerSVGElement.getScreenCTM());
-      if (document.elementFromPoint(p.x, p.y)?.closest('[data-country]') === region) return { x: p.x, y: p.y };
+  const point = await target.evaluate(region => {
+    const circle = region.querySelector('.hit-area');
+    const box = circle.getBoundingClientRect();
+    const inverse = circle.getScreenCTM().inverse();
+    // Nearby town circles can overlap. Search the whole exposed circle, not
+    // just one ring, and check integer coordinates used by touchscreen taps.
+    for (let y = Math.ceil(box.top); y <= Math.floor(box.bottom); y++) {
+      for (let x = Math.ceil(box.left); x <= Math.floor(box.right); x++) {
+        if (circle.isPointInFill(new DOMPoint(x, y).matrixTransform(inverse))
+          && document.elementFromPoint(x, y)?.closest('[data-country]') === region) return { x, y };
+      }
     }
     throw new Error('Town has no exposed click target');
-  }, manifest.regions[code]);
+  });
   if (isMobile) await page.touchscreen.tap(point.x, point.y);
   else await page.mouse.click(point.x, point.y);
   await expect(target).toHaveClass(/solved/);
@@ -223,6 +229,33 @@ test('completed town labels retain curated positions and do not intercept map cl
   await page.locator('#menu-dialog').getByRole('link', { name: 'Home', exact: true }).click();
   await page.locator('#massachusetts-towns-button').click();
   await expect(page.locator('[data-town-label]')).toHaveCount(0);
+});
+
+test('curated town labels stay separate with wider system fonts', async ({ page }) => {
+  await page.route('**/town-labels.js', async route => {
+    const response = await route.fetch();
+    await route.fulfill({ response, body: (await response.text()).replaceAll('system-ui', 'Verdana') });
+  });
+  await page.goto('/#/massachusetts-towns');
+  await expect(page.locator('#progress')).toHaveText('0 / 64');
+  await page.locator('#menu-button').click();
+  await page.locator('#menu-reveal-all').click();
+  await expect(page.locator('[data-town-label]')).toHaveCount(64);
+  const overlaps = await page.locator('[data-town-label]').evaluateAll(labels => {
+    const overlaps = [];
+    labels.forEach((label, i) => {
+      const a = label.querySelector('text').getBoundingClientRect();
+      for (const other of labels.slice(i + 1)) {
+        const b = other.querySelector('text').getBoundingClientRect();
+        if (a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top)
+          overlaps.push(`${label.dataset.townLabel}/${other.dataset.townLabel}`);
+      }
+    });
+    return overlaps;
+  });
+  expect(overlaps).toEqual([]);
+  await expect(page.locator('[data-town-label="MA-CAMBRIDGE"]')).toHaveAttribute('data-placement', 'above');
+  await expect(page.locator('[data-town-label="MA-LEXINGTON"]')).toHaveAttribute('data-placement', 'below');
 });
 
 test('all seven requested towns can finish a round with the microstate preference off', async ({ page, isMobile }) => {

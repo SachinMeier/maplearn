@@ -49,7 +49,16 @@ export class TownLabels {
           'below-left': [town.x - diagonal - width, town.y + diagonal],
         };
         const [x, y] = positions[preferred];
-        candidates.push({ box: { x: x + (preference.offsetX ?? 0), y, width, height }, side: preferred, row: 0, shift: 0, score: -Infinity });
+        const box = { x: x + (preference.offsetX ?? 0), y, width, height };
+        // System fonts have different widths across platforms. Keep the
+        // curated side, but move outward if another reserved label overlaps.
+        for (let overlap; (overlap = occupied.find(other => intersection(box, other) > 0));) {
+          if (preferred === 'above') box.y = overlap.y - height - 3;
+          else if (preferred === 'left') box.x = overlap.x - width - 3;
+          else if (preferred === 'right') box.x = overlap.x + overlap.width + 3;
+          else box.y = overlap.y + overlap.height + 3;
+        }
+        candidates.push({ box, side: preferred, row: 0, shift: 0, score: -Infinity });
       }
       for (let row = 0; row < 3; row++) for (const side of ['above', 'below']) for (const shift of [0, -width * .45, width * .45]) {
         const gap = 5 + row * (height + 3);
