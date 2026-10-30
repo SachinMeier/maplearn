@@ -6,6 +6,8 @@ export async function writeOfflineManifest(root) {
   const scripts = (await readdir(root)).filter(name => name.endsWith('.js') &&
     !['sw.js', 'offline-manifest.js'].includes(name) && !name.endsWith('.config.js'));
   const shell = ['index.html', 'styles.css', ...scripts, 'assets/icons.svg', 'assets/globe.svg',
+    'favicon.ico', 'site.webmanifest',
+    ...[16, 32, 48, 180, 192, 512].map(size => `assets/favicons/icon-${size}.png`),
     ...maps.map(map => `assets/maps/${map.id}.thumbnail.svg`)];
   const hash = async files => {
     const digest = createHash('sha256');

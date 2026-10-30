@@ -11,6 +11,25 @@ npm run dev
 
 Open http://127.0.0.1:4173. Serve the project directory; ES modules and data fetches require HTTP rather than opening `index.html` as a file. All asset URLs are relative, including under a repository subpath. Navigation uses hashes.
 
+## Social previews and icons
+
+The homepage includes Open Graph and Twitter large-image metadata pointing to
+`assets/social/world.png` (1200 × 630). The stylized world artwork reuses the
+playable map's Miller projection and shared country borders. Metadata uses the
+canonical domain in `CNAME`, `https://maps.pirategames.org/`; update the URLs in
+`index.html` if the public domain changes.
+
+Maps currently use hash links such as `#/europe`, not separate HTML paths.
+These links share the homepage's world preview. Map-specific previews would
+require separately served pages with static metadata and PNG versions of each
+map's existing thumbnail; changing metadata in JavaScript alone is insufficient.
+
+The existing globe SVG also supplies ICO, PNG, Apple touch, and web-manifest
+icons. To regenerate the checked-in artwork and icons, run
+`npx playwright install chromium` once, then `npm run assets:social`.
+The ordinary build copies the generated assets without launching a browser.
+Icons and the web manifest are included in the offline interface cache.
+
 ## Offline map downloads
 
 Each map card has a **Download** button and its approximate uncompressed size.

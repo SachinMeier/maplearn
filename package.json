@@ -14,6 +14,7 @@
     "maps:generate": "node scripts/generate-world.mjs && node scripts/generate-regions.mjs",
     "maps:regions": "node scripts/generate-regions.mjs",
     "maps:thumbnails": "node scripts/generate-thumbnails.mjs",
+    "assets:social": "node scripts/generate-social-assets.mjs",
     "maps:us-nyc": "node scripts/generate-us-nyc.mjs",
     "maps:water": "node scripts/generate-water.mjs",
     "maps:rivers": "node scripts/generate-europe-rivers.mjs",

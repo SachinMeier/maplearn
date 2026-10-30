@@ -30,7 +30,7 @@ function simplify(points, tolerance) {
   return [...keep].sort((a, b) => a - b).map(i => points[i]);
 }
 
-function simplifyPath(d, tolerance) {
+export function simplifyPath(d, tolerance) {
   return [...d.matchAll(/M([^MZ]+)(Z?)/g)].map(([, coordinates, close]) => {
     const points = coordinates.split('L').map(p => p.split(',').map(Number));
     return line(simplify(points, tolerance)) + close;

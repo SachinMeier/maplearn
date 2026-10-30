@@ -15,7 +15,7 @@ for (const name of files.filter(name => name.endsWith('.js'))) {
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
-for (const name of [...files, 'assets', 'data', 'title-demo', 'CNAME']) {
+for (const name of [...files, 'assets', 'data', 'title-demo', 'CNAME', 'favicon.ico', 'site.webmanifest']) {
   await cp(new URL(name, root), new URL(name, output), {
     recursive: true,
     filter: source => source !== fileURLToPath(new URL('assets/maps/sources', root)),
