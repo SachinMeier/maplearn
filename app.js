@@ -1,3 +1,4 @@
+import { retainTerritories } from './territories.js';
 import { addDownloadControl, initializeDownloads } from './offline.js';
 import { Game } from './game.js';
 import { MapViewport } from './viewport.js';
@@ -9,6 +10,7 @@ const $ = id => document.getElementById(id);
 let game, viewport, townLabels, regionTitles;
 let selectedMap = maps[0];
 const mapCache = new Map();
+window.addEventListener('offline-map-changed', ({ detail }) => mapCache.delete(detail.id));
 let includeMicrostates = true;
 let locked = false, generation = 0, toastTimer, advanceTimer;
 let completionShown = false;
@@ -135,6 +137,7 @@ async function startGame() {
     svg.removeAttribute('title');
     svg.setAttribute('tabindex', '0');
     svg.setAttribute('role', 'group');
+    retainTerritories(svg, countries, includeMicrostates);
     regions = new Map();
     const lookup = new Map(countries.map(country => [country.code, country]));
     for (const region of svg.querySelectorAll('[data-country]')) {
@@ -144,12 +147,6 @@ async function startGame() {
       region.setAttribute('aria-label', country.name);
       const entries = regions.get(country.code) ?? [];
       entries.push(region); regions.set(country.code, entries);
-    }
-    // Keep a shared border when either adjacent region remains visible. Coastlines
-    // belonging only to filtered territories disappear with their country fills.
-    for (const border of svg.querySelectorAll('[data-border-owners]')) {
-      const visible = border.dataset.borderOwners.split(' ').some(code => code.startsWith('context-') || regions.has(code));
-      if (!visible) border.remove();
     }
     game = new Game(countries, includeMicrostates);
     if (game.countries.some(country => !regions.has(country.code))) throw new Error('Missing country geometry');
@@ -207,7 +204,7 @@ for (const map of maps) {
   const button = document.createElement('button');
   button.id = `${map.id}-button`;
   button.className = 'map-card';
-  button.innerHTML = `<span class="thumbnail"><img src="assets/maps/${map.id}.thumbnail.svg" alt="" loading="lazy"></span><span class="card-name">${map.name}</span><svg class="arrow" aria-hidden="true"><use href="assets/icons.svg#arrow"/></svg>`;
+  button.innerHTML = `<span class="thumbnail"><img src="assets/maps/${map.id}.thumbnail.svg" alt="" loading="lazy"></span><span class="card-name">${map.name}</span><svg class="arrow" aria-hidden="true"><use href="#icon-arrow"/></svg>`;
   button.addEventListener('click', () => {
     selectedMap = map;
     if (map.microstates === false) { location.hash = `/${map.id}`; return; }

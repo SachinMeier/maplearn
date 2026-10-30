@@ -187,7 +187,7 @@ test('load failure offers retry and home', { tag: '@smoke' }, async ({ page }) =
   await expect(page.locator('#progress')).toHaveText('0 / 250');
 });
 
-test('all real country targets align with native hit testing and filtered coastlines disappear', async ({ page }) => {
+test('all real country targets align with native hit testing and filtered territories retain their land and coastlines', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('/#/world?microstates=1');
   await expect(page.locator('#progress')).toHaveText('0 / 250');
@@ -209,9 +209,13 @@ test('all real country targets align with native hit testing and filtered coastl
   expect(failures).toEqual([]);
   await page.goto('/#/world?microstates=0');
   await expect(page.locator('#progress')).toHaveText('0 / 202');
-  expect(await page.locator('[data-border-owners]').evaluateAll(paths => paths.filter(path =>
-    path.dataset.borderOwners.split(' ').every(code => !code.startsWith('context-') &&
-      !document.querySelector(`[data-country="${code}"]`))).length)).toBe(0);
+  for (const code of ['GF', 'GL', 'AI', 'PR', 'AQ']) {
+    await expect(page.locator(`[data-territory="${code}"] .region-fill`)).toHaveCount(1);
+    await expect(page.locator(`[data-border-owners~="${code}"]`).first()).toBeAttached();
+  }
+  expect(await page.locator('[data-territory="GF"]').evaluate(el => el.closest('[data-country]').dataset.country)).toBe('FR');
+  expect(await page.locator('[data-territory="GL"]').evaluate(el => el.closest('[data-country]').dataset.country)).toBe('DK');
+  expect(await page.locator('[data-territory="AQ"]').evaluate(el => el.closest('[data-country]'))).toBeNull();
 });
 
 test('a long dashed outline receives clicks near both ends of the island chain', async ({ page }) => {

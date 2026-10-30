@@ -677,5 +677,47 @@
       ],
       "polygons": 1
     }
+  },
+  "contextCountries": [
+    "CO",
+    "VE",
+    "GY",
+    "SR",
+    "GF",
+    "BR"
+  ],
+  "referenceWater": {
+    "rivers": [
+      "Ohio",
+      "Mississippi",
+      "Missouri",
+      "Snake",
+      "Rio Grande",
+      "Red River",
+      "Savannah",
+      "Balsas",
+      "Santiago"
+    ],
+    "lakes": [
+      "Superior",
+      "Michigan",
+      "Huron",
+      "Erie",
+      "Ontario"
+    ],
+    "sources": [
+      {
+        "file": "assets/maps/sources/ne_10m_rivers_lake_centerlines.v5.1.2.geojson.gz",
+        "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+        "license": "Public domain",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson"
+      },
+      {
+        "file": "assets/maps/sources/ne_10m_lakes.v5.1.2.geojson.gz",
+        "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+        "license": "Public domain",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_lakes.geojson"
+      }
+    ]
   }
 }

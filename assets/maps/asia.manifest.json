@@ -853,5 +853,24 @@
       ],
       "polygons": 2
     }
+  },
+  "referenceWater": {
+    "rivers": [
+      "Yangtze",
+      "Yellow",
+      "Pearl (Xi)",
+      "Ganges",
+      "Indus",
+      "Mekong"
+    ],
+    "lakes": [],
+    "sources": [
+      {
+        "file": "assets/maps/sources/ne_10m_rivers_lake_centerlines.v5.1.2.geojson.gz",
+        "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+        "license": "Public domain",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson"
+      }
+    ]
   }
 }

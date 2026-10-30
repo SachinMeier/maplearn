@@ -49,7 +49,11 @@ export async function generateRegionThumbnails() {
     // It also omits artificial crop edges and enlarged gameplay hit targets.
     const borders = [...svg.matchAll(/<path class="border-mesh"[^>]* d="([^"]+)"/g)]
       .map(([, d]) => simplifyPath(d, tolerance)).join('');
-    const thumbnail = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}"><title>${name}</title><style>@media(max-width:120px){.borders{stroke-width:.45}}</style><path fill="#e1d2b1" fill-rule="evenodd" d="${land}"/><path class="borders" fill="none" stroke="#172126" stroke-width="1" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round" d="${borders}"/></svg>\n`;
+    const context = [...svg.matchAll(/<path class="context-land"[^>]* d="([^"]+)"/g)]
+      .map(([, d]) => simplifyPath(d, tolerance)).join('');
+    const water = [...svg.matchAll(/<path class="reference-(river|lake)"[^>]* d="([^"]+)"/g)]
+      .map(([, kind, d]) => `<path fill="${kind === 'lake' ? '#b5d7e3' : 'none'}" stroke="#70afca" stroke-width=".6" vector-effect="non-scaling-stroke" d="${simplifyPath(d, tolerance)}"/>`).join('');
+    const thumbnail = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox}"><title>${name}</title><style>@media(max-width:120px){.borders{stroke-width:.45}}</style>${context ? `<path fill="#c8c4b6" fill-rule="evenodd" d="${context}"/>` : ''}<path fill="#e1d2b1" fill-rule="evenodd" d="${land}"/>${water}<path class="borders" fill="none" stroke="#172126" stroke-width="1" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round" d="${borders}"/></svg>\n`;
     await writeFile(new URL(`assets/maps/${id}.thumbnail.svg`, root), thumbnail);
     console.log(`${name} thumbnail: ${Buffer.byteLength(thumbnail)} bytes`);
   }

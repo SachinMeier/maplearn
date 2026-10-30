@@ -422,6 +422,24 @@
       "artificialTarget": false,
       "schematic": false
     },
+    "california": {
+      "name": "Gulf of California",
+      "anchor": [
+        711.278,
+        1071.872
+      ],
+      "focusBox": [
+        650.662,
+        989.645,
+        80.116,
+        93.235
+      ],
+      "sourceNames": [
+        "Golfo de California"
+      ],
+      "artificialTarget": false,
+      "schematic": false
+    },
     "mexico": {
       "name": "Gulf of Mexico",
       "anchor": [

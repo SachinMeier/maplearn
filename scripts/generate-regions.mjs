@@ -7,6 +7,7 @@ import clipping from 'polygon-clipping';
 import polylabel from 'polylabel';
 import { bounds } from './hit-areas.mjs';
 import { project, worldWidth } from './projection.mjs';
+import { regionalReferenceWater } from './reference-water.mjs';
 import { generateRegionThumbnails } from './generate-thumbnails.mjs';
 
 const root = new URL('../', import.meta.url);
@@ -112,6 +113,12 @@ for (const definition of definitions) {
   const output = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}" class="geographic-map" aria-label="${name} country map" data-projection="Miller cylindrical">`,
     `<title>${name} country map</title>`,
     '<desc>Derived from the World map. Made with Natural Earth, public domain. Dashed outlines are click targets. Map edges are crops, not political boundaries.</desc>', style];
+  const contextCodes = id === 'north-america' ? ['CO', 'VE', 'GY', 'SR', 'GF', 'BR'] : [];
+  if (contextCodes.length) manifest.contextCountries = contextCodes;
+  for (const code of contextCodes) {
+    const land = crop(regions.get(code).land);
+    if (land.length) output.push(`<path class="context-land" data-context="${code}" d="${path(land)}"/>`);
+  }
   // Retain world draw order, with small padded targets above large countries.
   for (const [code, entry] of regions) {
     if (!codes.includes(code)) continue;
@@ -126,9 +133,15 @@ for (const definition of definitions) {
     const country = roster.find(c => c.code === code);
     manifest.countries[code] = { ...country, anchor: anchor.map(round), focusBox, polygons: land.length };
   }
+  const water = await regionalReferenceWater(id, project, crop, cropLines, path);
+  if (water.svg) {
+    output.push(water.svg);
+    manifest.referenceWater = { rivers: water.rivers, lakes: water.lakes, sources: water.sources };
+  }
   output.push('<g class="borders" aria-hidden="true" pointer-events="none">');
   for (const border of borders) {
-    const owners = border.owners.filter(code => codes.includes(code));
+    const owners = border.owners.filter(code => codes.includes(code) || contextCodes.includes(code))
+      .map(code => codes.includes(code) ? code : `context-${code}`);
     if (!owners.length) continue;
     const d = cropLines(border.lines);
     if (d) output.push(`<path class="border-mesh" data-border-owners="${owners.join(' ')}" d="${d}"/>`);

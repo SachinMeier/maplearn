@@ -17,8 +17,29 @@
       "attribution": "MassGIS; Massachusetts Emergency Management Agency GIS Program with Regional Planning Agencies",
       "retrieved": "2026-10-21",
       "note": "Town and city hall points stand in for town centers. Circles are enlarged quiz targets, not municipal boundaries."
+    },
+    "rivers": {
+      "file": "assets/maps/sources/massachusetts-rivers-massgis.geojson.gz",
+      "sha256": "e8db1923744390e7027fb5cbecedeff5666308c8072aaa79793f1e010c31f7cb",
+      "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Water_Features/FeatureServer/4/query?where=UPPER%28NAME%29+IN+%28%27CHARLES+RIVER%27%2C%27NEPONSET+RIVER%27%2C%27HOUSATONIC+RIVER%27%2C%27CONNECTICUT+RIVER%27%2C%27MERRIMACK+RIVER%27%29+OR+UPPER%28NAME%29+LIKE+%27MERRIMAC%25%27&outFields=NAME&outSR=4326&f=geojson&returnGeometry=true",
+      "attribution": "MassGIS Hydrography (1:100,000), USGS",
+      "retrieved": "2026-10-30"
+    },
+    "riverWaterbodies": {
+      "file": "assets/maps/sources/massachusetts-river-waterbodies-massgis.geojson.gz",
+      "sha256": "cea309afd861842728547ea2ab2581b98ad0e9823d5f2344bed26b44dbb14be7",
+      "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Water_Features/FeatureServer/5/query?where=UPPER%28NAME%29+LIKE+%27CHARLES+RIVER%25%27+OR+UPPER%28NAME%29+IN+%28%27NEPONSET+RIVER%27%2C%27CONNECTICUT+RIVER%27%2C%27HOUSATONIC+RIVER%27%2C%27MERRIMACK+RIVER%27%29&outFields=NAME&outSR=4326&f=geojson&returnGeometry=true",
+      "attribution": "MassGIS Hydrography (1:100,000), USGS",
+      "retrieved": "2026-10-30"
     }
   },
+  "referenceRivers": [
+    "Charles River",
+    "Connecticut River",
+    "Housatonic River",
+    "Merrimack River",
+    "Neponset River"
+  ],
   "projection": "Local equirectangular, standard parallel 42.2° N",
   "geographicBounds": [
     -73.65,
@@ -38,7 +59,7 @@
     "playable": 64,
     "contextStates": 7,
     "arcs": 72,
-    "svgBytes": 182157
+    "svgBytes": 303661
   },
   "regions": {
     "MA-ADAMS": {

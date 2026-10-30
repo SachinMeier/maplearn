@@ -82,6 +82,7 @@ sea('south-china','South China Sea',['South China Sea','Gulf of Tonkin','Gulf of
     rectangle(103.5,1.1,104.3,1.7),
     rectangle(103,-1.5,105,1)),
 });
+sea('california','Gulf of California',['Golfo de California']);
 sea('mexico','Gulf of Mexico',['Gulf of Mexico','Bahía de Campeche']);
 sea('bering-sea','Bering Sea',['Bering Sea','Bristol Bay','Norton Sound','Gulf of Anadyr\'']);
 sea('okhotsk','Sea of Okhotsk',['Sea of Okhotsk','Shelikhova Gulf','Gulf of Sakhalin','Uda Bay']);

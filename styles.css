@@ -105,11 +105,27 @@ h1 { font-size: 34px; font-weight: 620; letter-spacing: -1px; margin: 0; }
 .offline-help:empty { display: none; }
 .map-download-card { border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
 .map-download-card > .map-card { border: 0; border-radius: 14px 14px 0 0; }
-.map-download { display: flex; align-items: center; gap: 12px; justify-content: space-between; border-top: 1px solid var(--line); padding: 4px 10px 4px 14px; }
-.download-status { font-size: 12px; line-height: 1.4; color: var(--muted); }
-.offline-saved { color: #b9e6ae; }
-.download-button { flex-shrink: 0; min-height: 44px; padding: 8px 10px; color: #d5edff; background: transparent; border: 0; border-radius: 8px; font-size: 13px; font-weight: 550; }
+.map-download { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; border-top: 1px solid var(--line); padding: 4px 10px 4px 14px; }
+.download-summary { display: grid; gap: 4px; min-width: 0; }
+.download-actions { margin-left: auto; display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.download-message { color: var(--muted); font-size: 12px; line-height: 1.4; }
+.download-status { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; line-height: 1.4; color: var(--muted); }
+.offline-saved { color: #8de2a5; font-size: 14px; font-weight: 650; }
+.saved-check { width: 24px; height: 24px; flex-shrink: 0; }
+.saved-check circle { fill: #248649; stroke: none; }
+.saved-check path { fill: none; stroke: #fff; stroke-width: 2.4; }
+.download-button { flex-shrink: 0; min-height: 44px; padding: 8px 10px; color: #d5edff; background: transparent; border: 1px solid transparent; border-radius: 8px; font-size: 13px; font-weight: 550; }
 .download-button:hover:not(:disabled) { background: #2e3a47; }
+.remove-download { color: #ff9da5; border-color: #af5963; }
+.remove-download:hover:not(:disabled) { background: #512d35; }
+.refresh-download { display: inline-flex; align-items: center; justify-content: center; gap: 6px; color: #a8d8ff; border-color: #526d82; }
+.refresh-download svg { width: 18px; height: 18px; stroke-width: 1.8; }
+@media (hover: hover) and (pointer: fine) {
+  .remove-download { opacity: 0; pointer-events: none; }
+  .map-download-card:hover .remove-download,
+  .map-download-card:focus-within .remove-download,
+  .download-busy .remove-download { opacity: 1; pointer-events: auto; }
+}
 
 @media (min-width: 900px) {
   .home { width: 100%; padding: max(48px, env(safe-area-inset-top)) 32px 48px; }
@@ -127,3 +143,9 @@ h1 { font-size: 34px; font-weight: 620; letter-spacing: -1px; margin: 0; }
 @media (min-width: 1440px) {
   .region-options { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+
+/* Keep symbols in the cached document; external SVG fragments vary offline. */
+.icon-symbols { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+/* SVG focus uses shape highlighting, never a rectangular browser outline. */
+.map-surface svg, .map-surface svg * { outline: none !important; -webkit-tap-highlight-color: transparent; }
+.map-surface { -webkit-user-select: none; -webkit-touch-callout: none; }

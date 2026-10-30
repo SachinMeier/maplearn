@@ -10,9 +10,10 @@ const manifest=JSON.parse(readFileSync(new URL('assets/maps/world-waters.manifes
 const roster=JSON.parse(readFileSync(new URL('assets/maps/world-waters.countries.json',root)));
 
 test('water roster is complete, source snapshots are pinned, and menu registration is unique',()=>{
-  assert.equal(roster.length,37);
+  assert.equal(roster.length,38);
   assert(roster.every(r=>r.microstate===false));
   assert(!roster.some(r=>/lake/i.test(r.name)));
+  assert.equal(roster.find(r=>r.code==='california')?.name,'Gulf of California');
   assert.equal(roster.find(r=>r.code==='caspian')?.name,'Caspian Sea');
   assert.equal(roster.find(r=>r.code==='aegean')?.name,'Aegean Sea');
   assert.equal(roster.find(r=>r.code==='malacca')?.name,'Strait of Malacca');

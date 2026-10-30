@@ -7,6 +7,7 @@ import assert from 'node:assert/strict';
 import { topology } from 'topojson-server';
 import { feature } from 'topojson-client';
 import clipping from 'polygon-clipping';
+import { readReferenceSource, riverLines, referenceStyle } from './reference-water.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
@@ -67,6 +68,17 @@ for (const town of towns) {
   assert(x - r > 0 && y - r > 0 && x + r < width && y + r < height);
 }
 
+const riverSource = await read('assets/maps/sources/massachusetts-rivers-massgis.source.json');
+const riverData = await readReferenceSource(riverSource.file, riverSource.sha256);
+const riverBodySource = await read('assets/maps/sources/massachusetts-river-waterbodies-massgis.source.json');
+const riverBodies = await readReferenceSource(riverBodySource.file, riverBodySource.sha256);
+const riverName = f => f.properties.NAME.startsWith('Charles River') ? 'Charles River' : f.properties.NAME;
+const riverNames = [...new Set([...riverData.features, ...riverBodies.features].map(riverName))].sort();
+const rivers = referenceStyle + '<g class="reference-water" aria-hidden="true" pointer-events="none">' + riverNames.map(name => {
+  const lines = riverData.features.filter(f => riverName(f) === name).flatMap(riverLines);
+  const bodies = riverBodies.features.filter(f => riverName(f) === name).flatMap(f => polygons(f.geometry));
+  return `<g data-river="${name}">${lines.length ? `<path class="reference-river" d="${lines.map(points => line(points.map(project))).join('')}"/>` : ''}${bodies.length ? `<path class="reference-lake" d="${path({ type: 'MultiPolygon', coordinates: bodies.map(p => p.map(r => r.map(project))) })}"/>` : ''}</g>`;
+}).join('\n') + '</g>';
 const id = 'massachusetts-towns', title = 'Massachusetts Towns';
 const note = `${towns.length} cities and towns, including the seven requested additions. Town hall locations represent each municipality; dashed circles are clickable microregions, not town boundaries. Barnstable is represented by its town hall in Hyannis. Salisbury represents the municipality containing Salisbury Beach. Concord is in Massachusetts. All islands remain in geographic position.`;
 const desc = `${sourceStates.attribution}. ${sourceTowns.attribution}. ${note}`;
@@ -88,12 +100,13 @@ const circles = towns.map(t => {
   const [x, y] = t.anchor;
   return `<g data-country="${t.code}" class="map-region" data-focus-box="${t.focusBox.join(' ')}"><title>${escape(t.name)}</title><circle class="hit-area" cx="${x}" cy="${y}" r="${t.radius}"/><circle class="town-dot region-fill" cx="${x}" cy="${y}" r="2.1"/></g>`;
 }).join('\n');
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}" class="geographic-map massachusetts-map" aria-label="${title} map"><title>${title}</title><desc>${escape(desc)}</desc>${style}\n${background}\n${circles}\n</svg>\n`;
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}" class="geographic-map massachusetts-map" aria-label="${title} map"><title>${title}</title><desc>${escape(desc)}</desc>${style}\n${background}\n${rivers}\n${circles}\n</svg>\n`;
 const thumbnail = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}"><title>${title}</title><desc>${escape(desc)}</desc>
 ${land.map(f => `<path fill="${f.properties.code === 'MA' ? '#e1d2b1' : '#c8c4b6'}" stroke="#364747" stroke-width="1.5" fill-rule="evenodd" d="${path(f.geometry)}"/>`).join('\n')}
+${rivers}
 ${towns.map(t => `<circle cx="${t.anchor[0]}" cy="${t.anchor[1]}" r="${t.radius}" fill="#79603a" fill-opacity=".6"/>`).join('\n')}
 </svg>\n`;
-const manifest = { id, title, sources: { states: sourceStates, towns: sourceTowns },
+const manifest = { id, title, sources: { states: sourceStates, towns: sourceTowns, rivers: riverSource, riverWaterbodies: riverBodySource }, referenceRivers: riverNames,
   projection: 'Local equirectangular, standard parallel 42.2° N', geographicBounds: extent, viewBox, wrapping: false,
   note, stats: { playable: towns.length, contextStates: land.length, arcs: topo.arcs.length, svgBytes: Buffer.byteLength(svg) },
   regions: Object.fromEntries(towns.map(t => [t.code, { name: t.name, playable: true, coordinates: t.coordinates,

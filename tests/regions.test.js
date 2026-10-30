@@ -31,7 +31,8 @@ for (const definition of definitions) test(`${definition.name}: roster, finite f
   }
   const segments = new Set();
   for (const match of svg.matchAll(/data-border-owners="([^"]+)" d="([^"]+)"/g)) {
-    assert(match[1].split(' ').every(code => codes.includes(code)));
+    assert(match[1].split(' ').every(code => codes.includes(code) ||
+      (manifest.contextCountries ?? []).includes(code.replace(/^context-/, ''))));
     let previous;
     for (const [, command, p] of match[2].matchAll(/([ML])([\d.,-]+)/g)) {
       if (command === 'L' && p !== previous) {

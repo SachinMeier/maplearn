@@ -33,7 +33,7 @@ Icons and the web manifest are included in the offline interface cache.
 ## Offline map downloads
 
 Each map card has a **Download** button and its approximate uncompressed size.
-Wait for **Available offline**, then reopen the same address in the same browser
+Wait for the green **Saved** check, then reopen the same address in the same browser
 without a connection. Downloads include that map's SVG, roster, and label data;
 the shared interface and thumbnails are saved automatically. **Remove** deletes
 only that map's offline copy. Playing a map does not automatically save it.
@@ -43,14 +43,25 @@ or storage eviction can remove them; the app requests persistent storage when a
 map is downloaded, but browsers may decline it. HTTPS or localhost is required.
 External links and the temporary title demo are not included in offline saving.
 
-The build generates `offline-manifest.js` from the current assets with content
-versions and sizes. `npm run dev` generates it before starting the local server;
-restart that command after editing assets to refresh the offline version.
-Updates prepare the new interface and refresh previously downloaded maps before
-activation; failed updates retain the working version. Close all site tabs and
-reopen to activate an installed update. No map is marked ready until all its
-files are saved. Run `npx playwright test tests/offline.spec.js` to verify all
-maps in a new offline tab, scoring/retry, selective saving, failures, and removal.
+The build generates `offline-manifest.js` and `offline-catalog.json` from the
+current assets. Each map version is a deterministic SHA-256 hash of its three
+file paths and contents; individual file hashes validate downloads. Unchanged
+files produce unchanged versions. `npm run dev` generates these catalogs before
+starting the server; restart it after editing assets.
+
+The app checks the small server catalog on opening, returning to the home menu,
+regaining focus, or reconnecting (at most once a minute). A saved map whose
+version differs shows **Refresh** with a two-arrow icon. Refresh downloads and
+validates a separate complete bundle before switching to it. Failed or mixed
+release downloads keep the old saved map playable. Refreshing also clears the
+in-memory map data so the next game uses the new version, without reloading.
+**Remove** appears on card hover or keyboard focus, and stays visible on touch.
+
+Interface updates still activate after all Maps tabs close. They preserve saved
+maps and do not automatically download map updates. Offline catalog checks fail
+quietly; downloads have no scheduled expiry. Run
+`npx playwright test tests/offline.spec.js` to verify offline play, explicit
+refresh, content validation, failed-refresh recovery, and removal.
 
 ## World map
 

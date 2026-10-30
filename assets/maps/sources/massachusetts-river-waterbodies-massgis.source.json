@@ -1,0 +1,7 @@
+{
+  "file": "assets/maps/sources/massachusetts-river-waterbodies-massgis.geojson.gz",
+  "sha256": "cea309afd861842728547ea2ab2581b98ad0e9823d5f2344bed26b44dbb14be7",
+  "url": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_Water_Features/FeatureServer/5/query?where=UPPER%28NAME%29+LIKE+%27CHARLES+RIVER%25%27+OR+UPPER%28NAME%29+IN+%28%27NEPONSET+RIVER%27%2C%27CONNECTICUT+RIVER%27%2C%27HOUSATONIC+RIVER%27%2C%27MERRIMACK+RIVER%27%29&outFields=NAME&outSR=4326&f=geojson&returnGeometry=true",
+  "attribution": "MassGIS Hydrography (1:100,000), USGS",
+  "retrieved": "2026-10-30"
+}

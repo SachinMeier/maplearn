@@ -17,6 +17,9 @@ export class MapViewport {
     this.frame = 0;
     const listen = (type, callback, options = {}) => svg.addEventListener(type, callback, { ...options, signal: this.abort.signal });
     listen('pointerdown', event => this.down(event));
+    listen('mousedown', event => event.preventDefault());
+    listen('dblclick', event => event.preventDefault());
+    listen('webkitmouseforcewillbegin', event => event.preventDefault());
     listen('pointermove', event => this.move(event));
     listen('pointerup', event => this.up(event));
     listen('pointercancel', event => this.cancel(event));

@@ -60,7 +60,7 @@ test('water menu skips microstates, every target receives real pointer hits, col
 test('geographic samples, both Pacific halves, and excluded lakes',async({page})=>{
   await page.goto('/#/world-waters');
   await expect(page.locator('#progress')).toHaveText(`0 / ${roster.length}`);
-  const samples=[[-140,20,'pacific'],[170,0,'pacific'],[-30,25,'atlantic'],[80,-20,'indian'],[0,-65,'southern'],[0,85,'arctic'],[51,42,'caspian'],[51,38,'caspian'],[-87,44,null],[30,0,null],[38,20,'red-sea'],[16,43,'adriatic'],[32,43,'black-sea'],[-85,25,'mexico'],[135,40,'japan'],[150,55,'okhotsk'],[125,39.5,'yellow-sea'],[124,35,'yellow-sea'],[-80,53,'james-bay'],
+  const samples=[[-111,27,'california'],[-113.5,30,'california'],[-115,25,'pacific'],[-140,20,'pacific'],[170,0,'pacific'],[-30,25,'atlantic'],[80,-20,'indian'],[0,-65,'southern'],[0,85,'arctic'],[51,42,'caspian'],[51,38,'caspian'],[-87,44,null],[30,0,null],[38,20,'red-sea'],[16,43,'adriatic'],[32,43,'black-sea'],[-85,25,'mexico'],[135,40,'japan'],[150,55,'okhotsk'],[125,39.5,'yellow-sea'],[124,35,'yellow-sea'],[-80,53,'james-bay'],
     // Both northern Yellow Sea arms are included in the same target.
     [120,38.7,'yellow-sea'],[121,40.3,'yellow-sea'],[124,38,'yellow-sea'],
     // Requested replacement and removed target fall into their proper regions.

@@ -105,6 +105,11 @@
     "microstate": false
   },
   {
+    "code": "california",
+    "name": "Gulf of California",
+    "microstate": false
+  },
+  {
     "code": "mexico",
     "name": "Gulf of Mexico",
     "microstate": false
