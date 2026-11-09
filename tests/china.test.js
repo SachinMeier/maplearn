@@ -81,7 +81,8 @@ test('China has exactly 33 province-level divisions, excluding Taiwan, and disjo
   assert(source.features.every(f => ['CHN', 'HKG', 'MAC'].includes(f.properties.adm0_a3)));
   assert(!/<(?:text|image|script)\b/.test(svg));
   const small = Object.values(manifest.regions).filter(r => r.hitArea);
-  assert.equal(small.length, 5);
+  assert.equal(small.length, 4);
+  assert.equal(manifest.regions['CN-TJ'].hitArea, null);
   for (const r of small) {
     assert.deepEqual(r.hitArea.center, r.anchor);
     assert(r.hitArea.radius > 0 && r.hitArea.radius <= 12);

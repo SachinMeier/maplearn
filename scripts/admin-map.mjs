@@ -5,6 +5,8 @@ import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { topology } from 'topojson-server';
 import polylabel from 'polylabel';
+import { merge } from 'topojson-client';
+import { referenceStyle, landLineClipper } from './reference-water.mjs';
 
 const root = new URL('../', import.meta.url);
 const round = n => +n.toFixed(3);
@@ -72,7 +74,7 @@ export function projectFeatures(features, project) {
 
 const style = `<style>.geographic-map{background:#b5d7e3}.map-region{fill:var(--land,#e1d2b1)}.region-fill{fill:inherit;stroke:none!important;fill-rule:evenodd}.context-land{fill:#c8c4b6;stroke:none!important;fill-rule:evenodd;pointer-events:none}.context-land[data-context-type="park"]{fill:#a7cba0}.map-region.solved{fill:var(--solved,#a7cba0)}.border-mesh{fill:none;stroke:#000;stroke-width:.65;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke;pointer-events:none}.map-region:focus-visible .region-fill{filter:brightness(1.18)}@media(hover:hover){.map-region:hover .region-fill{filter:brightness(1.12)}}</style>`;
 
-export async function emit({ id, title, features, source, viewBox, projection, note, smallCodes = [], hitRadius = 12, solvedColor, solvedTitleColor }) {
+export async function emit({ id, title, features, source, viewBox, projection, note, smallCodes = [], hitRadius = 12, solvedColor, solvedTitleColor, referenceWater }) {
   // Fills and the single border mesh derive from the SAME projected topology.
   // Coordinates are rounded before topology construction, never separately per edge.
   const topo = topology({ regions: { type: 'FeatureCollection', features } });
@@ -109,8 +111,25 @@ export async function emit({ id, title, features, source, viewBox, projection, n
   assert(roster.length > 0);
   assert.equal(new Set(entries.map(e => e.code)).size, entries.length);
   const fillPath = (e, preview = false) => e.arcs.map(p => p.map(r => line(ring(r, preview)) + 'Z').join('')).join('');
+  let riverLayer = '';
+  if (referenceWater) {
+    const clip = landLineClipper(merge(topo, topo.objects.regions.geometries).coordinates);
+    const paths = referenceWater.paths.map(p => {
+      const d = clip(p.lines);
+      assert(d, `${id}: river ${p.name} has no visible course`);
+      return `<path class="reference-river" data-river="${escape(p.name)}" d="${d}"/>`;
+    });
+    for (const lake of referenceWater.lakePaths ?? []) {
+      const d = lake.polygons.map(p => p.map(r => line(r) + 'Z').join('')).join('');
+      paths.push(`<path class="reference-lake" data-lake="${escape(lake.name)}" data-outline-year="${lake.year}" d="${d}"/>`);
+    }
+    riverLayer = `${referenceStyle}<g class="reference-water" aria-hidden="true" pointer-events="none">${paths.join('')}</g>`;
+  }
+  const waterCredit = referenceWater ? ' Reference rivers: Natural Earth, public domain, repository release v5.1.2.' +
+    referenceWater.sources.filter(s => s.license === 'CC BY 4.0').map(s =>
+      ` Lake outline (${s.year}): ${s.attribution}. ${s.url}. ${s.license}: ${s.licenseUrl}. ${s.modifications}`).join('') : '';
   const parts = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}" class="geographic-map"${solvedColor ? ` style="--solved:${escape(solvedColor)}"` : ''} aria-label="${escape(title)} map" data-projection="${escape(projection)}">`,
-    `<title>${escape(title)}</title><desc>${escape(source.attribution + '. ' + source.license + '. ' + (source.modifications ?? '') + ' ' + note)}</desc>`, style,
+    `<title>${escape(title)}</title><desc>${escape(source.attribution + '. ' + source.license + '. ' + (source.modifications ?? '') + ' ' + note + waterCredit)}</desc>`, style,
     '<style>.hit-area{fill:inherit;fill-opacity:.28;stroke:#000;stroke-width:.8;stroke-dasharray:3 3;vector-effect:non-scaling-stroke;pointer-events:all}.map-region:focus-visible .hit-area{fill-opacity:.55}@media(hover:hover){.map-region:hover .hit-area{filter:brightness(1.12)}}</style>'];
   // Small-region circles intentionally extend over neighboring land, like the
   // other maps' assisted targets. Paint them last so their whole disc is usable.
@@ -125,6 +144,7 @@ export async function emit({ id, title, features, source, viewBox, projection, n
     if (!borders.has(key)) borders.set(key, []);
     borders.get(key).push(i);
   }
+  if (referenceWater) parts.push(riverLayer);
   parts.push('<g class="borders" aria-hidden="true" pointer-events="none">');
   for (const [key, ids] of [...borders].sort(([a], [b]) => a.localeCompare(b))) {
     parts.push(`<path class="border-mesh" data-border-owners="${key}" d="${ids.map(i => line(topo.arcs[i])).join('')}"/>`);
@@ -132,11 +152,14 @@ export async function emit({ id, title, features, source, viewBox, projection, n
   parts.push('</g>', '</svg>\n');
   const svg = parts.join('\n');
   const manifest = { id, title, source, projection, viewBox, wrapping: false, coordinateDecimals: 3, simplification: false, note,
+    ...(referenceWater ? { referenceWater: { rivers: referenceWater.rivers,
+      ...(referenceWater.lakePaths?.length ? { lakes: referenceWater.lakePaths.map(({ name, year }) => ({ name, year })) } : {}),
+      sources: referenceWater.sources, clippedToLand: true } } : {}),
     stats: { playable: roster.length, context: entries.length - roster.length, arcs: topo.arcs.length,
       sharedArcs: owners.filter(s => s.size === 2).length, vertices: topo.arcs.reduce((s, a) => s + a.length, 0), svgBytes: Buffer.byteLength(svg) },
     regions: Object.fromEntries(entries.map(e => [e.code, { name: e.name, kind: e.kind, playable: e.playable, anchor: e.anchor, focusBox: e.focusBox, polygons: e.polygons.length, hitArea: e.hitArea }])) };
-  const thumb = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}"><title>${escape(title)}</title><desc>${escape(source.attribution + '. ' + source.license + '. ' + (source.modifications ?? '') + ' Preview geometry simplified.')}</desc>`,
-    ...entries.map(e => `<path fill="${e.playable ? '#e1d2b1' : e.park ? '#a7cba0' : '#c8c4b6'}" fill-rule="evenodd" stroke="#364747" stroke-width=".35" vector-effect="non-scaling-stroke" d="${fillPath(e, true)}"/>`), '</svg>\n'].join('\n');
+  const thumb = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${viewBox.join(' ')}"><title>${escape(title)}</title><desc>${escape(source.attribution + '. ' + source.license + '. ' + (source.modifications ?? '') + ' Preview geometry simplified.' + waterCredit)}</desc>`,
+    ...entries.map(e => `<path fill="${e.playable ? '#e1d2b1' : e.park ? '#a7cba0' : '#c8c4b6'}" fill-rule="evenodd" stroke="#364747" stroke-width=".35" vector-effect="non-scaling-stroke" d="${fillPath(e, true)}"/>`), riverLayer, '</svg>\n'].join('\n');
   await writeFile(new URL(`assets/maps/${id}.svg`, root), svg);
   await writeFile(new URL(`assets/maps/${id}.manifest.json`, root), JSON.stringify(manifest, null, 2) + '\n');
   await writeFile(new URL(`assets/maps/${id}.thumbnail.svg`, root), thumb);

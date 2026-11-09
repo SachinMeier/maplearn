@@ -1,5 +1,6 @@
 // Offline province-level map, explicitly excluding all Taiwan source features.
 import assert from 'node:assert/strict';
+import { administrativeReferenceWater } from './reference-water.mjs';
 import { topology } from 'topojson-server';
 import { merge } from 'topojson-client';
 import { readSource, albers, fit, projectFeatures, emit } from './admin-map.mjs';
@@ -48,11 +49,13 @@ assert.deepEqual([...groups.keys()].sort(), Object.keys(names).map(n => `CN-${n}
 const dissolved = [...groups.values()].map(gs => ({ type: 'Feature', properties: gs[0].properties,
   geometry: merge(topo, gs) }));
 const projection = albers(105, [25, 47]);
-const smallCodes = ['CN-BJ', 'CN-TJ', 'CN-SH', 'CN-HK', 'CN-MO'];
+const smallCodes = ['CN-BJ', 'CN-SH', 'CN-HK', 'CN-MO'];
+const project = fit(dissolved, projection, [24, 24, 1352, 1052]);
+const referenceWater = await administrativeReferenceWater('chinese-provinces', project);
 await emit({ id: 'chinese-provinces', title: 'Chinese Provinces',
   solvedColor: '#de2910', solvedTitleColor: '#fff',
-  features: projectFeatures(dissolved, fit(dissolved, projection, [24, 24, 1352, 1052])),
-  source, viewBox: [0, 0, 1400, 1100],
+  features: projectFeatures(dissolved, project),
+  source, referenceWater, viewBox: [0, 0, 1400, 1100],
   projection: 'Albers equal-area, central meridian 105° E, standard parallels 25° and 47° N',
   smallCodes,
   hitRadius: (entry, entries) => {

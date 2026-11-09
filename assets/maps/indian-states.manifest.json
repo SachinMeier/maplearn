@@ -20,13 +20,32 @@
   "coordinateDecimals": 3,
   "simplification": false,
   "note": "28 states and 8 union territories. Islands remain in geographic position. Dashed circles enlarge small targets. Boundaries follow the source and do not resolve territorial disputes.",
+  "referenceWater": {
+    "rivers": [
+      "Ganges",
+      "Brahmaputra",
+      "Indus",
+      "Godavari",
+      "Krishna",
+      "Narmada"
+    ],
+    "sources": [
+      {
+        "file": "assets/maps/sources/ne_10m_rivers_lake_centerlines.v5.1.2.geojson.gz",
+        "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+        "license": "Public domain",
+        "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson"
+      }
+    ],
+    "clippedToLand": true
+  },
   "stats": {
     "playable": 36,
     "context": 0,
     "arcs": 615,
     "sharedArcs": 95,
     "vertices": 685017,
-    "svgBytes": 27530760
+    "svgBytes": 27583465
   },
   "regions": {
     "IN-AN": {

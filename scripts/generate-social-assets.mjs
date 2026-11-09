@@ -15,30 +15,18 @@ await mkdir(new URL('assets/social/', root), { recursive: true });
 await mkdir(new URL('assets/favicons/', root), { recursive: true });
 
 const artwork = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<title>Maps — Learn the world, one place at a time.</title>
+<title>World map</title>
 <desc>Stylized Natural Earth world map in the game's Miller projection, with bold country borders. Polar edges are cropped for the landscape preview.</desc>
 <defs>
   <radialGradient id="ocean"><stop stop-color="#234453"/><stop offset="1" stop-color="#101720"/></radialGradient>
   <linearGradient id="land" x2="0.3" y2="1"><stop stop-color="#f0e2c4"/><stop offset="1" stop-color="#c6b58e"/></linearGradient>
 </defs>
 <rect width="1200" height="630" fill="url(#ocean)"/>
-<g fill="none" stroke="#b7d9cc" stroke-opacity=".06">
-  ${Array.from({ length: 15 }, (_, i) => `<path d="M${40 + i * 80} 130V560"/>`).join('')}
-  ${Array.from({ length: 6 }, (_, i) => `<path d="M40 ${150 + i * 80}H1160"/>`).join('')}
-</g>
-<g fill="none" stroke="#b7d9cc" stroke-width="2.5">
-  <circle cx="65" cy="65" r="20"/><ellipse cx="65" cy="65" rx="8" ry="20"/><path d="M45 65h40"/>
-</g>
-<text x="104" y="81" fill="#f5f0e6" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Maps</text>
-<text x="1150" y="72" text-anchor="end" fill="#b7d9cc" font-family="Arial, Helvetica, sans-serif" font-size="19">Learn the world, one place at a time.</text>
-<svg x="40" y="122" width="1120" height="436" viewBox="0 80 3600 1910" preserveAspectRatio="xMidYMid meet">
+<svg x="40" y="40" width="1120" height="550" viewBox="0 80 3600 1910" preserveAspectRatio="xMidYMid meet">
   <path fill="#060e14" fill-opacity=".55" fill-rule="evenodd" transform="translate(0 16)" d="${land}"/>
   <path fill="url(#land)" fill-rule="evenodd" d="${land}"/>
   <path fill="none" stroke="#233638" stroke-width="1.25" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round" d="${borders}"/>
 </svg>
-<path d="M50 581H1150" stroke="#b7d9cc" stroke-opacity=".2"/>
-<text x="50" y="610" fill="#b7d9cc" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">EXPLORE · LEARN · PLAY</text>
-<text x="1150" y="610" text-anchor="end" fill="#9aaeb5" font-family="Arial, Helvetica, sans-serif" font-size="15">maps.pirategames.org</text>
 </svg>\n`;
 await writeFile(new URL('assets/social/world.svg', root), artwork);
 

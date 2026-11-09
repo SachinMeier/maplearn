@@ -15,7 +15,10 @@ Open http://127.0.0.1:4173. Serve the project directory; ES modules and data fet
 
 The homepage includes Open Graph and Twitter large-image metadata pointing to
 `assets/social/world.png` (1200 × 630). The stylized world artwork reuses the
-playable map's Miller projection and shared country borders. Metadata uses the
+playable map's Miller projection and shared country borders, centered on a blue
+radial gradient without surrounding text or decoration. The same PNG is used
+by `../pirategames/images/games/maplearn.png`; copy it there after regeneration.
+Metadata uses the
 canonical domain in `CNAME`, `https://maps.pirategames.org/`; update the URLs in
 `index.html` if the public domain changes.
 
@@ -25,8 +28,8 @@ require separately served pages with static metadata and PNG versions of each
 map's existing thumbnail; changing metadata in JavaScript alone is insufficient.
 
 The existing globe SVG also supplies ICO, PNG, Apple touch, and web-manifest
-icons. To regenerate the checked-in artwork and icons, run
-`npx playwright install chromium` once, then `npm run assets:social`.
+icons. Browser-based artwork/icon regeneration is disabled after removing
+Playwright; the generator source and checked-in artwork are retained.
 The ordinary build copies the generated assets without launching a browser.
 Icons and the web manifest are included in the offline interface cache.
 
@@ -59,9 +62,9 @@ in-memory map data so the next game uses the new version, without reloading.
 
 Interface updates still activate after all Maps tabs close. They preserve saved
 maps and do not automatically download map updates. Offline catalog checks fail
-quietly; downloads have no scheduled expiry. Run
-`npx playwright test tests/offline.spec.js` to verify offline play, explicit
-refresh, content validation, failed-refresh recovery, and removal.
+quietly; downloads have no scheduled expiry. The retained, currently disabled
+`tests/offline.spec.js` covers offline play, explicit refresh, content validation,
+failed-refresh recovery, and removal.
 
 ## World map
 
@@ -150,9 +153,9 @@ inline titles never get a duplicate pill. Labels do not intercept map clicks.
 Wrapped world copies reference the same live title layer, and filtered regions
 never receive titles. Water-map names use white text against completed blue water.
 
-Run `npx playwright test tests/region-titles.spec.js` for checks across every
-map, including completion visibility, native text containment at overview and
-zoom, stable nodes/wrapping, small-name interaction, filtering, and retry.
+The retained, currently disabled `tests/region-titles.spec.js` covers completion
+visibility, native text containment at overview and zoom, stable nodes/wrapping,
+small-name interaction, filtering, and retry across every map.
 
 ## Temporary title experiment
 
@@ -243,34 +246,28 @@ The original tile fixture remains available through `npm run placeholder`; the g
 ```sh
 npm ci
 npm test
-npx playwright install chromium
-npm run test:smoke
-npm run test:browser
+npm run build
 ```
+
+Playwright was removed on 2026-11-02. Browser specs and configuration remain as
+source for future migration, but browser tests and browser-based social-asset
+generation are disabled. `npm test` runs only the Node unit and asset tests.
+The following browser coverage describes the retained suite, not current CI.
 
 Tests cover scoring, canonical filtering, completion, retry, load recovery, zoom/pan hit testing, resize, and mobile touch gestures. Asset tests check roster coverage, the source checksum, nonoverlapping hit outlines, matching date-line cuts, and every individual boundary segment: one border stroke with coordinates exactly matching adjacent fills, with no artificial seam strokes. Wrapping tests cover native clicks on repeated Alaska, synchronized solved state, continuous seam drags, nearest-copy reveals, ultrawide resizing, and fixed instance/download counts after hundreds of pan steps in both directions. Browser tests use shortened country responses for completion and selected wrapping scenarios; production has no test bypass.
 
-Browser tests automatically build the site and serve `dist/` on port 4174, so
-they exercise the deployment artifact. The development server can keep running
-on port 4173. To preview the build manually, run `npm run build && npm run preview`.
+To preview the build manually, run `npm run build && npm run preview` on port
+4174. The development server can keep running on port 4173.
 
 Regional tests additionally cover every roster and native country hit target on desktop and mobile, Pacific island retention, all-Russia coverage, unique shared borders, finite pan limits, immediate reversal at an edge, resize/reset, completion, and switching between maps.
 
 ## GitHub Pages
 
-`.github/workflows/ci-pages.yml` runs only on pushes. It runs the fast game/asset
-tests, checks JavaScript syntax, builds the static site, and runs six Chromium
-smoke checks across desktop and mobile: the main game flow, load recovery, and
-opening a map without the microstate prompt. Passing runs on the repository's
-default branch deploy that same `dist/` artifact to GitHub Pages. Other branches
-are tested but never deployed; pull requests do not trigger another run.
-
-The exhaustive browser suite runs only when manually requested: in GitHub
-Actions choose **Full regression tests (manual) → Run workflow**, or run
-`npm run test:browser` locally. The manual workflow never deploys and uploads
-failure traces for debugging. Map assets are already generated and are not
-rebuilt or downloaded during deployment. The build excludes the map-generation
-source datasets and includes the standalone title-demo page.
+`.github/workflows/ci-pages.yml` runs Node unit/asset tests and builds the static
+site on pushes. The existing default-branch deployment uses that build. Browser
+smoke checks are disabled. **Unit and asset tests (manual)** runs the same checks
+without deploying. Map assets are already generated; the build excludes source
+datasets and includes the standalone title-demo page.
 
 One-time setup after pushing this project to a GitHub repository:
 

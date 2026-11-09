@@ -1,0 +1,15 @@
+{
+  "file": "assets/maps/sources/taitema-lake-2022.geojson.gz",
+  "sha256": "735d7c18164e6bfb045b9327e46afd1fdfd933fbeb291eb5f2f6e3d4b2460389",
+  "url": "https://doi.org/10.6084/m9.figshare.29899274",
+  "publication": "https://doi.org/10.1038/s41597-026-06671-z",
+  "download": "https://ndownloader.figshare.com/files/60179105",
+  "archivePath": "Dataset/Terminal Lake Outlines/Taitema_Lake_2022.shp",
+  "upstreamShapefileSha256": "36d7ad9936daeddea28f2cff71599f38c690f2c32b5d4427635cf4578c9ca9d5",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Sun et al. (2026), Dataset of typical terminal lake and surrounding oasis outlines in arid/semi-arid endorheic basins based on remote sensing data",
+  "year": 2022,
+  "retrieved": "2026-10-30",
+  "modifications": "Converted all 300 lake polygons from WGS84 shapefile to GeoJSON, preserving every coordinate and hole; reversed ring winding to GeoJSON convention. No oasis polygons included. The 2022 outline is a dated snapshot of a variable terminal lake."
+}

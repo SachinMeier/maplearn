@@ -1,5 +1,6 @@
 // Offline India state/union territory assets from pinned geoBoundaries data.
 import assert from 'node:assert/strict';
+import { administrativeReferenceWater } from './reference-water.mjs';
 import { readSource, albers, fit, projectFeatures, emit } from './admin-map.mjs';
 
 const source = {
@@ -33,7 +34,9 @@ for (const f of features) {
     kind: territories.has(code) ? 'union territory' : 'state' };
 }
 const projection = albers(82, [12, 32]);
+const project = fit(features, projection, [20, 20, 1060, 1160]);
+const referenceWater = await administrativeReferenceWater('indian-states', project);
 await emit({ id: 'indian-states', title: 'Indian States',
-  features: projectFeatures(features, fit(features, projection, [20, 20, 1060, 1160])),
-  source, smallCodes: ['IN-CH', 'IN-DH', 'IN-DL', 'IN-GA', 'IN-LD', 'IN-PY', 'IN-SK'], viewBox: [0, 0, 1100, 1200], projection: 'Albers equal-area, central meridian 82° E, standard parallels 12° and 32° N',
+  features: projectFeatures(features, project),
+  source, referenceWater, smallCodes: ['IN-CH', 'IN-DH', 'IN-DL', 'IN-GA', 'IN-LD', 'IN-PY', 'IN-SK'], viewBox: [0, 0, 1100, 1200], projection: 'Albers equal-area, central meridian 82° E, standard parallels 12° and 32° N',
   note: '28 states and 8 union territories. Islands remain in geographic position. Dashed circles enlarge small targets. Boundaries follow the source and do not resolve territorial disputes.' });
