@@ -1,3 +1,3 @@
 # Repository instructions
 
-Keep shared instructions in this file; CLAUDE.md links here.
+Keep shared instructions in this file; .claude/CLAUDE.md links here.
